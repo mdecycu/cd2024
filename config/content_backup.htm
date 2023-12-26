@@ -6,8 +6,50 @@
 <p><a href="https://link.springer.com/book/10.1007/978-3-030-69835-5">Making Images with Mathematics</a></p>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EYmYiKrfottNvoXFXRzdfMUBc1LwUTtzcPyCIxuhZKYV6Q?e=sOYlmQ">CoppeliaSim 4.5.1 rev1 for IPv6.7z</a> (169MB, 需要下載密碼)</p>
 <h1>Control</h1>
-<p><a href="https://github.com/mdecycu/VisualMouse">https://github.com/mdecycu/VisualMouse</a> </p>
-<h1>Projects</h1>
+<p><a href="https://github.com/topics/mouse-controller">https://github.com/topics/mouse-controller</a> </p>
+<p><a href="https://github.com/mdecycu/VisualMouse">https://github.com/mdecycu/VisualMouse</a></p><h1>cmsimde</h1>
+<h2>ubuntu</h2>
+<p>使用 cmsimde 作為網際內容管理系統的倉儲, 在 Ubuntu 伺服器中進行協同, 由於是自建主機因此可用性與 localhost 相同, 斷線機率取決於工作站室中虛擬主機的網路與電力供應是否穩定:</p>
+<p>1. 利用 "<span><span style="background-color: #ffff99;">sudo update-rc.d stunnel4 defaults</span>" 將 s.cycu.org 中的 stunnel4 設為與系統同步啟動.</span></p>
+<p>2. 當 server.py 已經啟動, 使用者登入後可以利用以下指令, 列出各使用者啟動網頁編輯所對應的 PID (Process ID):</p>
+<p style="padding-left: 30px;">ps -axo pid,comm,uname | grep "python3"</p>
+<p>各用戶若希望刪除已經啟動的 Process, 可以找到所啟動的 PID 後, 以下列指令關閉服務 (若 PID = 1234):</p>
+<p style="padding-left: 30px;">kill 1234</p>
+<p>其中, 系統管理者可以刪除所有 Processes, 而各用戶只能刪除各自所啟動的 Process.</p>
+<p>3. 假如自己所分派到的網路 port 遭到占用, 可以利用下列指令查出使用該埠號的使用者帳號:</p>
+<p>例如要查詢埠號 9210 埠號的使用情形, 指令為 <span>lsof -i :9210, 其中 ls 為 list, of 為 open file, -i 中的 i 為 internet, :9210 表示要求列出與 port 9210 有關 internet 使用相關的資料.</span></p>
+<h2>Replit</h2>
+<p>Replit 與 Github Pages 的結合是目前在多人協同架構下, 最方便的網際內容管理方式, 但若 repl.co 停用且部署僅提供付費用戶使用, 利用 cmsimde 作為網際內容管理的用戶, 該如何在 Replit 平台上進行協同設計?</p>
+<p>使用下列 PyQt5 程式就能自帶瀏覽器開啟 cmsimde 內部啟動的編輯網站 <a href="https://localhost:9445">https://localhost:9445</a></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import sys
+
+
+from PyQt5.QtCore import QUrl
+from PyQt5.QtWidgets import QApplication
+
+
+from PyQt5.QtWebEngineWidgets import QWebEnginePage, QWebEngineView
+
+
+class WebEnginePage(QWebEnginePage):
+    def certificateError(self, error):
+        error.ignoreCertificateError()
+        return True
+
+
+def main(args):
+    app = QApplication(args)
+    webview = QWebEngineView()
+    page = WebEnginePage()
+    webview.setPage(page)
+    webview.load(QUrl("https://localhost:9445"))
+    webview.show()
+    sys.exit(app.exec_())
+
+
+if __name__ == "__main__":
+    main(sys.argv)</pre>
+<p></p><h1>Projects</h1>
 <p>協同專案:</p>
 <p style="padding-left: 30px;"><a href="https://github.com/mdecycu/pj40922">https://github.com/mdecycu/pj40922</a> (有限元素法在四足機器人設計上的應用)</p>
 <p style="padding-left: 30px;"><img alt="" height="145" src="/images/quadruped.png" width="200"/></p>

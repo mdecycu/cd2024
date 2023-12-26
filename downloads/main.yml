@@ -1,0 +1,29 @@
+name: Install Python and required modules
+on: [push, pull_request]
+
+jobs:
+ # python installtion
+  install-python:
+  # should run on linux based operating system
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v1
+    - uses: BSFishy/pip-action@v1
+      with:
+        requirements: requirements.txt 
+    - run: |
+        python downloads/add_to_content_htm_2a.py
+        python downloads/add_to_content_htm_2b.py
+        python downloads/generate_pages.py
+        git config --local user.email "mdecourse@gmail.com"
+        git config --local user.name "mdecourse"
+        git add .
+        git commit -m "add user to content.htm file and convert to static site"
+    - name: Push changes # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+        branch: main
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true

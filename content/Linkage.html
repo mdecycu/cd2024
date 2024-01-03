@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Control.html'>Control</a><li class='has-children'><a href='cmsimde.html'>cmsimde</a><ul class='dropdown'><li><a href='ubuntu.html'>ubuntu</a><li><a href='Replit.html'>Replit</a></li></ul><li class='has-children'><a href='Projects.html'>Projects</a><ul class='dropdown'><li><a href='Football.html'>Football</a><li><a href='Basketball.html'>Basketball</a><li><a href='Golf.html'>Golf</a></li></ul><li><a href='Brython.html'>Brython</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='Tools.html'>Tools</a><ul class='dropdown'><li><a href='MCAD.html'>MCAD</a><li><a href='Linkage.html'>Linkage</a><li><a href='Control.html'>Control</a><li class='has-children'><a href='WCMS.html'>WCMS</a><ul class='dropdown'><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a></li></li></ul></ul><li class='has-children'><a href='Projects.html'>Projects</a><ul class='dropdown'><li><a href='Football.html'>Football</a><li><a href='Basketball.html'>Basketball</a><li><a href='Golf.html'>Golf</a></li></ul><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -142,17 +142,13 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit<br /><h1>ubuntu</h1>
-<p>使用 cmsimde 作為網際內容管理系統的倉儲, 在 Ubuntu 伺服器中進行協同, 由於是自建主機因此可用性與 localhost 相同, 斷線機率取決於工作站室中虛擬主機的網路與電力供應是否穩定:</p>
-<p>1. 利用 "<span><span style="background-color: #ffff99;">sudo update-rc.d stunnel4 defaults</span>" 將 s.cycu.org 中的 stunnel4 設為與系統同步啟動.</span></p>
-<p>2. 當 server.py 已經啟動, 使用者登入後可以利用以下指令, 列出各使用者啟動網頁編輯所對應的 PID (Process ID):</p>
-<p style="padding-left: 30px;">ps -axo pid,comm,uname | grep "python3"</p>
-<p>各用戶若希望刪除已經啟動的 Process, 可以找到所啟動的 PID 後, 以下列指令關閉服務 (若 PID = 1234):</p>
-<p style="padding-left: 30px;">kill 1234</p>
-<p>其中, 系統管理者可以刪除所有 Processes, 而各用戶只能刪除各自所啟動的 Process.</p>
-<p>3. 假如自己所分派到的網路 port 遭到占用, 可以利用下列指令查出使用該埠號的使用者帳號:</p>
-<p>例如要查詢埠號 9210 埠號的使用情形, 指令為 <span>lsof -i :9210, 其中 ls 為 list, of 為 open file, -i 中的 i 為 internet, :9210 表示要求列出與 port 9210 有關 internet 使用相關的資料.</span></p>
-<br />cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit</div>
+    <div id="tipue_search_content">MCAD << <a href='MCAD.html'>Previous</a> <a href='Control.html'>Next</a> >> Control<br /><h1>Linkage</h1>
+<p>Linkage Synthesis and Simulation (Linkage):</p>
+<p style="padding-left: 30px;">Pyslvs-UI:</p>
+<p style="padding-left: 60px;"><a href="https://github.com/KmolYuan/Pyslvs-UI">https://github.com/KmolYuan/Pyslvs-UI</a> </p>
+<p style="padding-left: 30px;">Solvespace:</p>
+<p style="padding-left: 60px;"><a href="https://github.com/solvespace/solvespace">solvespace/solvespace: Parametric 2d/3d CAD (github.com)</a> </p>
+<br />MCAD << <a href='MCAD.html'>Previous</a> <a href='Control.html'>Next</a> >> Control</div>
         
     <!-- footer -->
       <div class="container">

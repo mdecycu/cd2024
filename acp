@@ -2,3 +2,5 @@
 git add .
 git commit -m "$1"
 git push
+cd ../public_html/cd2024
+git pull

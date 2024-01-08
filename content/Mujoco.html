@@ -142,10 +142,87 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Portable << <a href='Portable.html'>Previous</a> <a href='Github.html'>Next</a> >> Github<br /><h1>Putty</h1>
-<p>Putty is a free SSH client.</p>
-<p>Session Registry for Putty:</p>
-<p style="padding-left: 30px;">電腦\HKEY_CURRENT_USER\SOFTWARE\SimonTatham</p><br />Portable << <a href='Portable.html'>Previous</a> <a href='Github.html'>Next</a> >> Github</div>
+    <div id="tipue_search_content">Modeling << <a href='Modeling.html'>Previous</a> <a href='Control.html'>Next</a> >> Control<br /><h1>Mujoco</h1>
+<p>For Python:</p>
+<p><a href="https://mujoco.readthedocs.io/en/stable/python.html">https://mujoco.readthedocs.io/en/stable/python.html</a></p>
+<p>pip install mujoco</p>
+<p>hello.xml</p>
+<pre class="brush:xml;auto-links:false;toolbar:false" contenteditable="false">&lt;mujoco&gt;
+  &lt;worldbody&gt;
+        &lt;light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/&gt;
+    &lt;geom type="plane" size="1 1 0.1" rgba=".9 0 0 1"/&gt;
+    &lt;body pos="0 0 1"&gt;
+      &lt;joint type="free"/&gt;
+      &lt;geom type="box" size=".1 .2 .3" rgba="0 .9 0 1"/&gt;
+    &lt;/body&gt;
+  &lt;/worldbody&gt;
+&lt;/mujoco&gt;
+</pre>
+<p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">mujoco.viewer</span> <span class="pre">--mjcf=</span></code>hello.xml</p>
+<p>mujoco_ex1.py</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import time
+
+import mujoco
+import mujoco.viewer
+
+m = mujoco.MjModel.from_xml_path('hello.xml')
+d = mujoco.MjData(m)
+
+with mujoco.viewer.launch_passive(m, d) as viewer:
+  # Close the viewer automatically after 30 wall-seconds.
+  start = time.time()
+  while viewer.is_running() and time.time() - start &lt; 30:
+    step_start = time.time()
+
+    # mj_step can be replaced with code that also evaluates
+    # a policy and applies a control signal before stepping the physics.
+    mujoco.mj_step(m, d)
+
+    # Example modification of a viewer option: toggle contact points every two seconds.
+    with viewer.lock():
+      viewer.opt.flags[mujoco.mjtVisFlag.mjVIS_CONTACTPOINT] = int(d.time % 2)
+
+    # Pick up changes to the physics state, apply perturbations, update options from GUI.
+    viewer.sync()
+
+    # Rudimentary time keeping, will drift relative to wall clock.
+    time_until_next_step = m.opt.timestep - (time.time() - step_start)
+    if time_until_next_step &gt; 0:
+      time.sleep(time_until_next_step)</pre>
+<p>For C:</p>
+<p><a href="https://mujoco.readthedocs.io/en/stable/overview.html">https://mujoco.readthedocs.io/en/stable/overview.html</a> </p>
+<p>mujoco_ex1.c</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include "mujoco.h"
+#include "stdio.h"
+
+char error[1000];
+mjModel* m;
+mjData* d;
+
+int main(void)
+{
+   // load model from file and check for errors
+   m = mj_loadXML("hello.xml", NULL, error, 1000);
+   if( !m )
+   {
+      printf("%s\n", error);
+      return 1;
+   }
+
+   // make data corresponding to model
+   d = mj_makeData(m);
+
+   // run simulation for 10 seconds
+   while( d-&gt;time&lt;10 )
+      mj_step(m, d);
+
+   // free model and data
+   mj_deleteData(d);
+   mj_deleteModel(m);
+
+   return 0;
+}</pre>
+<p></p><br />Modeling << <a href='Modeling.html'>Previous</a> <a href='Control.html'>Next</a> >> Control</div>
         
     <!-- footer -->
       <div class="container">

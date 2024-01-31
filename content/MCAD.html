@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='odoo.html'>odoo</a><li><a href='postgresql.html'>postgresql</a></li></ul><li><a href='Homeworks.html'>Homeworks</a><li class='has-children'><a href='Tools.html'>Tools</a><ul class='dropdown'><li><a href='English.html'>English</a><li><a href='MCAD.html'>MCAD</a><li><a href='Linkage.html'>Linkage</a><li class='has-children'><a href='Modeling.html'>Modeling</a><ul class='dropdown'><li><a href='Mujoco.html'>Mujoco</a></li></ul><li><a href='Control.html'>Control</a><li class='has-children'><a href='WCMS.html'>WCMS</a><ul class='dropdown'><li><a href='Portable.html'>Portable</a><li><a href='Putty.html'>Putty</a><li><a href='Github.html'>Github</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a></li></li></ul></ul><li class='has-children'><a href='Projects.html'>Projects</a><ul class='dropdown'><li><a href='Football.html'>Football</a><li><a href='Basketball.html'>Basketball</a><li><a href='Golf.html'>Golf</a></li></ul><li><a href='Brython.html'>Brython</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li class='has-children'><a href='odoo.html'>odoo</a><ul class='dropdown'><li><a href='odoo17.html'>odoo17</a></li></ul><li><a href='postgresql.html'>postgresql</a></li></ul><li><a href='Homeworks.html'>Homeworks</a><li class='has-children'><a href='Tools.html'>Tools</a><ul class='dropdown'><li><a href='English.html'>English</a><li><a href='MCAD.html'>MCAD</a><li><a href='Linkage.html'>Linkage</a><li class='has-children'><a href='Modeling.html'>Modeling</a><ul class='dropdown'><li><a href='Mujoco.html'>Mujoco</a></li></ul><li><a href='Control.html'>Control</a><li class='has-children'><a href='WCMS.html'>WCMS</a><ul class='dropdown'><li><a href='Portable.html'>Portable</a><li><a href='Putty.html'>Putty</a><li><a href='Github.html'>Github</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a></li></li></ul></ul><li class='has-children'><a href='Projects.html'>Projects</a><ul class='dropdown'><li><a href='Football.html'>Football</a><li><a href='Basketball.html'>Basketball</a><li><a href='Golf.html'>Golf</a></li></ul><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -159,6 +159,17 @@ img.add_border {
 <p style="padding-left: 30px;">選擇是否參加後, 若可攜套件中無前述批次檔案中的 NX_user.dpv 則可透過 Manage current settings 以 Export 將設定存入 NX_user.dpv.</p>
 <p style="padding-left: 30px;">可攜 NX 啟動批次檔案中有超過四百個啟動環境變數設定, 使用者可針對實際需求進行修改後重新啟動.</p>
 <p style="padding-left: 30px;"><a href="http://229.cycu.org/Win10_2022_nx_web_based_server.7z">Win10_2022_nx_web_based_server.7z</a> (need password to download, 33GB)</p>
+<p>start_nx.bat (通常認證伺服器使用 port 28000 或 29000)</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">set SPLM_LICENSE_SERVER=28000@your_license_server_ip_or_domain_name
+
+set UGII_LANG=english
+
+set UGS_LICENSE_BUNDLE=ACD11,ACD10
+
+set ugii=%cd%\ugii
+path = %ugii%;%path%
+
+start ugraf -nx</pre>
 <h4>Siemens Solid Edge:</h4>
 <p style="padding-left: 30px;"><a href="https://resources.sw.siemens.com/en-US/download-solid-edge-community-edition">下載</a> Solid Edge Community Edition</p>
 <p style="padding-left: 30px;"><a href="http://229.cycu.org/se_portable_X_for_cad2023.7z">下載<span> </span></a> 可放入 USB 隨身碟可在電腦輔助設計室中使用的可攜 Solid Edge 2023 學生版 (need password to download)</p>

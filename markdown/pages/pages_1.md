@@ -1,6 +1,6 @@
 Title: About
 
-## CMSimfly 內容管理網誌
+## 2024 CD 網誌
 
 課程倉儲: <a href="https://github.com/mdecycu/cd2024">https://github.com/mdecycu/cd2024</a>
 

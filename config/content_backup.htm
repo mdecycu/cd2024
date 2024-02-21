@@ -43,7 +43,9 @@
 <p style="padding-left: 120px;">籃板: 長 0.3m, 高 0.2m, 寬 0.1m, 位於足球門上方中央</p>
 <p style="padding-left: 120px;">籃框: 由籃板向場內距離 0.1m, 內徑 0.2m, 框管直徑 0.02</p>
 <p style="padding-left: 120px;">球員尺寸範圍: 長寬高各 0.2m, 重量 5kg</p>
-<p style="padding-left: 90px;"><img alt="" height="274" src="/images/coppeliasim_football_field.jpg" width="400"/></p>
+<p style="padding-left: 90px;">根據上述球場參考尺寸規格建置場景下載:</p>
+<p style="padding-left: 120px;"><a href="http://229.cycu.org/cd2024_footbasketball_field_specification_step2.7z">cd2024_footbasketball_field_specification_step2.7z</a> (需要密碼)</p>
+<p style="padding-left: 90px;"><img caption="false" height="216" src="/images/cd2024_field_step2.png" width="400"/></p>
 <p style="padding-left: 90px;">soccer field image from <a href="https://www.rawpixel.com/image/6479689/png-sticker-public-domain">public domain</a>.</p>
 <hr/>
 <p>先前課程網站:</p>
@@ -130,9 +132,17 @@
 </ol>
 <p style="padding-left: 30px;"><img alt="" height="178" src="/images/cd2024_field_step1.png" width="400"/></p>
 <p>操作過程如下:</p>
-<p>開啟 Solvespace, 確認作圖單位為 mm, 繪製一個 100mmx200mmx300mm 的方塊零件, 準備最為籃球板.</p>
-<p>由於 CoppeliaSim 內定的場景地面座標為 X-Y, 因此若在 Solvespace 中建立零件, 必須要確定零件的局部座標系與絕對坐標系的關係</p>
-<p>由於開啟 cd2023 模擬場景後, 發現所有的零件都以其自身的局域坐標系原點, 放在零件的正中央, 因此若將零件轉入 CoppeliaSim 後, 希望精確掌握零件的定位, 則在繪製零件草圖時, 必須設定好輪廓與絕對座標系統之間的關係.</p>
+<ol>
+<li>開啟 Solvespace, 確認作圖單位為 mm, 繪製一個 100mmx200mmx300mm 的方塊零件, 準備最為籃球板.</li>
+<li>由於 CoppeliaSim 內定的場景地面座標為 X-Y, 因此若在 Solvespace 中建立零件, 必須要確定零件的局部座標系與絕對坐標系的關係.</li>
+<li>由於開啟 cd2023 模擬場景後, 發現所有的零件都以其自身的局域坐標系原點, 放在零件的正中央, 因此若將零件轉入 CoppeliaSim 後, 希望精確掌握零件的定位, 則在繪製零件草圖時, 必須設定好輪廓與絕對座標系統之間的關係.</li>
+<li>另外, 由於 CoppeliaSim 4.5.1 版會將所有的轉入零件採同一個座標原點, 而非如舊版本轉入後各自以其局部座標系統進行定位.</li>
+<li>而且還必須了解 CoppeliaSim 內建的尺寸單位為 m, 目前 Solvespace 轉出的製圖單位則是 mm, 因此中間差別了 1000 倍, 所以將作圖單位設為 mm 的 Solvespace 零件, 轉入 CoppeliaSim 若要使用其原先的作圖尺寸, 則必須縮小 0.001 倍.</li>
+<li>之後, 還必須利用 Edit -&gt; Shape reference frame -&gt; Relocate to mesh center 將各零件的參考座標系統原點, 從廣域座標系原點, 轉換到零件個別的物件中心原點.</li>
+<li>若零件轉入 CoppeliaSim 時選擇 Z 軸向上, 則籃球板零件轉入後, 將平躺在場景中, 若要轉至與現有的足球門相同方位, 則必須分別對自己的 X 軸與 Y 軸個旋轉 90 度.</li>
+<li>最後再任選一座球門的 X, Y 座標系統原點位置(position), 逐步將 basketball board 放到正確的位置, 結果如: <a href="http://229.cycu.org/cd2024_footbasket_ball_spec_add_slvs_board.7z">cd2024_footbasket_ball_spec_add_slvs_board.7z</a></li>
+</ol>
+<p></p>
 <p>協同零組件繪圖: Onshape</p>
 <p>協同分組報告: LaTeX -&gt; pdf</p>
 <p></p><h2>CoppeliaSim</h2>

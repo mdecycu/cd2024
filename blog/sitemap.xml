@@ -4,105 +4,105 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>./</loc>
-<lastmod>2024-02-22T07:59:25-00:00</lastmod>
+<loc>https://mde.tw/cd2024/blog/</loc>
+<lastmod>2024-02-22T08:03:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./archives.html</loc>
-<lastmod>2024-02-22T07:59:25-00:00</lastmod>
+<loc>https://mde.tw/cd2024/blog/archives.html</loc>
+<lastmod>2024-02-22T08:03:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tags.html</loc>
-<lastmod>2024-02-22T07:59:25-00:00</lastmod>
+<loc>https://mde.tw/cd2024/blog/tags.html</loc>
+<lastmod>2024-02-22T08:03:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./categories.html</loc>
-<lastmod>2024-02-22T07:59:25-00:00</lastmod>
+<loc>https://mde.tw/cd2024/blog/categories.html</loc>
+<lastmod>2024-02-22T08:03:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./pages/about/</loc>
+<loc>https://mde.tw/cd2024/blog/pages/about/</loc>
 <lastmod>2024-02-16T15:29:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./2024-cd-2b-get-started.html</loc>
-<lastmod>2024-02-22T07:59:18+08:00</lastmod>
+<loc>https://mde.tw/cd2024/blog/2024-cd-2b-get-started.html</loc>
+<lastmod>2024-02-22T08:02:02+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./2024-Spring-Collaborative-Product-Design.html</loc>
+<loc>https://mde.tw/cd2024/blog/2024-Spring-Collaborative-Product-Design.html</loc>
 <lastmod>2024-02-19T01:00:35+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/er-yi.html</loc>
+<loc>https://mde.tw/cd2024/blog/category/er-yi.html</loc>
 <lastmod>2024-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/misc.html</loc>
+<loc>https://mde.tw/cd2024/blog/category/misc.html</loc>
 <lastmod>2024-02-19T01:00:35+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/onshape.html</loc>
+<loc>https://mde.tw/cd2024/blog/tag/onshape.html</loc>
 <lastmod>2024-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/coppeliasim.html</loc>
+<loc>https://mde.tw/cd2024/blog/tag/coppeliasim.html</loc>
 <lastmod>2024-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/odoo.html</loc>
+<loc>https://mde.tw/cd2024/blog/tag/odoo.html</loc>
 <lastmod>2024-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/w1.html</loc>
+<loc>https://mde.tw/cd2024/blog/tag/w1.html</loc>
 <lastmod>2024-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/2024springcd.html</loc>
+<loc>https://mde.tw/cd2024/blog/tag/2024springcd.html</loc>
 <lastmod>2024-02-19T01:00:35+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./author/kmol.html</loc>
+<loc>https://mde.tw/cd2024/blog/author/kmol.html</loc>
 <lastmod>2024-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-22T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-1</title><link href="./2024-cd-2b-get-started.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-22T06:28:49+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./2024-cd-2b-get-started.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-22T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-1</title><link href="./2024-cd-2b-get-started.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-22T06:50:43+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./2024-cd-2b-get-started.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 
 
@@ -10,6 +10,10 @@
 &lt;h1&gt;下載可攜套件檔案&lt;/h1&gt;
 &lt;p&gt;下載可攜程式環境: &lt;a href="http://229.cycu.org/portable_2024.7z"&gt;portable_2024.7z&lt;/a&gt; (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)&lt;/p&gt;
 &lt;p&gt;下載 &lt;a href="http://229.cycu.org/miktex-portable.7z"&gt;miktex-portable.7z&lt;/a&gt; (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)&lt;/p&gt;
+&lt;h1&gt;將個人倉儲 import 至 Replit&lt;/h1&gt;
+&lt;p&gt;從 Replit 帳號下方的 Account, Connected Services(連線服務區) 點選 Connect 後, 讓 Github 授權 Replit, 將在 Replit 中的倉儲改版後, 有權限推回 Github. &lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EdBPsKV-ktZOtvo4InwdSoEBAM4B239cijCPMAb1qAUAxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=AUcZgW"&gt;設定 Replit 與 Github 應用授權的說明影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Replit Editor(編輯器中) 使用 Ctrl + z 執行 undo&lt;/p&gt;
+&lt;p&gt;在 Replit Editor(編輯器中) 使用 Ctrl + y 執行 redo&lt;/p&gt;
 &lt;h1&gt;設定個人網誌系統&lt;/h1&gt;
 &lt;p&gt;利用 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt; 建立的網站, 其動態網站資料位於 config/content.htm, 轉換完成的靜態網站資料位於 content 目錄中.&lt;/p&gt;
 &lt;p&gt;網誌的原始檔案位於 markdown 目錄, 所使用的網誌系統為 &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt;, 轉換完成的網誌內容則位於 blog 目錄. 將 markdown 網誌轉為網誌的指令為: pelican markdown -o blog -s local_publishconf.py 表示使用了 local_publishconfig.py 設定, 其餘與 blog 有關的設定檔案還有:&lt;/p&gt;

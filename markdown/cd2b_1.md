@@ -29,6 +29,15 @@ Author: kmol
 [portable_2024.7z]: http://229.cycu.org/portable_2024.7z
 [miktex-portable.7z]: http://229.cycu.org/miktex-portable.7z
 
+# 將個人倉儲 import 至 Replit
+從 Replit 帳號下方的 Account, Connected Services(連線服務區) 點選 Connect 後, 讓 Github 授權 Replit, 將在 Replit 中的倉儲改版後, 有權限推回 Github. [設定 Replit 與 Github 應用授權的說明影片]
+
+[設定 Replit 與 Github 應用授權的說明影片]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EdBPsKV-ktZOtvo4InwdSoEBAM4B239cijCPMAb1qAUAxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AUcZgW
+
+在 Replit Editor(編輯器中) 使用 Ctrl + z 執行 undo
+
+在 Replit Editor(編輯器中) 使用 Ctrl + y 執行 redo
+
 # 設定個人網誌系統
 利用 <https://github.com/mdecycu/cmsimde_site> 建立的網站, 其動態網站資料位於 config/content.htm, 轉換完成的靜態網站資料位於 content 目錄中.
 

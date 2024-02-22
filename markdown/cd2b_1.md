@@ -11,7 +11,7 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
-# 建個人課程倉儲
+# 2b 建個人課程倉儲
 登入 github.com, 連結到 <https://github.com/mdecycu/cmsimde_site>, 利用此倉儲作為 Template, 新增一個名稱為 cd2024 的倉儲, 並且將其 main 分支設為網頁根目錄.
 
 <https://github.com/mdecycu/cmsimde_site> 與 <https://github.com/mdecycu/cmsite> 的差別為, 目前的 Template 將 cmsimde 當作目錄, 而非 cmsite 中的子模組.
@@ -19,6 +19,26 @@ Author: kmol
 上述[建立個人課程 cd2024 倉儲與網站的操作影片], 建立的範例網站為: <https://scrum-1.github.io/cd2024/>
 
 [建立個人課程 cd2024 倉儲與網站的操作影片]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ETTxsR2xBJ1Mg1Ikuz0lscEB5heQCnNRxTnzD1OPTkDPEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bPQk4F
+
+# 下載可攜套件檔案
+
+下載可攜程式環境: [portable_2024.7z] (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)
+
+下載 [miktex-portable.7z] (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)
+
+[portable_2024.7z]: http://229.cycu.org/portable_2024.7z
+[miktex-portable.7z]: http://229.cycu.org/miktex-portable.7z
+
+# 設定個人網誌系統
+利用 <https://github.com/mdecycu/cmsimde_site> 建立的網站, 其動態網站資料位於 config/content.htm, 轉換完成的靜態網站資料位於 content 目錄中.
+
+網誌的原始檔案位於 markdown 目錄, 所使用的網誌系統為 [Pelican], 轉換完成的網誌內容則位於 blog 目錄. 將 markdown 網誌轉為網誌的指令為: pelican markdown -o blog -s local_publishconf.py 表示使用了 local_publishconfig.py 設定, 其餘與 blog 有關的設定檔案還有:
+
+pelicanconf.py 與 publishconf.py 等.
+
+為了順利完成上述個人課程網站的網誌設定, 必須根據各用戶所使用的 github 帳號對這三個 .py 檔案進行設定.
+
+[Pelican]: https://getpelican.com/
 
 # OnShape 帳號
 若網路順暢, 可以登入 <https://onshape.com> 利用 [MKCad Library] 或 [VEX Part Library] 零件程式庫建立產品系統模型.

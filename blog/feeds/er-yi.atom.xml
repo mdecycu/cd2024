@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 二乙</title><link href="./" rel="alternate"></link><link href="./feeds/er-yi.atom.xml" rel="self"></link><id>./</id><updated>2024-02-22T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-1</title><link href="./2024-cd-2b-get-started.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-22T07:23:56+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./2024-cd-2b-get-started.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 二乙</title><link href="./" rel="alternate"></link><link href="./feeds/er-yi.atom.xml" rel="self"></link><id>./</id><updated>2024-02-22T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-1</title><link href="./2024-cd-2b-get-started.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-02-22T07:59:18+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-22:./2024-cd-2b-get-started.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 
 
@@ -16,6 +16,8 @@
 &lt;p&gt;在 Replit Editor(編輯器中) 使用 Ctrl + y 執行 redo&lt;/p&gt;
 &lt;h1&gt;設定 Github 帳號的雙重認證&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EQkTC4PryY5KrohZdneAygIB1d2FCzwpl2tn8cdyG-Q8Vg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=L28Ued"&gt;說明如何設定 Github 雙重認證&lt;/a&gt;, 其中手機必須先安裝 &lt;a href="https://github.com/mobile"&gt;Github Mobile&lt;/a&gt;, 也可以使用 &lt;a href="https://authy.com/download/"&gt;Authy App&lt;/a&gt; 作為認證套件, 一旦在 Github 帳號下的 Setting 中的 Password and authentication 啟用雙重認證, 最後必須下載對應的 Recovery codes 並存入隨身碟, 而且要寄到個人的電子郵箱. &lt;/p&gt;
+&lt;h1&gt;如何 import 倉儲至 Replit 進行改版&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EQIDGG3E8ElOjzeZrCESQzABRJ2tKiSw1T59WDa3x8FU-w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=E6LSw5"&gt;說明如何利用 Replit 對 cd2024 改版&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;設定個人網誌系統&lt;/h1&gt;
 &lt;p&gt;利用 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;https://github.com/mdecycu/cmsimde_site&lt;/a&gt; 建立的網站, 其動態網站資料位於 config/content.htm, 轉換完成的靜態網站資料位於 content 目錄中.&lt;/p&gt;
 &lt;p&gt;網誌的原始檔案位於 markdown 目錄, 所使用的網誌系統為 &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt;, 轉換完成的網誌內容則位於 blog 目錄. 將 markdown 網誌轉為網誌的指令為: pelican markdown -o blog -s local_publishconf.py 表示使用了 local_publishconfig.py 設定, 其餘與 blog 有關的設定檔案還有:&lt;/p&gt;

@@ -54,6 +54,9 @@ Author: kmol
 
 # 以上為第一週進度
 
+# Q and A
+每週問題與解答, 請轉到 <https://mde.tw/cd2024/content/Q&A.html> 發問或討論.
+
 # 設定網誌
 利用 [OBS] 加上廣播系統錄製的: [如何設定個人倉儲中的 Pelican 網誌]
 
@@ -104,5 +107,3 @@ pelicanconf.py 與 publishconf.py 等.
 
 # Github 與 Replit
 
-# Q and A
-問題與解答

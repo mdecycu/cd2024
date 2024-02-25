@@ -59,6 +59,15 @@ Author: kmol
 
 由於各分組網站從 Github Classroom 執行配置, 因此該倉儲位於 mdecd2024 帳號下, 雖然各組組員具備對此分組倉儲改版的權限, 但是若將分組倉儲 import 到 Replit, 因為其倉儲擁有者為 mdecd2024, 因此無法從 Replit accoount 項下進行授權, 但是可以利用 ssh-keygen 建立 .ssh 目錄下的 id_rsa 與 id_rsa.pub, 之後除了將公鑰送到 Github 之外, 還需要在 .ssh 目錄中建立 config, 且將倉儲 .git/config 中的 https 協定改為 SSH.
 
+範例分組倉儲: <https://github.com/mdecd2024/test-ag1>
+
+# 有關 LaTeX 轉 pdf
+使用 [Github Actions] 執行轉檔: <https://github.com/mdecd2024/test-ag1/blob/main/.github/workflows/main.yml>
+
+倉儲中的 latex 目錄: <https://github.com/mdecd2024/test-ag1/tree/main/latex>
+
+[Github Actions]: https://github.com/features/actions
+
 # Q and A
 每週問題與解答, 請轉到 <https://mde.tw/cd2024/content/Q&A.html> 發問或討論.
 

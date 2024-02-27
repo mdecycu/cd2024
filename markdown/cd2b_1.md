@@ -53,11 +53,15 @@ Author: kmol
 [說明如何利用 Replit 對 cd2024 改版]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EQIDGG3E8ElOjzeZrCESQzABRJ2tKiSw1T59WDa3x8FU-w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E6LSw5
 
 # 以上為第一週進度
+下載 [latex_images_github.7z](http://229.cycu.org/latex_images_github.7z) (需要密碼), 各組可以設法利用 .github, latex 與 images 等目錄, 直接在 Github 或近端將 LaTeX 檔案轉為 pdf.
 
 # 利用 Github Classroom 指定分組倉儲
 群組專案名稱 pj1, 乙班第一組由組長負責建立 Team 名稱設為 bg1, 在 mdecd2024 帳號下所取得的倉儲名稱將為 pj1-bg1, 設定 Github Pages 之後, 分組倉儲所在位置將為 <https://github.com/mdecd2024/pj1-bg1>, 且分組網站將為 <https://mdecd2024.github.io/pj1-bg1>
 
+## 使用 Replit 維護分組倉儲
 由於各分組網站從 Github Classroom 執行配置, 因此該倉儲位於 mdecd2024 帳號下, 雖然各組組員具備對此分組倉儲改版的權限, 但是若將分組倉儲 import 到 Replit, 因為其倉儲擁有者為 mdecd2024, 因此無法從 Replit accoount 項下進行授權, 但是可以利用 ssh-keygen 建立 .ssh 目錄下的 id_rsa 與 id_rsa.pub, 之後除了將公鑰送到 Github 之外, 還需要在 .ssh 目錄中建立 config, 且將倉儲 .git/config 中的 https 協定改為 SSH.
+
+## 使用 Github Codespaces 維護分組倉儲
 
 範例分組倉儲: <https://github.com/mdecd2024/test-ag1>
 

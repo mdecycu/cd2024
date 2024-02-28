@@ -12,9 +12,9 @@ Author: kmol
 <!-- PELICAN_END_SUMMARY -->
 
 # 利用 Github Classroom 指定分組倉儲
-群組專案名稱 pj1, 乙班第一組由組長負責建立 Team 名稱設為 bg1, 在 mdecd2024 帳號下所取得的倉儲名稱將為 pj1-bg1, 設定 Github Pages 之後, 分組倉儲所在位置將為 <https://github.com/mdecd2024/pj1-bg1>, 且分組網站將為 <https://mdecd2024.github.io/pj1-bg1>
-
 由於各分組網站從 Github Classroom 執行配置, 因此該倉儲位於 mdecd2024 帳號下, 雖然各組組員具備對此分組倉儲改版的權限, 但是若將分組倉儲 import 到 Replit, 因為其倉儲擁有者為 mdecd2024, 因此無法從 Replit accoount 項下進行授權, 但是可以利用 ssh-keygen 建立 .ssh 目錄下的 id_rsa 與 id_rsa.pub, 之後除了將公鑰送到 Github 之外, 還需要在 .ssh 目錄中建立 config, 且將倉儲 .git/config 中的 https 協定改為 SSH.
+
+根據上述流程, 可以在 Replit 中以 SSH 模式取得對 Github 帳號下特定倉儲的改版全縣, 只不過 Replit 的免費帳號環境會不定時刪除 /home/runner/.ssh 目錄中的授權資料, 因此若要使用 Replit 維護從 Github Classroom 取得授權的分組倉儲, 必須使用程式方法配置 .ssh 中的 id_rsa 與 config 檔案.
 
 範例分組倉儲: <https://github.com/mdecd2024/test-ag1>
 
@@ -23,6 +23,22 @@ Author: kmol
 至於乙班第一組組長則必須在期中作業 2b 項下, 建立名稱為 midbg1 的 Team, 其餘乙班各組的期中報告 Team 名稱則分別為 midbg2, midbg3 ....
 
 待各分組的期中報告 Team 與倉儲全部建立就緒後, 則可後續配合期末作業名稱 2a2 與 2b2, 由甲班各組組長建立 Team finalag1, finalag2 ...., 而乙班組長則建立 Team finalbg1, finalbg2 .... 等.
+
+根據上述規劃, 乙班第一分組的期中協同倉儲將位於: <https://github.com/mdecd2024/2b-midbg1>, 第一組的期中報告網站將位於: <https://mdecd2024.github.io/2b-midbg1>.
+
+至於乙班第一分組的期末協同倉儲將位於: <https://github.com/mdecd2024/2b2-finalbg1>, 且對應的期末報告網站將位於: <https://mdecd2024.github.io/2b2-finalbg1>.
+
+cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站, 設定的指令為:
+
+git submodule add 組員的個人倉儲網址 組員的學號
+
+例如: 假設組員的 cd2024 個人倉儲位於: https://github.com/scrum-1/cd2024, 且該組員的學號為 41123299, 則該組員必須在進入該組的倉儲目錄後, 執行:
+
+git submodule add https://github.com/scrum-1/cd2024.git 41123299
+
+如此, Github 帳號為 scrum-1 的組員, 其個人倉儲就會設定為分組倉儲的子模組, 而且是以其學號命名此一子模組的目錄名稱. 這樣設定的好處是: 各組員可以自行管理個人的課程倉儲與網站, 也就是位於其 Github 帳號下的 cd2024, 並且自行決定要整合到分組倉儲與網站的版本. 也能將自己在課程網站的資料, 直接用連結導入分組網站, 無需額外將資料搬進分組倉儲.
+
+另外一個使用 Github Classroom 派送分組倉儲的好處, 是 mdecycu 自動成為各分組倉儲的管理者之一, 若各組在改版或解決衝突的過程發生問題, mdecycu 可以協助處理.
 
 # 有關 LaTeX 轉 pdf
 使用 [Github Actions] 執行轉檔: <https://github.com/mdecd2024/test-ag1/blob/main/.github/workflows/main.yml>

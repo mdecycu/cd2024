@@ -1,7 +1,7 @@
 ---
 Title: 協同產品設計實習2b-1
 Date: 2024-02-22 11:00
-Category: 二乙
+Category: 2b
 Tags: OnShape, CoppeliaSim, Odoo, w1
 Slug: 2024-cd-2b-get-started
 Author: kmol

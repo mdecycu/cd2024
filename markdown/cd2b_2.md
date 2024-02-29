@@ -1,7 +1,7 @@
 ---
 Title: 協同產品設計實習2b-2
 Date: 2024-02-29 11:00
-Category: 二乙
+Category: 2b
 Tags: Classroom, codespaces, w2
 Slug: 2024-cd-2b-w2
 Author: kmol

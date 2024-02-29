@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-02-29T06:37:39-00:00</lastmod>
+<lastmod>2024-02-29T07:54:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-02-29T06:37:39-00:00</lastmod>
+<lastmod>2024-02-29T07:54:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-02-29T06:37:39-00:00</lastmod>
+<lastmod>2024-02-29T07:54:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-02-29T06:37:39-00:00</lastmod>
+<lastmod>2024-02-29T07:54:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,7 +40,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./2024-cd-2b-w2.html</loc>
-<lastmod>2024-02-29T06:37:24+08:00</lastmod>
+<lastmod>2024-02-29T07:53:44+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./2024-cd-2b-w3.html</loc>
+<lastmod>2024-02-29T07:53:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,6 +116,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/odoo.html</loc>
+<lastmod>2024-02-29T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/w3.html</loc>
+<lastmod>2024-02-29T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/onshape.html</loc>
 <lastmod>2024-02-29T06:34:51+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -117,13 +138,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/coppeliasim.html</loc>
-<lastmod>2024-02-29T06:34:51+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/odoo.html</loc>
 <lastmod>2024-02-29T06:34:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

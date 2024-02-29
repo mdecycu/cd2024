@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-29T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-2</title><link href="./2024-cd-2b-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-29T06:37:24+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-cd-2b-w2.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-29T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-2</title><link href="./2024-cd-2b-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-29T07:53:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-cd-2b-w2.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 
 
 &lt;h1&gt;利用 Github Classroom 指定分組倉儲&lt;/h1&gt;
@@ -14,6 +14,36 @@
 &lt;p&gt;待各分組的期中報告 Team 與倉儲全部建立就緒後, 則可後續配合期末作業名稱 2a2 與 2b2, 由甲班各組組長建立 Team finalag1, finalag2 ...., 而乙班組長則建立 Team finalbg1, finalbg2 .... 等.&lt;/p&gt;
 &lt;p&gt;根據上述規劃, 乙班第一分組的期中協同倉儲將位於: &lt;a href="https://github.com/mdecd2024/2b-midbg1"&gt;https://github.com/mdecd2024/2b-midbg1&lt;/a&gt;, 第一組的期中報告網站將位於: &lt;a href="https://mdecd2024.github.io/2b-midbg1"&gt;https://mdecd2024.github.io/2b-midbg1&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;至於乙班第一分組的期末協同倉儲將位於: &lt;a href="https://github.com/mdecd2024/2b2-finalbg1"&gt;https://github.com/mdecd2024/2b2-finalbg1&lt;/a&gt;, 且對應的期末報告網站將位於: &lt;a href="https://mdecd2024.github.io/2b2-finalbg1"&gt;https://mdecd2024.github.io/2b2-finalbg1&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;利用 Codespaces 維護倉儲與網站&lt;/h1&gt;
+&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EX2nKmkIMX9EtahHjCFmVg4Bp_6wwEvoKsos6LbRHFl6NA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=qD4FMu"&gt;如何利用 Github Codespaces 維護網站內容&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;設定網誌&lt;/h1&gt;
+&lt;p&gt;利用 [OBS] 加上廣播系統錄製的: &lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EZMAhRju-rdNrUxk9plOglIBMK2WcO3iL1iK11xipW48Mw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=jogiPc"&gt;如何設定個人倉儲中的 Pelican 網誌&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Odoo PLM 功能&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcZiPwkDRrRKsk1AZbIEyG0B9bbqkh5X2q_F5LZyU_T3Bw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=l78YjF"&gt;簡介 Odoo PLM 用法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2b"></category><category term="Classroom"></category><category term="codespaces"></category><category term="w2"></category></entry><entry><title>協同產品設計實習2b-3</title><link href="./2024-cd-2b-w3.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-29T07:53:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-cd-2b-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.&lt;/p&gt;
+
+
+&lt;h1&gt;將組員的個人倉儲設為分組倉儲子模組&lt;/h1&gt;
 &lt;p&gt;cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站, 設定的指令為:&lt;/p&gt;
 &lt;p&gt;git submodule add 組員的個人倉儲網址 組員的學號&lt;/p&gt;
 &lt;p&gt;例如: 假設組員的 cd2024 個人倉儲位於: https://github.com/scrum-1/cd2024, 且該組員的學號為 41123299, 則該組員必須在進入該組的倉儲目錄後, 執行:&lt;/p&gt;
@@ -44,27 +74,7 @@
 &lt;p&gt;&lt;a href="http://229.cycu.org/CoppeliaSimEdu_4.5.1_rev4_for_cd2023.7z"&gt;CoppeliaSim 4.5.1 rev1 for IPv6.7z&lt;/a&gt; (169MB, password required to download)&lt;/p&gt;
 &lt;p&gt;可以結合可攜程式環境: &lt;a href="http://229.cycu.org/portable_2024.7z"&gt;portable_2024.7z&lt;/a&gt; (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB) 進行機電系統設計與模擬.&lt;/p&gt;
 &lt;h1&gt;模型簡化&lt;/h1&gt;
-&lt;p&gt;為了讓機電產品能在 CoppeliaSim 動態場景中順暢模擬, 各零組件必須有效進行簡化, 此一零件簡化過程如何後續對零組件進行應力或其他動態系統分析之前, 必須先簡化零組件外型後再進行網格化的應用相同.&lt;/p&gt;
-&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
-&lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script&gt;
-/**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2b"></category><category term="Classroom"></category><category term="codespaces"></category><category term="w2"></category></entry><entry><title>協同產品設計實習2a-1</title><link href="./2024-cd-2a-get-started.html" rel="alternate"></link><published>2024-02-23T11:00:00+08:00</published><updated>2024-02-29T06:34:51+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-23:./2024-cd-2a-get-started.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
+&lt;p&gt;為了讓機電產品能在 CoppeliaSim 動態場景中順暢模擬, 各零組件必須有效進行簡化, 此一零件簡化過程如何後續對零組件進行應力或其他動態系統分析之前, 必須先簡化零組件外型後再進行網格化的應用相同.&lt;/p&gt;</content><category term="2b"></category><category term="odoo"></category><category term="codespaces"></category><category term="w3"></category></entry><entry><title>協同產品設計實習2a-1</title><link href="./2024-cd-2a-get-started.html" rel="alternate"></link><published>2024-02-23T11:00:00+08:00</published><updated>2024-02-29T06:34:51+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-23:./2024-cd-2a-get-started.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的教學主要介紹 OnShape、Coppeliasim 與 Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 
 

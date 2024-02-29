@@ -22,6 +22,14 @@ Author: kmol
 
 至於乙班第一組組長則必須在期中作業 2b 項下, 建立名稱為 midbg1 的 Team, 其餘乙班各組的期中報告 Team 名稱則分別為 midbg2, midbg3 ....
 
+說明[乙班第一組組長如何建立 midbg1 的過程1]
+
+說明[乙班第一組組長如何建立 midbg1 的過程2]
+
+[乙班第一組組長如何建立 midbg1 的過程1]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EWunUEwsscFJhFA_0NyoAI4Bf22b6TlZx3PCeC8z07uaGA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Bg35aZ
+
+[乙班第一組組長如何建立 midbg1 的過程2]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/Eevkmm6jhmxAruTKU6YQzmsB2ow3SgsJyDpOHlm8jBsq2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u7hUdS
+
 待各分組的期中報告 Team 與倉儲全部建立就緒後, 則可後續配合期末作業名稱 2a2 與 2b2, 由甲班各組組長建立 Team finalag1, finalag2 ...., 而乙班組長則建立 Team finalbg1, finalbg2 .... 等.
 
 根據上述規劃, 乙班第一分組的期中協同倉儲將位於: <https://github.com/mdecd2024/2b-midbg1>, 第一組的期中報告網站將位於: <https://mdecd2024.github.io/2b-midbg1>.

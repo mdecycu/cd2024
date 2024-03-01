@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-01T01:50:52+08:00</updated><entry><title>協同產品設計實習2b-2</title><link href="./2024-cd-2b-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-29T07:53:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-cd-2b-w2.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-01T02:23:16+08:00</updated><entry><title>協同產品設計實習2b-2</title><link href="./2024-cd-2b-w2.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-02-29T07:53:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-cd-2b-w2.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第二週, 主要利用 Github Classroom 進行分組, 並且說明如何利用 Github Codespaces 維護個人與分組網站.&lt;/p&gt;
 
 
@@ -39,10 +39,16 @@
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2b"></category><category term="Classroom"></category><category term="codespaces"></category><category term="w2"></category></entry><entry><title>協同產品設計實習2b-3</title><link href="./2024-cd-2b-w3.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-03-01T01:50:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-cd-2b-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2b"></category><category term="Classroom"></category><category term="codespaces"></category><category term="w2"></category></entry><entry><title>協同產品設計實習2b-3</title><link href="./2024-cd-2b-w3.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-03-01T02:23:16+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-cd-2b-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.&lt;/p&gt;
 
 
+&lt;h1&gt;有關 Codespaces 使用&lt;/h1&gt;
+&lt;p&gt;由於 Github Codespaces 免費帳號目前每月&lt;a href="https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces"&gt;可以使用 120 core hours&lt;/a&gt;, 因此使用者可以選擇在 Github 倉儲中編輯 markdown 目錄中的網誌 .md 文章後, 只在需要利用 pelican 轉檔或啟動編輯 config/content.htm 與轉靜態網頁內容時, 才啟用 Codespaces. 如此可以最佳化使用 Codespaces 的免費 core hours.&lt;/p&gt;
+&lt;h1&gt;ODOO 參考資料&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.google.com/search?q=sap+vs+odoo"&gt;https://www.google.com/search?q=sap+vs+odoo&lt;/a&gt; (與 SAP 及 ODOO 有關的搜尋)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local download&lt;/a&gt; (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
+&lt;p&gt;英文單字查詢: &lt;a href="https://0f5839b4-abe3-465d-8e99-c21c6f10d379-00-1lfsoaa18ah3t.kirk.replit.dev/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;將組員的個人倉儲設為分組倉儲子模組&lt;/h1&gt;
 &lt;p&gt;cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站, 設定的指令為:&lt;/p&gt;
 &lt;p&gt;git submodule add 組員的個人倉儲網址 組員的學號&lt;/p&gt;

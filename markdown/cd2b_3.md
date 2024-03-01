@@ -11,6 +11,20 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# 有關 Codespaces 使用
+
+由於 Github Codespaces 免費帳號目前每月[可以使用 120 core hours], 因此使用者可以選擇在 Github 倉儲中編輯 markdown 目錄中的網誌 .md 文章後, 只在需要利用 pelican 轉檔或啟動編輯 config/content.htm 與轉靜態網頁內容時, 才啟用 Codespaces. 如此可以最佳化使用 Codespaces 的免費 core hours.
+
+[可以使用 120 core hours]: https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces
+
+# ODOO 參考資料
+<https://www.google.com/search?q=sap+vs+odoo> (與 SAP 及 ODOO 有關的搜尋)
+
+[2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf] or [local download](http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf) (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)
+
+英文單字查詢: [2021_odoo_reading.html](https://0f5839b4-abe3-465d-8e99-c21c6f10d379-00-1lfsoaa18ah3t.kirk.replit.dev/downloads/2021_odoo_reading.html)
+
+[2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf]: https://webthesis.biblio.polito.it/16429/1/tesi.pdf
 
 # 將組員的個人倉儲設為分組倉儲子模組
 

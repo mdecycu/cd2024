@@ -34,6 +34,15 @@ Author: kmol
 
 [可以使用 120 core hours]: https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces
 
+# ODOO 參考資料
+<https://www.google.com/search?q=sap+vs+odoo> (與 SAP 及 ODOO 有關的搜尋)
+
+[2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf] or [local download](http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf) (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)
+
+英文單字查詢: [2021_odoo_reading.html](https://0f5839b4-abe3-465d-8e99-c21c6f10d379-00-1lfsoaa18ah3t.kirk.replit.dev/downloads/2021_odoo_reading.html)
+
+[2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf]: https://webthesis.biblio.polito.it/16429/1/tesi.pdf
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>

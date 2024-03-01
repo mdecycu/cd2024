@@ -22,6 +22,10 @@ Author: kmol
 
 根據上述規劃, 甲班第一分組的期中協同倉儲將位於: <https://github.com/mdecd2024/2a-midag1>, 第一組的期中報告網站將位於: <https://mdecd2024.github.io/2a-midag1>.
 
+說明[甲班第一組組長如何建立 midag1 Team], 並利用 Codespaces 維護 2a-midag1 分組倉儲
+
+[甲班第一組組長如何建立 midag1 Team]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EfhTxuf_qX5NqlZBu3n764wBy1d1un0pOZaItSW2Lao2nw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QRghBy
+
 待各分組的期中報告 Team 與倉儲全部建立就緒後, 則甲班學員後續可配合期末作業名稱 2a2, 由甲班各組組長建立 Team finalag1, finalag2 ....等.
 
 # 利用 Codespaces 維護倉儲與網站

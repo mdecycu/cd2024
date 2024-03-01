@@ -42,6 +42,12 @@ Author: kmol
 
 [可以使用 120 core hours]: https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces
 
+# 在近端執行動態網站
+
+說明[如何利用近端可攜系統維護分組網站]
+
+[如何利用近端可攜系統維護分組網站]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EfEB1UUQFttEu-jLYpAaflsB85I01JJFdI_HectY6T5rrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eYLF26
+
 # ODOO 參考資料
 <https://www.google.com/search?q=sap+vs+odoo> (與 SAP 及 ODOO 有關的搜尋)
 

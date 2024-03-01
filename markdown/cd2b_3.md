@@ -1,13 +1,13 @@
 ---
 Title: 協同產品設計實習2b-3
-Date: 2024-02-29 11:00
+Date: 2024-03-07 11:00
 Category: 2b
 Tags: odoo, codespaces, w3
 Slug: 2024-cd-2b-w3
 Author: kmol
 ---
 
-2024 Spring 協同產品設計實習的第三週, 主要說明如何將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.
+2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動專題一的製作.
 
 <!-- PELICAN_END_SUMMARY -->
 

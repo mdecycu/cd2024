@@ -128,11 +128,219 @@
 <p>cd2024 將探討如何在 Ubuntu Server 中安裝配置並使用 Odoo 17</p>
 <p>cad2023 已經利用 Ubuntu Server 建立 <a href="https://s.cycu.org">s.cycu.org</a>, 讓多人能在自架主機上進行協同網站內容管理.</p><h2>LaTeX</h2>
 <p>下載 <a href="http://229.cycu.org/miktex-portable.7z">miktex-portable.7z</a> (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)</p>
-<p>cd2024 期中與期末專案報告範例: <a href="https://github.com/mdecd2024/test-ag1/releases/tag/v0.0.2">https://github.com/mdecd2024/test-ag1/releases/tag/v0.0.2</a> (直接在倉儲中 release pdf 檔案)</p>
+<p>cd2024 期中與期末專案報告範例: <a href="https://github.com/mdecd2024/test-ag1/releases/tag/v0.0.3">https://github.com/mdecd2024/test-ag1/releases/tag/v0.0.3</a> (直接在倉儲中 release pdf 檔案)</p>
 <p>各組必須 git clone <a href="https://github.com/mdecd2024/test-ag1.git">https://github.com/mdecd2024/test-ag1.git</a> 後, 將 .github 目錄內容從近端電腦 upload 到 Replit 上的分組倉儲後, 根據 latex 目錄中的檔案內容, 在 Github 上直接將 LaTeX 檔案轉為 pdf 檔案, 使用的是 cd_report.tex, 若希望在 Windows 操作系統中, 利用 miktex-portable.7z 進行轉檔, 則可使用 cd_report_win.tex 進行轉檔.</p>
 <p>參考資料:</p>
 <p style="padding-left: 30px;"><a href="https://github.com/mdecd2023/2a3-pj3ag4">https://github.com/mdecd2023/2a3-pj3ag4</a></p>
-<h2>postgresql</h2>
+<p style="padding-left: 30px;"><a href="http://229.cycu.org/texmakerwin64usb.7z">texmakerwin64usb.7z</a> (需要密碼, 下載 70MB, 解開壓縮檔案後約 245MB)</p>
+<hr/>
+<p>針對 LaTeX 與 ChatGPT 對話:</p>
+<p>問: 為什麼有人使用 LaTeX 寫專題報告？</p>
+<p>答:</p>
+<p style="padding-left: 30px;">使用 LaTeX 寫專題報告的原因有很多。其中一些原因包括 LaTeX 提供了專業和精美的排版效果、支援數學公式和符號的高品質排版、方便管理大型文件和參考文獻、以及 LaTeX 文件易於版本控制和共享。</p>
+<p>問: 跟使用 Word 比，有什麼差別？</p>
+<p>答:</p>
+<div class="flex flex-grow flex-col max-w-full">
+<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="42920884-990c-4fb0-bf82-8a2d788d8e67">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p style="padding-left: 30px;">使用 LaTeX 相較於 Word，有幾個主要的差別：</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>1. 排版品質：</strong> LaTeX 提供了高品質的排版效果，特別是在處理數學公式、符號和專業文檔時，其排版效果更為精細和專業。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>2. 版本控制和共享：</strong> LaTeX 文件易於進行版本控制，使用版本控制系統如 Git 等，以及在多人合作時更容易共享和協作。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>3. 對大型文檔的管理：</strong> LaTeX 更適合管理大型文檔，包括對章節、參考文獻、圖片和表格的管理更為方便。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>4. 學習曲線：</strong> LaTeX 的學習曲線較陡，需要一些時間來熟悉其命令和語法，而 Word 則較為直觀和容易上手。</p>
+<p style="padding-left: 30px;">因此，使用 LaTeX 更適合需要專業排版、數學公式較多或需要管理大型文檔的場景，而 Word 則更適合一般性的文書處理。</p>
+<p>問: 就多人協同編輯，使用 LaTeX 有什麼優點？</p>
+<p>答:</p>
+<div class="flex flex-grow flex-col max-w-full">
+<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="46c94185-8f48-4ffe-9e5e-990e915af7f7">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p style="padding-left: 30px;">使用 LaTeX 進行多人協同編輯有以下優點：</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>1. 版本控制：</strong> LaTeX 文件易於進行版本控制，使用版本控制系統如 Git，多人可以同時對文件進行編輯而不會發生衝突，並可以隨時退回到先前的版本。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>2. 分工合作：</strong> 可以根據需要將文檔拆分為多個部分，每個人負責編輯其中的一部分，最後再將各部分整合在一起。這樣可以更有效地分工合作。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>3. 即時更新：</strong> 使用版本控制系統，如 Git，可以實現即時更新和同步，所有成員對文檔的修改都可以立即反映在最新版本中。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>4. 註釋和修訂：</strong> LaTeX 支持在文檔中添加註釋和修訂，這樣多人就可以方便地進行討論和反饋，而不需要直接修改原始文檔。</p>
+<p style="padding-left: 30px;">因此，LaTeX 在多人協同編輯方面具有較大的靈活性和便利性，使得團隊成員可以更加方便地協作完成文檔。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>問: 若要用中文寫一封信，使用 LaTeX 要如何寫？</p>
+<p>答:</p>
+<p style="padding-left: 30px;">要使用 LaTeX 寫中文信件，可以按照以下步驟進行：</p>
+<p style="padding-left: 30px;"><strong>1. 設置文檔類型和編碼：</strong> 在 LaTeX 文檔的開頭，設置文檔類型為 letter（或<code> article</code>、report、book，具體取決於你的需求），並指定編碼為 UTF-8，以支援中文字符。</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\documentclass[UTF8]{letter}
+</pre>
+<p style="padding-left: 30px;"><strong>2. 設置字型和中文字型：</strong> 選擇適合的字體和中文字型，可以使用 <code>xeCJK 模組進行</code>設置。</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\usepackage{xeCJK}
+\setCJKmainfont{字體名稱} % 替換為想要使用的中文字體名稱
+</pre>
+<p style="padding-left: 30px;"><strong>3. 開始寫信：</strong> 在文檔中，正文部分寫下信件內容。</p>
+<p style="padding-left: 30px;"></p>
+<p style="padding-left: 30px;"><strong>4. 結束文檔：</strong> 最後，使用 <code>\end{document} </code>命令結束文檔。</p>
+<p style="padding-left: 30px;">以下是一個簡單的範例：</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\documentclass[UTF8]{letter}
+\usepackage{xeCJK}
+\setCJKmainfont{標楷體} % 替換為想要使用的中文字體名稱
+
+\begin{document}
+
+尊敬的收件人，
+
+我希望這封信能夠找到您，我寫信是因為......
+
+此致，敬禮。
+
+你的名字
+
+\end{document}
+</pre>
+<p style="padding-left: 30px;">通過這樣的方式，就可以使用 LaTeX 來撰寫中文信件了。</p>
+<p>問: 假如要用中文寫一個有封面，摘要，章節目錄、圖目錄並且有頁碼及參考資料引用的一份專題報告，採 LaTeX 要如何寫？</p>
+<p>答:</p>
+<p style="padding-left: 30px;">要使用 LaTeX 撰寫包含封面、摘要、章節目錄、圖目錄、有頁碼以及參考資料引用的中文專題報告，可以按照以下步驟進行：</p>
+<p style="padding-left: 30px;"><strong>1. 建立 LaTeX 文檔：</strong> 創建一個新的 LaTeX 文檔，指定文檔類型為 article 或 report。</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\documentclass[UTF8]{report}
+</pre>
+<p style="padding-left: 30px;"><strong>2. 導入必要的宏包：</strong> 導入一些必要的宏包，如 <code>xeCJK</code>、<code>graphicx</code>（用於插入圖片）、<code>tocbibind</code>（用於自動添加目錄到目錄列表中）等。</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\usepackage{xeCJK}
+\usepackage{graphicx}
+\usepackage{tocbibind}
+</pre>
+<p style="padding-left: 30px;"><strong>3. 設置字體：</strong> 選擇適合的字體和中文字型。</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\setCJKmainfont{字體名稱}
+</pre>
+<p style="padding-left: 30px;"><strong>4. 撰寫封面：</strong> 在文檔的開頭部分，撰寫封面信息，如標題、作者、日期等。</p>
+<p style="padding-left: 30px;"><strong>5. 寫摘要：</strong> 使用 <code>\begin{abstract}...\end{abstract} </code>環境來寫摘要。</p>
+<p style="padding-left: 30px;"><strong>6. 生成章節目錄、圖目錄等：</strong> 使用 <code>\tableofcontents</code>生成章節目錄，使用 <code>\listoffigures</code>生成圖目錄，同樣地，如果還有表格目錄的話，使用 <code>\listoftables</code>生成表格目錄。</p>
+<p style="padding-left: 30px;"><strong>7. 撰寫章節內容：</strong> 在文檔中撰寫章節內容。</p>
+<p style="padding-left: 30px;"><strong>8. 添加參考資料：</strong> 使用 <code>\bibliography </code>命令添加參考資料文件（如<code>.bib </code>檔案），使用 <code>\cite</code> 命令引用參考資料。</p>
+<p style="padding-left: 30px;"><strong>9. 生成參考資料列表：</strong> 在文檔的最後部分使用 <code>\bibliographystyle </code>和 <code>\bibliography </code>命令生成參考資料列表。</p>
+<p style="padding-left: 30px;"><strong>10. 結束文檔：</strong> 使用 <code>\end{document} </code>命令結束文檔。</p>
+<p style="padding-left: 30px;">這是一個簡單的範例：</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\documentclass[UTF8]{report}
+\usepackage{xeCJK}
+\usepackage{graphicx}
+\usepackage{tocbibind}
+% 在 Windows 可以使用系統所安裝的字型
+\setCJKmainfont{標楷體}
+
+\title{專題報告標題}
+\author{作者名}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+這是摘要的內容。
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+
+\chapter{引言}
+這是引言部分的內容。
+
+\chapter{文獻回顧}
+這是文獻回顧部分的內容。
+
+% 其他章節內容...
+
+\bibliographystyle{引文格式}
+\bibliography{參考資料文件}
+
+\end{document}
+</pre>
+<p style="padding-left: 30px;">通過這樣的方式，你就可以使用LaTeX來撰寫一份包含封面、摘要、章節目錄、圖目錄、有頁碼以及參考資料引用的中文專題報告了。</p>
+<hr/>
+<p>以下為實際利用可攜系統中的 miktex-portable 在 Windows 操作系統中以 LaTeX 語法建立分組報告的練習</p>
+<p>下載 <a href="http://229.cycu.org/latex_images_github.7z">latex_images_github.7z</a> (需要密碼)</p>
+<p>在 start_ipv6.bat 中 "path=" 之前加入:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">REM for latex
+set path_miktex=%Disk%:\miktex-portable\texmfs\install\miktex\bin\x64;</pre>
+<p>將 path_miktex 變數設定納入 "path=" 中:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">path=%Disk%:;%path_python%;%path_msys2%;%path_cmake%;%path_lua%;%path_git%;%path_tcc%;%path_gnuplot%;%path_scite%;%path_miktex%;%path_fasm%;%path_miktex%;%path%;</pre>
+<p>重新啟動可攜環境之後, 就能在命令提示視窗中執行 xelatex, 用來將 .tex LaTeX 檔案轉為 pdf</p>
+<p>以下為 report_ex.tex 內容:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">\documentclass[UTF8]{report}
+\usepackage{xeCJK}
+\usepackage{graphicx}
+\usepackage{tocbibind}
+\usepackage{hyperref}
+\usepackage{lipsum} % 添加假文套件以生成範例內容
+% 導入 animate 以導入動態 gif 圖檔
+\usepackage{animate}
+% 導入 amsmath 以便輸入數學方程式
+\usepackage{amsmath}
+
+% 在 Windows 可以使用系統所安裝的字型
+\setCJKmainfont{標楷體}
+\newfontfamily\sectionef{Times New Roman}%設定英文字體
+
+% 行距設為原來的 1.2 倍, 對於中文比較容易閱讀
+\linespread{1.2}
+
+% 文章段落是否內縮, 設為 0 表示不內縮
+%\parindent=0pt
+
+\title{ {\huge 國立虎尾科技大學 \\[0.2cm] 機械設計工程系 \\[0.2cm] 協同產品設計實習期中報告} \\[1cm] 
+ODOO PLM 在協同產品設計上的應用 \\[0.2cm] 
+- 以鋼球平衡台系統設計為例}
+\author{作者名1 \\ 
+        作者名2 \\ 
+        作者名3}
+\date{\today}
+
+\begin{document}
+\sectionef %設定英文字體啟用
+
+% 建立報告標題頁
+\maketitle
+
+% 建立摘要頁面
+\input{downloads/abstract.txt}
+
+\newpage
+
+% 建立章節目錄
+\tableofcontents
+
+% 建立圖表目錄
+\listoffigures
+
+\input{downloads/introduction.txt}
+
+% 在這裡建立一個指向 anchor_to_dis 的超連結，anchor_to_dis 在討論章節前指定 \hypertarget
+在 \hyperlink{anchor_to_dis}{討論章節} 中，本專題說明如何在 Onshape 建立鋼球平衡台的零組件，並轉入 CoppeliaSim 場景進行機電動態系統控制模擬.
+
+\input{downloads/literature_review.txt}
+\input{downloads/odoo_and_plm.txt}
+\input{downloads/part_and_assembly.txt}
+
+% 在這裡建立一個名為 anchor_to_dis 的連接點
+\hypertarget{anchor_to_dis}{}
+
+\input{downloads/discussion.txt}
+\input{downloads/conclusion.txt}
+\input{downloads/bibliography.txt}
+
+\end{document}
+</pre>
+<p>利用兩次 xelatex report.txt 的執行, 就可以建立 <a href="/downloads/report.pdf">report.pdf</a>.</p>
+<p>必須執行兩次 xelatex 指令轉檔，是因為使用 XeLaTeX 編譯包含目錄、圖表、參考文獻等複雜元素的文檔需要多次編譯才能完整生成PDF。在第一次編譯時，LaTeX 系統會生成一個臨時的 .aux 文件，其中包含了目錄、引用等信息，而這些資料需要第二次編譯時才能正確地反映在最終的 PDF 文件中。</p>
+<p><a href="/downloads/report_latex_ex.7z">report_latex_ex.7z</a></p>
+<p></p><h2>postgresql</h2>
 <p>postgres 是一套開源的分散式資料庫管理系統, exam.cycu.org 線上考試系統伺服器的資料就是存放在 PostgreSQL 資料庫中.</p>
 <p style="padding-left: 30px;"><a href="https://github.com/postgres/postgres">https://github.com/postgres/postgres</a></p>
 <p><a href="https://github.com/coleifer/peewee">https://github.com/coleifer/peewee</a></p>

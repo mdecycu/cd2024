@@ -17,6 +17,11 @@ Author: kmol
 
 [可以使用 120 core hours]: https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces
 
+# 使用 Gitpod 維護倉儲與網站
+[Gitpod](https://www.gitpod.io/pricing) 與 Codespaces 類似, 也是採用 Visual Studio Code 網際介面, 可讓使用者維護位於 Github 的倉儲, 只是個人的 cd2024 倉儲, 以 Github 帳號登入 Gitpod 之後, 可以直接維護, 但是分組網站是從 Github Classroom mdecd2024 帳號下派任, 與 Replit 環境維護分組網站的方法相同, 必須自行建立 .ssh 下的 id_rsa 與 config, 差別是一旦在 Gitpod 導入的分組網站 SSH 管理權限, 不會像 Replit 免費帳號下, 系統會定期刪除免費帳號使用者的 .ssh 目錄.
+
+在 Gitpod 導入 Github 倉儲後, 路徑位於 /workspace/ 目錄下, 但是 .ssh 目錄則位於 /home/gitpod/.ssh, 當使用者執行 cd 則會進入 /home/gitpod 目錄, 且使用者在 Gitpod 的 Dashboard 可以從 <https://gitpod.io> 進入.
+
 # ODOO 參考資料
 <https://www.google.com/search?q=sap+vs+odoo> (與 SAP 及 ODOO 有關的搜尋)
 
@@ -46,6 +51,18 @@ git submodule add https://github.com/scrum-1/cd2024.git 41123299
 倉儲中的 latex 目錄: <https://github.com/mdecd2024/test-ag1/tree/main/latex>
 
 [Github Actions]: https://github.com/features/actions
+
+## 利用可攜程式編譯 LaTeX
+
+下載 [miktex-portable.7z](http://229.cycu.org/miktex-portable.7z) (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)
+
+下載 [latex_images_github.7z](http://229.cycu.org/latex_images_github.7z) (需要密碼)
+
+協同產品設計實習分組期中報告 LaTeX 範本:
+
+下載 [cd2024_midterm_report_latex_ex.7z](https://mdecd2024.github.io/test-ag1/downloads/cd2024_midterm_report_latex_ex.7z)
+
+
 
 # Q and A
 每週問題與解答, 請轉到 <https://mde.tw/cd2024/content/Q&A.html> 發問或討論.

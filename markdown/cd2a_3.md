@@ -63,6 +63,11 @@ for i in range(1,group_num+1):
 
 在 Gitpod 導入 Github 倉儲後, 路徑位於 /workspace/ 目錄下, 但是 .ssh 目錄則位於 /home/gitpod/.ssh, 當使用者執行 cd 則會進入 /home/gitpod 目錄, 且使用者在 Gitpod 的 Dashboard 可以從 <https://gitpod.io> 進入.
 
+# 電腦教室中的協同設計
+cd2024 起, 電腦輔助設計室中的每一台電腦已經各自擁有一個外部 IPv4 網址, 因此各組員可將個人倉儲與分組倉儲 git clone 至隨身碟, 利用 Token 或 SSH session 授權維護倉儲與網站內容.
+
+如何利用 Classic Token 授權維護倉儲與網站
+
 # ODOO 參考資料
 <https://www.google.com/search?q=sap+vs+odoo> (與 SAP 及 ODOO 有關的搜尋)
 

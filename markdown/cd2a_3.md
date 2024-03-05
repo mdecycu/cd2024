@@ -1,9 +1,9 @@
 ---
-Title: 協同產品設計實習2b-3
-Date: 2024-03-07 11:00
-Category: 2b
-Tags: odoo, codespaces, w3
-Slug: 2024-cd-2b-w3
+Title: 協同產品設計實習2a-3
+Date: 2024-03-08 11:00
+Category: 2a
+Tags: odoo, codespaces, gitpod, w3
+Slug: 2024-cd-2a-w3
 Author: kmol
 ---
 
@@ -14,7 +14,7 @@ Author: kmol
 # 列出期中分組倉儲與網站
 [cd2024 期中分組倉儲與網站]
 
-上列連結使用 [Brython](https://brython.info/) 程式語法, 可直接在網頁中列出特定連結內容, 所採用的程式碼如下:
+上列連結使用 [Brython] 程式語法, 可直接在網頁中列出特定連結內容, 所採用的程式碼如下:
 
 <pre class="brush: python">
 # 從 Brython browser 模組導入 document 與 html

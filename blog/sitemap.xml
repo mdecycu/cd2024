@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-03-04T05:43:56-00:00</lastmod>
+<lastmod>2024-03-05T04:29:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-03-04T05:43:56-00:00</lastmod>
+<lastmod>2024-03-05T04:29:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-03-04T05:43:56-00:00</lastmod>
+<lastmod>2024-03-05T04:29:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-03-04T05:43:56-00:00</lastmod>
+<lastmod>2024-03-05T04:29:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,8 +39,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./2024-cd-2a-w3.html</loc>
+<lastmod>2024-03-05T04:28:40+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./2024-cd-2b-w3.html</loc>
-<lastmod>2024-03-04T05:43:39+08:00</lastmod>
+<lastmod>2024-03-05T04:29:03+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -82,7 +89,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/2a.html</loc>
-<lastmod>2024-03-01T11:00:00+08:06</lastmod>
+<lastmod>2024-03-08T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,21 +110,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/odoo.html</loc>
-<lastmod>2024-03-07T11:00:00+08:06</lastmod>
+<lastmod>2024-03-08T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/codespaces.html</loc>
-<lastmod>2024-03-07T11:00:00+08:06</lastmod>
+<lastmod>2024-03-08T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/gitpod.html</loc>
+<lastmod>2024-03-08T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/w3.html</loc>
-<lastmod>2024-03-07T11:00:00+08:06</lastmod>
+<lastmod>2024-03-08T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -166,7 +180,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-03-07T11:00:00+08:06</lastmod>
+<lastmod>2024-03-08T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

@@ -88,6 +88,8 @@ for i in range(1,group_num+1):
 
 說明[使用 Gitpod 維護個人網站]
 
+說明[使用 Gitpod 維護分組網站]
+
 [使用 Gitpod 維護個人網站]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbzYBmhiU5RCmvk03IlcwEYBwuosEIcMU6SFpsJ9TO9wVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FHa6FN
 
 # 電腦教室中的協同設計

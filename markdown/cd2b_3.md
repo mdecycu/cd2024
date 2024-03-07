@@ -92,6 +92,8 @@ for i in range(1,group_num+1):
 
 [使用 Gitpod 維護個人網站]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbzYBmhiU5RCmvk03IlcwEYBwuosEIcMU6SFpsJ9TO9wVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FHa6FN
 
+[使用 Gitpod 維護分組網站]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/Ea2FTZtE5XdDl6SFiECqd60BRul1R6hfHAJ0ZTiQt69Neg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TMqAwC
+
 # 電腦教室中的協同設計
 cd2024 起, 電腦輔助設計室中的每一台電腦已經各自擁有一個外部 IPv4 網址, 因此各組員可將個人倉儲與分組倉儲 git clone 至隨身碟, 利用 Token 或 SSH session 授權維護倉儲與網站內容.
 

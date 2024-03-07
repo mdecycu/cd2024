@@ -5,84 +5,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-03-07T08:07:10-00:00</lastmod>
+<lastmod>2024-03-07T08:27:34-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-03-07T08:07:10-00:00</lastmod>
+<lastmod>2024-03-07T08:27:34-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-03-07T08:07:10-00:00</lastmod>
+<lastmod>2024-03-07T08:27:34-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-03-07T08:07:10-00:00</lastmod>
+<lastmod>2024-03-07T08:27:34-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2024-03-07T07:49:05+08:00</lastmod>
+<lastmod>2024-02-16T15:29:26+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./2024-cd-2a-w3.html</loc>
-<lastmod>2024-03-07T07:49:05+08:00</lastmod>
+<lastmod>2024-03-05T07:20:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./2024-cd-2b-w3.html</loc>
-<lastmod>2024-03-07T08:07:00+08:00</lastmod>
+<lastmod>2024-03-07T08:27:15+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./2024-cd-2a-w2.html</loc>
-<lastmod>2024-03-07T07:49:05+08:00</lastmod>
+<lastmod>2024-03-01T09:09:12+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./2024-cd-2b-w2.html</loc>
-<lastmod>2024-03-07T07:49:05+08:00</lastmod>
+<lastmod>2024-02-29T07:53:44+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./2024-cd-2a-get-started.html</loc>
-<lastmod>2024-03-07T07:49:05+08:00</lastmod>
+<lastmod>2024-02-29T06:34:51+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./2024-cd-2b-get-started.html</loc>
-<lastmod>2024-03-07T07:49:05+08:00</lastmod>
+<lastmod>2024-02-29T06:34:51+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./2024-Spring-Collaborative-Product-Design.html</loc>
-<lastmod>2024-03-07T07:49:05+08:00</lastmod>
+<lastmod>2024-02-19T01:00:35+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -103,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/misc.html</loc>
-<lastmod>2024-03-07T07:49:05+08:06</lastmod>
+<lastmod>2024-02-19T01:00:35+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -138,42 +138,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/w2.html</loc>
-<lastmod>2024-03-07T07:49:05+08:06</lastmod>
+<lastmod>2024-03-01T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/classroom.html</loc>
-<lastmod>2024-03-07T07:49:05+08:06</lastmod>
+<lastmod>2024-02-29T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/onshape.html</loc>
-<lastmod>2024-03-07T07:49:05+08:06</lastmod>
+<lastmod>2024-02-29T06:34:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/coppeliasim.html</loc>
-<lastmod>2024-03-07T07:49:05+08:06</lastmod>
+<lastmod>2024-02-29T06:34:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/w1.html</loc>
-<lastmod>2024-03-07T07:49:05+08:06</lastmod>
+<lastmod>2024-02-29T06:34:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/2024springcd.html</loc>
-<lastmod>2024-03-07T07:49:05+08:06</lastmod>
+<lastmod>2024-02-19T01:00:35+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

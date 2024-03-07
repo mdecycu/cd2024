@@ -137,6 +137,10 @@ git clone --recurse-submodules git@github.com:mdecd2024/2b-midbg1.git
 
 倉儲中的 latex 目錄: <https://github.com/mdecd2024/test-ag1/tree/main/latex>
 
+說明[如何利用 LaTeX 編寫分組期中報告]
+
+[如何利用 LaTeX 編寫分組期中報告]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ETPe5h7G7EdPoXdqV9mDxawBqYBR9gHUOnnX-Qs4jmdkIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lXyBH7
+
 [Github Actions]: https://github.com/features/actions
 
 ## 利用可攜程式編譯 LaTeX

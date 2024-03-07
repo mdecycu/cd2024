@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-07T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-3</title><link href="./2024-cd-2b-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-07T08:27:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-cd-2b-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-07T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-3</title><link href="./2024-cd-2b-w3.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-07T08:47:56+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./2024-cd-2b-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 
 
@@ -78,6 +78,7 @@ for i in range(1,group_num+1):
 &lt;h1&gt;有關 LaTeX 轉 pdf&lt;/h1&gt;
 &lt;p&gt;使用 &lt;a href="https://github.com/features/actions"&gt;Github Actions&lt;/a&gt; 執行轉檔: &lt;a href="https://github.com/mdecd2024/test-ag1/blob/main/.github/workflows/main.yml"&gt;https://github.com/mdecd2024/test-ag1/blob/main/.github/workflows/main.yml&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;倉儲中的 latex 目錄: &lt;a href="https://github.com/mdecd2024/test-ag1/tree/main/latex"&gt;https://github.com/mdecd2024/test-ag1/tree/main/latex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ETPe5h7G7EdPoXdqV9mDxawBqYBR9gHUOnnX-Qs4jmdkIg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=lXyBH7"&gt;如何利用 LaTeX 編寫分組期中報告&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;利用可攜程式編譯 LaTeX&lt;/h2&gt;
 &lt;p&gt;下載 &lt;a href="http://229.cycu.org/miktex-portable.7z"&gt;miktex-portable.7z&lt;/a&gt; (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)&lt;/p&gt;
 &lt;p&gt;下載 &lt;a href="http://229.cycu.org/latex_images_github.7z"&gt;latex_images_github.7z&lt;/a&gt; (需要密碼)&lt;/p&gt;

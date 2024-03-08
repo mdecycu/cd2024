@@ -57,6 +57,10 @@ for i in range(1,group_num+1):
 
 並根據下列教學範例:
 
+說明[如何將 41123130 的個人倉儲設為 2a-midag2 分組倉儲的子模組]
+
+[如何將 41123130 的個人倉儲設為 2a-midag2 分組倉儲的子模組]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ETNuIGNcCd1Lvfeuy1qMnCYBrr8Nhv4OrSVQ2Xfv2o7gdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8b3kMk
+
 說明[如何將組員的個人倉儲納入分組倉儲成為子模組]
 
 [如何將組員的個人倉儲納入分組倉儲成為子模組]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EZbnYCWfEylAmXhpOqXWgZUBMxerlNYRgQsBBjZAQ90lmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8nGXOz

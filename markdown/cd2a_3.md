@@ -136,6 +136,11 @@ git clone --recurse-submodules git@github.com:mdecd2024/2b-midbg1.git
 而且若要在分組倉儲中更新各組員的子模組版本, 則必須更換目錄到該組員的學號目錄中並且使用 git pull origin main, 才能取下該組員其 cd2024 個人倉儲的最新內容. 取下組員資料後, 若要新增提交推送, 則必須再更換目錄回分組倉儲後才能執行.
 
 # 有關 LaTeX 轉 pdf
+
+在 Windows 環境, 說明[如何利用 LaTeX 協同建立分組報告]
+
+[如何利用 LaTeX 協同建立分組報告]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ESjVHtGM6_VHhiXfHVspzXwBdvHAx67b__YfRmxX6fRU2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKRtj2
+
 使用 [Github Actions] 執行轉檔: <https://github.com/mdecd2024/test-ag1/blob/main/.github/workflows/main.yml>
 
 倉儲中的 latex 目錄: <https://github.com/mdecd2024/test-ag1/tree/main/latex>

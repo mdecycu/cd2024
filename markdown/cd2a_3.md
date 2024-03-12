@@ -157,6 +157,24 @@ git clone --recurse-submodules git@github.com:mdecd2024/2b-midbg1.git
 
 下載 [cd2024_midterm_report_latex_ex.7z](https://mdecd2024.github.io/test-ag1/downloads/cd2024_midterm_report_latex_ex.7z)
 
+<hr>
+41123124 詢問:
+
+我下載了miktex-protable的資料夾之後，沿著readme的步驟打開到miktex-portable\texmfs\install\miktex\bin\x64這個位置，但裡面有非常多exe檔案，請問我應該用哪個進行編輯。還有Latex是一種製作類似word的C語言還是一種軟體?
+
+回答:
+
+首先, 有關利用 xelatex 編譯分組 pdf 報告的說明影片, 在第三週的網誌中有詳細說明, 大約在[影片]中的 1:15 ~ 3:30 說明, 只要將 miktex_portable 中的 xelatex.exe 路徑放入可攜程式啟動後的命令搜尋路徑, 就可以使用 xelatex.exe 編譯 .tex 文件. 產生對應的 .pdf 檔案.
+
+另外, LaTeX 文件之所以能用在多人協同編輯流程, 是因為 .tex 中的設定與文件內容都是純文字, 因此在解決衝突時, 可以清楚看到衝突分隔符號, 並加以處理. 所以各組員可以在線上或操作系統使用任何純文字編輯套件, 但必須注意編輯後所得到的 .tex 的結果必須是純文字檔案, 而不是其他帶有特定非 LaTeX 格式的 xml 檔案資料.
+
+最後, LaTeX 是植基於 TeX 的文件編譯系統, 使用者按照 TeX 的語法格式在文章中設定文件內各種資料的編排方式, TeX 或 LaTeX 系統會按照此一 .tex 中的設定, 產生最接近使用者需求的資料, 其中包括文字內容的間隔排列, 數學公式的編排與引用, 圖文章節目錄的製作等, 都是經由 TeX 編譯系統經過計算而得.
+
+有關 TeX 的詳細說明, 請參考 <https://en.wikipedia.org/wiki/TeX> 的中文說明.
+
+[影片]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ESjVHtGM6_VHhiXfHVspzXwBdvHAx67b__YfRmxX6fRU2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKRtj2
+<hr>
+
 # 設定網誌
 利用 [OBS] 加上廣播系統錄製的: [如何設定個人倉儲中的 Pelican 網誌]
 

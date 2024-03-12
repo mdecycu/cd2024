@@ -72,7 +72,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;h1&gt;Odoo PLM&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html"&gt;Odoo PLM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
-&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="odoo"></category><category term="Source Tree"></category><category term="w4"></category></entry><entry><title>協同產品設計實習2a-3</title><link href="./2024-cd-2a-w3.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-03-08T08:39:57+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-cd-2a-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
+&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="odoo"></category><category term="Source Tree"></category><category term="w4"></category></entry><entry><title>協同產品設計實習2a-3</title><link href="./2024-cd-2a-w3.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-03-12T03:16:30+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-cd-2a-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 
 
@@ -158,6 +158,16 @@ for i in range(1,group_num+1):
 &lt;p&gt;下載 &lt;a href="http://229.cycu.org/latex_images_github.7z"&gt;latex_images_github.7z&lt;/a&gt; (需要密碼)&lt;/p&gt;
 &lt;p&gt;協同產品設計實習分組期中報告 LaTeX 範本:&lt;/p&gt;
 &lt;p&gt;下載 &lt;a href="https://mdecd2024.github.io/test-ag1/downloads/cd2024_midterm_report_latex_ex.7z"&gt;cd2024_midterm_report_latex_ex.7z&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;41123124 詢問:&lt;/p&gt;
+&lt;p&gt;我下載了miktex-protable的資料夾之後，沿著readme的步驟打開到miktex-portable\texmfs\install\miktex\bin\x64這個位置，但裡面有非常多exe檔案，請問我應該用哪個進行編輯。還有Latex是一種製作類似word的C語言還是一種軟體?&lt;/p&gt;
+&lt;p&gt;回答:&lt;/p&gt;
+&lt;p&gt;首先, 有關利用 xelatex 編譯分組 pdf 報告的說明影片, 在第三週的網誌中有詳細說明, 大約在&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ESjVHtGM6_VHhiXfHVspzXwBdvHAx67b__YfRmxX6fRU2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=wKRtj2"&gt;影片&lt;/a&gt;中的 1:15 ~ 3:30 說明, 只要將 miktex_portable 中的 xelatex.exe 路徑放入可攜程式啟動後的命令搜尋路徑, 就可以使用 xelatex.exe 編譯 .tex 文件. 產生對應的 .pdf 檔案.&lt;/p&gt;
+&lt;p&gt;另外, LaTeX 文件之所以能用在多人協同編輯流程, 是因為 .tex 中的設定與文件內容都是純文字, 因此在解決衝突時, 可以清楚看到衝突分隔符號, 並加以處理. 所以各組員可以在線上或操作系統使用任何純文字編輯套件, 但必須注意編輯後所得到的 .tex 的結果必須是純文字檔案, 而不是其他帶有特定非 LaTeX 格式的 xml 檔案資料.&lt;/p&gt;
+&lt;p&gt;最後, LaTeX 是植基於 TeX 的文件編譯系統, 使用者按照 TeX 的語法格式在文章中設定文件內各種資料的編排方式, TeX 或 LaTeX 系統會按照此一 .tex 中的設定, 產生最接近使用者需求的資料, 其中包括文字內容的間隔排列, 數學公式的編排與引用, 圖文章節目錄的製作等, 都是經由 TeX 編譯系統經過計算而得.&lt;/p&gt;
+&lt;p&gt;有關 TeX 的詳細說明, 請參考 &lt;a href="https://en.wikipedia.org/wiki/TeX"&gt;https://en.wikipedia.org/wiki/TeX&lt;/a&gt; 的中文說明.&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h1&gt;設定網誌&lt;/h1&gt;
 &lt;p&gt;利用 [OBS] 加上廣播系統錄製的: &lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EZMAhRju-rdNrUxk9plOglIBMK2WcO3iL1iK11xipW48Mw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=jogiPc"&gt;如何設定個人倉儲中的 Pelican 網誌&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Odoo PLM 功能&lt;/h1&gt;

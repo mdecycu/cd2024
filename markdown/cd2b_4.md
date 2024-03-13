@@ -14,6 +14,16 @@ Author: kmol
 # Collaborative Development
 [Methods, Tools and Environments for Collaborative Development](https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf) [local download](http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf)
 
+協同開發的方法、工具與環境 - by Alexander Filitz 瑞士蘇黎世大學資訊學系
+
+摘要:
+1. 軟體工程中的協同開發挑戰
+2. 概述全球軟體開發（GSD）中常用的方法、工具和環境
+3. 描述的工具主要在強化分散開發者之間的協同合作
+4. 說明 GSD 中已知的工具分類方案
+5. 其次, 採用一個方案並提供與該類別相關的工具概述
+6. 最後，著重於支援軟體工程特定流程的工具
+
 <https://github.com/beatriz5/requirements-engineering-analysis>
 
 <https://www.simplilearn.com/what-is-requirement-analysis-article>
@@ -98,6 +108,16 @@ if __name__ == '__main__':
 註: 利用 pre 標註引用資料時, 若內容帶有 &lt; 與 &gt; 時必須避免執行使用小於與大於符號, 而必須使用 [HTML Character Codes](https://html.com/character-codes/), 以免額外產生不必要的標註符號.
 
 當使用者希望執行靜態網頁伺服器時, 在 Shell 中執行 python3 main2.py, 經過上述設定, 在 Replit 的免費帳號環境中, 一個帳號只能啟用動態伺服器或靜態伺服器. 也就是動態伺服器或靜態伺服器在特定時刻中, 僅能擇一啟動.
+
+# CoppeliaSim 檔案格式
+下載 [copsim_midterm_cube2_xml.7z](https://mde.tw/cd2024/downloads/copsim_midterm_cube2_xml.7z)
+
+1. CoppeliaSim 目前提供二位元與 XML 場景格式
+2. XML 場景支援儲存為單一檔案或多個模型與影像檔案
+3. 4.5.1 之後的版本, 其設定資料並非在套件目錄, 而是儲存在操作系統的 AppData/Roaming 目錄中
+4. 4.5.1 版儲存為多 XML 檔案格式時, 無法帶出場景中的 png 圖檔, 4.6.0 版之後才修正此一錯誤
+5. 目前能夠支援 IPv4 與 IPv6 網際場景模擬的版本僅修改至 4.5.1 版
+6. XML 檔案應用廣泛, 協同產品設計過程可能需要利用程式方法處理零組件與模擬場景互相轉換取得的 XML 格式檔案
 
 # Sourcetree
 <https://www.sourcetreeapp.com/>

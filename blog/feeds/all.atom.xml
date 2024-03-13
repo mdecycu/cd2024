@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-4</title><link href="./2024-cd-2b-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-13T02:43:11+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-cd-2b-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-4</title><link href="./2024-cd-2b-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-13T08:23:33+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-cd-2b-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 
 
 &lt;h1&gt;Collaborative Development&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf"&gt;Methods, Tools and Environments for Collaborative Development&lt;/a&gt; &lt;a href="http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf"&gt;local download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;協同開發的方法、工具與環境 - by Alexander Filitz 瑞士蘇黎世大學資訊學系&lt;/p&gt;
+&lt;p&gt;摘要:
+1. 軟體工程中的協同開發挑戰
+2. 概述全球軟體開發（GSD）中常用的方法、工具和環境
+3. 描述的工具主要在強化分散開發者之間的協同合作
+4. 說明 GSD 中已知的工具分類方案
+5. 其次, 採用一個方案並提供與該類別相關的工具概述
+6. 最後，著重於支援軟體工程特定流程的工具&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/beatriz5/requirements-engineering-analysis"&gt;https://github.com/beatriz5/requirements-engineering-analysis&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.simplilearn.com/what-is-requirement-analysis-article"&gt;https://www.simplilearn.com/what-is-requirement-analysis-article&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.lambdatest.com/learning-hub/requirement-analysis"&gt;https://www.lambdatest.com/learning-hub/requirement-analysis&lt;/a&gt;&lt;/p&gt;
@@ -71,6 +79,16 @@ if __name__ == '__main__':
 
 &lt;p&gt;註: 利用 pre 標註引用資料時, 若內容帶有 &amp;lt; 與 &amp;gt; 時必須避免執行使用小於與大於符號, 而必須使用 &lt;a href="https://html.com/character-codes/"&gt;HTML Character Codes&lt;/a&gt;, 以免額外產生不必要的標註符號.&lt;/p&gt;
 &lt;p&gt;當使用者希望執行靜態網頁伺服器時, 在 Shell 中執行 python3 main2.py, 經過上述設定, 在 Replit 的免費帳號環境中, 一個帳號只能啟用動態伺服器或靜態伺服器. 也就是動態伺服器或靜態伺服器在特定時刻中, 僅能擇一啟動.&lt;/p&gt;
+&lt;h1&gt;CoppeliaSim 檔案格式&lt;/h1&gt;
+&lt;p&gt;下載 &lt;a href="https://mde.tw/cd2024/downloads/copsim_midterm_cube2_xml.7z"&gt;copsim_midterm_cube2_xml.7z&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;CoppeliaSim 目前提供二位元與 XML 場景格式&lt;/li&gt;
+&lt;li&gt;XML 場景支援儲存為單一檔案或多個模型與影像檔案&lt;/li&gt;
+&lt;li&gt;4.5.1 之後的版本, 其設定資料並非在套件目錄, 而是儲存在操作系統的 AppData/Roaming 目錄中&lt;/li&gt;
+&lt;li&gt;4.5.1 版儲存為多 XML 檔案格式時, 無法帶出場景中的 png 圖檔, 4.6.0 版之後才修正此一錯誤&lt;/li&gt;
+&lt;li&gt;目前能夠支援 IPv4 與 IPv6 網際場景模擬的版本僅修改至 4.5.1 版&lt;/li&gt;
+&lt;li&gt;XML 檔案應用廣泛, 協同產品設計過程可能需要利用程式方法處理零組件與模擬場景互相轉換取得的 XML 格式檔案&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1&gt;Sourcetree&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.sourcetreeapp.com/"&gt;https://www.sourcetreeapp.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://229.cycu.org/SourceTree_portable.7z"&gt;SourceTree_portable.7z&lt;/a&gt; (需要下載密碼)&lt;/p&gt;

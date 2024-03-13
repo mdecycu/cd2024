@@ -7,9 +7,30 @@ Slug: 2024-cd-2b-w4
 Author: kmol
 ---
 
-協同產品設計實習的第四週, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構.
+協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.
 
 <!-- PELICAN_END_SUMMARY -->
+
+# Collaborative Development
+[Methods, Tools and Environments for Collaborative Development](https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf) [local download](http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf)
+
+<https://github.com/beatriz5/requirements-engineering-analysis>
+
+<https://www.simplilearn.com/what-is-requirement-analysis-article>
+
+<https://www.lambdatest.com/learning-hub/requirement-analysis>
+
+<https://www.guru99.com/requirements-analysis-and-transformation-techniques.html>
+
+<hr>
+
+<https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html>
+
+<https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo->
+
+<https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66>
+
+<https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/>
 
 # Replit 檢視靜態網站
 從 w3 開始, 原先可以讓倉儲的動態網站與靜態網站共用 443 https 的方式, 也就是利用 SStatic 後查驗靜態網站的功能已經失效, 必須將靜態網站的檢視與動態編輯網站的啟動分開, 才能在將 Replit 網站與網誌改版的內容, 在推向 Github 倉儲之前進行查驗.

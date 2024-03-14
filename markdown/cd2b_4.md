@@ -16,9 +16,13 @@ Author: kmol
 
 教學影片: [如何利用 Github Actions 編譯 LaTeX 得到分組 pdf 報告]
 
+教學影片: [如何利用 Gitpod 加上 token 取得分組倉儲權限]
+
 [以第六組為例, 利用 Codespaces 維護倉儲內容]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ER8kS7LDhFdPnmRLre5pQtIB4sUILF8cHFJY6_FxxN5BUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=46Bv32
 
 [如何利用 Github Actions 編譯 LaTeX 得到分組 pdf 報告]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EY3rYeBoiNlIgAmG5ZRCYGYBCTQe1DEQcrDTNLfPMYYzYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=StO1cu
+
+[如何利用 Gitpod 加上 token 取得分組倉儲權限]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EXqbRMpCEaNAsk_PhIBWV9UBo_xvOmqSmWeW-vvNwRpvEg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1r23ut
 
 # Collaborative Development
 [Methods, Tools and Environments for Collaborative Development](https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf) [local download](http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf)

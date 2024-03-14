@@ -11,6 +11,13 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# Odoo 參考文章中英並列
+教學影片: [以第六組為例, 利用 Codespaces 維護倉儲內容]
+
+[以第六組為例, 利用 Codespaces 維護倉儲內容]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ER8kS7LDhFdPnmRLre5pQtIB4sUILF8cHFJY6_FxxN5BUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=46Bv32
+
+
+
 # Collaborative Development
 [Methods, Tools and Environments for Collaborative Development](https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf) [local download](http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf)
 

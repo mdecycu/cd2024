@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-4</title><link href="./2024-cd-2b-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-14T09:48:44+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-cd-2b-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-14T15:34:52+08:00</updated><entry><title>協同產品設計實習2b-4</title><link href="./2024-cd-2b-w4.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-14T15:34:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-14:./2024-cd-2b-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 
 
@@ -12,10 +12,12 @@
 &lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/ERnjR87AyRpCnxB2Md2BWKAB7UyHg1FbBl0lDn8MFS19Cg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=z4WWL6"&gt;如何在 Replit 檢視靜態網站&lt;/a&gt;教學影片&lt;/p&gt;
 &lt;p&gt;說明&lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbuB_eNbGMlErR95cQtPz9gBnFGL_lJtBtS1EXJ_OMUcuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=7SfxEM"&gt;如何下載 replit_main2.7z 並在倉儲中建立兩個檔案&lt;/a&gt;教學影片&lt;/p&gt;
 &lt;h1&gt;利用 NX1872 協同繪製零組件 (w5 進度)&lt;/h1&gt;
-&lt;p&gt;從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 利用下列 start_nx1872.bat 啟動.&lt;/p&gt;
+&lt;p&gt;從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.&lt;/p&gt;
 &lt;p&gt;電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.&lt;/p&gt;
+&lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G)&lt;/p&gt;
+&lt;p&gt;使用不同版本 NX 執行繪圖, 該如何協同設計?&lt;/p&gt;
 &lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.&lt;/p&gt;
-&lt;pre class="Brush:jscript"&gt;
+&lt;pre class="brush:jscript"&gt;
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"
@@ -29,7 +31,7 @@ start ugraf -nx
 &lt;/pre&gt;
 
 &lt;p&gt;start_cadlab_nx1872.bat 可以利用 C: 安裝的 NX1872 啟動.&lt;/p&gt;
-&lt;pre class="Brush:jscript"&gt;
+&lt;pre class="brush:jscript"&gt;
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"
@@ -43,7 +45,7 @@ start ugraf -nx
 &lt;/pre&gt;
 
 &lt;p&gt;start_cadlab_nx2206.bat 可以利用 D: 安裝的 NX2206 啟動.&lt;/p&gt;
-&lt;pre class="Brush:jscript"&gt;
+&lt;pre class="brush:jscript"&gt;
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"
@@ -57,7 +59,7 @@ start ugraf -nx
 &lt;/pre&gt;
 
 &lt;p&gt;start_cadlab_nx12.bat 可以利用 D: 安裝的 NX12 啟動.&lt;/p&gt;
-&lt;pre class="Brush:jscript"&gt;
+&lt;pre class="brush:jscript"&gt;
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"

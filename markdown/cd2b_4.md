@@ -36,13 +36,17 @@ Author: kmol
 [如何下載 replit_main2.7z 並在倉儲中建立兩個檔案]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EbuB_eNbGMlErR95cQtPz9gBnFGL_lJtBtS1EXJ_OMUcuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7SfxEM
 
 # 利用 NX1872 協同繪製零組件 (w5 進度)
-從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 利用下列 start_nx1872.bat 啟動.
+從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.
 
 電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.
 
+下載[NX2027_lite](http://229.cycu.org/NX2027.3401_lite_cad2022.7z) (需要密碼, 解開後約 8G)
+
+使用不同版本 NX 執行繪圖, 該如何協同設計?
+
 start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.
 
-<pre class="Brush:jscript">
+<pre class="brush:jscript">
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"
@@ -57,7 +61,7 @@ start ugraf -nx
 
 start_cadlab_nx1872.bat 可以利用 C: 安裝的 NX1872 啟動.
 
-<pre class="Brush:jscript">
+<pre class="brush:jscript">
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"
@@ -72,7 +76,7 @@ start ugraf -nx
 
 start_cadlab_nx2206.bat 可以利用 D: 安裝的 NX2206 啟動.
 
-<pre class="Brush:jscript">
+<pre class="brush:jscript">
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"
@@ -87,7 +91,7 @@ start ugraf -nx
 
 start_cadlab_nx12.bat 可以利用 D: 安裝的 NX12 啟動.
 
-<pre class="Brush:jscript">
+<pre class="brush:jscript">
 @echo off
 set Disk=z
 subst %Disk%: "NX1872"

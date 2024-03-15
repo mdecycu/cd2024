@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2a</title><link href="./" rel="alternate"></link><link href="./feeds/2a.atom.xml" rel="self"></link><id>./</id><updated>2024-03-15T11:00:00+08:00</updated><entry><title>協同產品設計實習2a-4</title><link href="./2024-cd-2a-w4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-03-15T06:37:08+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-15:./2024-cd-2a-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2a</title><link href="./" rel="alternate"></link><link href="./feeds/2a.atom.xml" rel="self"></link><id>./</id><updated>2024-03-15T11:00:00+08:00</updated><entry><title>協同產品設計實習2a-4</title><link href="./2024-cd-2a-w4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-03-15T06:51:35+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-15:./2024-cd-2a-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 
 
@@ -8,10 +8,12 @@
 &lt;p&gt;&lt;a href="https://github.com/mdecycu/cd2024/discussions/2"&gt;反思一&lt;/a&gt; and &lt;a href="https://github.com/mdecycu/mdecycu.github.io/discussions/3"&gt;反思二&lt;/a&gt;, 對於事不關己或者不明白為何團隊中的成員 (這裡指教與學的相關人、事與物), 總讓人提不起興趣, 但若能在過程中找到主要在乎的角色、任務或者緣由, 或許就能從應付著手, 一直到終於了解天下沒有白吃的午餐, 所有的努力付出, 終究不會白費. &lt;/p&gt;
 &lt;p&gt;此外, 假如想參考先前學長推甄研究所的相關資訊, 請利用 Team code: n9k585c 進入自行查看.&lt;/p&gt;
 &lt;h2&gt;w4 2a 分組任務&lt;/h2&gt;
-&lt;p&gt;請各組自行搜尋前面已經發布的教學影片, 分別
-- 在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上
-- 從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排
-- 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點&lt;/p&gt;
+&lt;p&gt;請各組自行搜尋前面已經發布的教學影片, 分別&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上&lt;/li&gt;
+&lt;li&gt;從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排&lt;/li&gt;
+&lt;li&gt;並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1&gt;Github 個人與分組倉儲的維護方式&lt;/h1&gt;
 &lt;p&gt;個人的倉儲名稱為 cd2024, 而期中的分組倉儲位於 mdecd2024 帳號下, 以2a 開頭, 加上 "-" 之後再補上 midag + 組別, 且各組員的 cd2024 個人倉儲必須設為各分組倉儲的子模組, 目的在各組員可以自行管理並維護自己的課程倉儲, 並決定要引入分組倉儲的內容版次.&lt;/p&gt;
 &lt;p&gt;各組員與分組倉儲的資料, 包括文字資料 (含 LaTeX 報告章節資料)、零組件檔案、零件工程圖或組立圖檔 (含 BOM 與爆炸圖), 以及目前正在整理的教學影片, 或者是各學員將操作流程錄製成的影片或 Wink 資料.&lt;/p&gt;

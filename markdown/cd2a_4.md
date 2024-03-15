@@ -12,9 +12,9 @@ Author: kmol
 <!-- PELICAN_END_SUMMARY -->
 
 # 教學影片分組整理並自評
-假如你好奇這個概念哪裡來的: 請參考
+假如你好奇這個概念哪裡來的: 請參考[反思一](https://github.com/mdecycu/cd2024/discussions/2) and [反思二](https://github.com/mdecycu/mdecycu.github.io/discussions/3).
 
-[反思一](https://github.com/mdecycu/cd2024/discussions/2) and [反思二](https://github.com/mdecycu/mdecycu.github.io/discussions/3), 對於事不關己或者不明白為何團隊中的成員 (這裡指教與學的相關人、事與物), 總讓人提不起興趣, 但若能在過程中找到主要在乎的角色、任務或者緣由, 或許就能從應付著手, 一直到終於了解天下沒有白吃的午餐, 所有的努力付出, 終究不會白費. 
+對於事不關己或者不明白為何團隊中的成員 (這裡指教與學的相關人、事與物), 總讓人提不起興趣, 但若能在過程中找到主要在乎的角色、任務或者緣由, 或許就能從應付著手, 一直到終於了解天下沒有白吃的午餐, 所有的努力付出, 終究不會白費. 
 
 此外, 假如想參考先前學長推甄研究所的相關資訊, 請利用 Team code: n9k585c 進入自行查看.
 
@@ -99,6 +99,8 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
 
 Codespaces 的網際介面為 Visual Studio Code, 支援多終端機、多埠號伺服, 且可從各倉儲的 Code 頁面中直接啟動, 並直接使用 Github 帳號的管理授權, 因此使用者登入 Github 帳號後, 可以直接利用 Codespaces 管理個人與分組倉儲, 無需額外再設定倉儲的管理授權.
 
+在 Codespaces 執行動態網站的指令為 python3 main.py, 而執行靜態網站則必須從表單新增一個終端機, 然後利用 python3 -m http.server 執行靜態網站, 一旦網站啟動, Visual Studio Code 就會將內埠號轉為 443 並且利用編碼產生伺服器的網路符號名稱.
+
 ## 第三種介紹的倉儲維護方式 - Gitpod
 位於 <https://gitpod.io>, 是一套類似 Codespaces 的雲端 IDE 服務系統, 可以直接採 Github 帳號登入, 免費使用授權時間為每月 50 小時, 若採 Github 帳號登入, 則可以直接導入該帳號下的個人倉儲進行維護.
 
@@ -106,10 +108,16 @@ Codespaces 的網際介面為 Visual Studio Code, 支援多終端機、多埠號
 
 Gitpod 與 Codespaces 相同, 支援多終端機 (Terminal) 與多埠號, 使用者可以同時執行個人與分組倉儲的動態與靜態網站.
 
+在 Gitpod 執行動態網站的指令為 python3 main.py, 而執行靜態網站則必須從表單新增一個終端機, 然後利用 python3 -m http.server 執行靜態網站, 一旦網站啟動, Visual Studio Code 就會將內埠號轉為 443 並且利用編碼產生伺服器的網路符號名稱.
+
 ## 第四種介紹的倉儲維護方式 - localhost
 localhost 採用的是 [portable_2024](http://229.cycu.org/portable_2024.7z) 可攜程式系統, 啟動後, 可以用來執行個人與分組的倉儲維護, 只是若在 Windows 系統可以選擇較簡單的 token 綁定授權, 或者使用 Putty 設定的 SSH 使用授權, 唯一必須注意的是, Putty 所建立的 session 資料會直接登錄到操作系統的登錄檔案 (Registry), 使用者必須將此 session 以 .reg 的格式匯出, 存在隨身碟, 並在每次要使用此一授權時, 以滑鼠在實體檔案路徑下的 my_putty_session.reg (不能使用虛擬的檔案路徑, 例如: 不能點擊位於 Y: 目錄下的 .reg 登錄設定檔案)
 
 localhost 中的可攜程式系統還帶有 CoppeliaSim、NX 可攜與啟動批次檔案、ShareX、Wink 以及 Solvespace 等檔案, 其中的 CoppeliaSim 用於控制系統設計與模擬, 而 NX 則用於各組員協同繪製目標產品的零組件, ShareX 與 Wink 則用來建立操作流程影片, Solvespace 則可用於平面機構模擬以及初步的零組件尺寸規劃用.
+
+在 localhost 執行動態網站的指令為 python cmsimde/wsgi.py, 也可以透過 cms.bat 執行上列指令.
+
+而執行靜態網站則可以在另一個命令列中, 利用 python3 -m http.server 執行靜態網站, 一旦網站啟動, Python 就以內建的 8000 作為伺服器埠號, 並在 http://localhost:8000 中伺服.
 
 # 利用 NX1872 協同繪製零組件
 註: 目前可下載最新的 NX 版本為 2312.4001, 惟系上授權版本僅配置到 2206, 必須更新授權後才可以支援 2212、2306 與 2312 版本 (每半年發布一個新版本).
@@ -137,7 +145,7 @@ path = %ugii%;%path%
 start ugraf -nx
 </pre>
 
-start_cadlab_nx1872.bat 可以利用 C: 安裝的 NX1872 啟動.
+start_cadlab_nx1872.bat 可以利用 C: 安裝的 NX1872 啟動. 必須特別注意的是, 無論使用 USB 或電腦安裝的套件啟動, 相關設定檔案均會存在電腦的 AppData 目錄中. 就 NX1872 而言, 這些設定檔案會存在 C:\Users\Admin\AppData\Local\Siemens\NX1872 中, 使用者必須在啟動可攜時將先前的設定轉存至對應的目錄下.
 
 <pre class="brush:jscript">
 @echo off

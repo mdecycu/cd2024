@@ -7,7 +7,7 @@ Slug: 2024-cd-2a-w4
 Author: kmol
 ---
 
-協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.
+協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 另外 Git Branch 的應用, 也可減少各學員階段性改版內容完成之前, 推向 Github 分組倉儲過程的合併次數.
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -61,7 +61,7 @@ User git
 Hostname github.com
 </pre>
 
-上述 config 設定檔案表示, Host 名稱即為 Windows 環境使用 Putty 設定時的 session 名稱, 因此 <https://replit.com/@wcms/cd2024?v=1#.git/config 若採用 OpenSSH 協定對 Github 連線, 則必須將原本的:
+上述 config 設定檔案表示, Host 名稱即為 Windows 環境使用 Putty 設定時的 session 名稱, 因此 <https://replit.com/@wcms/cd2024?v=1#.git/config> 若採用 OpenSSH 協定對 Github 連線, 則必須將原本的:
 
 <pre class="brush: jscript">
 [remote "origin"]
@@ -120,7 +120,9 @@ localhost 中的可攜程式系統還帶有 CoppeliaSim、NX 可攜與啟動批�
 而執行靜態網站則可以在另一個命令列中, 利用 python3 -m http.server 執行靜態網站, 一旦網站啟動, Python 就以內建的 8000 作為伺服器埠號, 並在 http://localhost:8000 中伺服.
 
 # 利用 NX1872 協同繪製零組件
-註: 目前可下載最新的 NX 版本為 2312.4001, 惟系上授權版本僅配置到 2206, 必須更新授權後才可以支援 2212、2306 與 2312 版本 (每半年發布一個新版本).
+註: 目前可下載最新的 [NX 版本]為 2312.4001, 惟系上授權伺服器僅配置到 2206, 必須更新授權後才可以支援 2212、2306 與 2312 版本 (Siemens 每半年發布一個 NX 新版本).
+
+[NX 版本]: https://en.wikipedia.org/wiki/Siemens_NX
 
 從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.
 
@@ -145,13 +147,35 @@ path = %ugii%;%path%
 start ugraf -nx
 </pre>
 
-start_cadlab_nx1872.bat 可以利用 C: 安裝的 NX1872 啟動. 必須特別注意的是, 無論使用 USB 或電腦安裝的套件啟動, 相關設定檔案均會存在電腦的 AppData 目錄中. 就 NX1872 而言, 這些設定檔案會存在 C:\Users\Admin\AppData\Local\Siemens\NX1872 中, 使用者必須在啟動可攜時將先前的設定轉存至對應的目錄下.
+當使用 USB 隨身碟上的 NX1872 檔案資料啟動 NX 時, 採用 subst z: "NX1872" 表示將 "NX1872" 目錄透過 subst 指令, 讓 Windows 操作系統視為 z: 槽, 所以要關閉 NX 且取消 subst 設定, 必須執行下列的 stop.bat 指令批次檔案.
 
 <pre class="brush:jscript">
 @echo off
 set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
+path=%PATH%;
+taskkill /IM ugraf.exe /F
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+EXIT
+</pre>
+
+下列 start_cadlab_nx1872.bat 則可以利用 C: 安裝的 NX1872 啟動. 必須特別注意的是, 無論使用 USB 或電腦安裝的套件啟動, 相關設定檔案均會存在電腦的 AppData 目錄中. 就 NX1872 而言, 這些設定檔案會存在 C:\Users\Admin\AppData\Local\Siemens\NX1872 目錄中, 使用者必須在啟動可攜時將先前的設定轉存至對應的目錄下. 亦即, 必須在完成 NX 設定當下, 將 AppData\Local\Siemens\NX1872 目錄設定資料複製到隨身碟, 並利用 Xcopy 指令, 在啟動隨身程式系統時, 將先前的設定複製到特定的位置中. 
+
+例如: Xcopy %Disk%:\home_ipv6\AppData\Local\Siemens\NX1872 C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y 就可讓 NX 啟動時使用先前的設定內容. 
+
+至於 Xcopy 指令的 /E 表示要複製包含空白目錄的所有目錄與子目錄 E 代表 Entire
+
+/H 表示要複製隱藏檔案與系統檔案 H 代表 Hidden
+
+/C 表示即使發生錯誤也要繼續複製 C 代表 Continue
+
+/I 表示如果目標不存在並且複製多個檔案, 則判定該目標為目錄, I 可能代表 If
+
+/Y 表示同意複製資料過程中的所有可能詢問回應, Y 代表一律回答 Yes
+
+<pre class="brush:jscript">
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
@@ -163,10 +187,6 @@ start ugraf -nx
 start_cadlab_nx2206.bat 可以利用 D: 安裝的 NX2206 啟動.
 
 <pre class="brush:jscript">
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10

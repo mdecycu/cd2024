@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2a</title><link href="./" rel="alternate"></link><link href="./feeds/2a.atom.xml" rel="self"></link><id>./</id><updated>2024-03-16T01:24:08+08:00</updated><entry><title>協同產品設計實習2a-4</title><link href="./2024-cd-2a-w4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-03-16T01:24:08+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-15:./2024-cd-2a-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 另外 Git Branch 的應用, 也可減少各學員階段性改版內容完成之前, 推向 Github 分組倉儲過程的合併次數.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2a</title><link href="./" rel="alternate"></link><link href="./feeds/2a.atom.xml" rel="self"></link><id>./</id><updated>2024-03-16T15:25:13+08:00</updated><entry><title>協同產品設計實習2a-4</title><link href="./2024-cd-2a-w4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-03-16T15:25:13+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-15:./2024-cd-2a-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 另外 Git Branch 的應用, 也可減少各學員階段性改版內容完成之前, 推向 Github 分組倉儲過程的合併次數.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 另外 Git Branch 的應用, 也可減少各學員階段性改版內容完成之前, 推向 Github 分組倉儲過程的合併次數.&lt;/p&gt;
 
 
@@ -146,7 +146,28 @@ set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
 path = %ugii%;%path%
 start ugraf -nx
-&lt;/pre&gt;</content><category term="2a"></category><category term="odoo"></category><category term="Source Tree"></category><category term="w4"></category></entry><entry><title>協同產品設計實習2a-3</title><link href="./2024-cd-2a-w3.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-03-12T03:16:30+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-cd-2a-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2a"></category><category term="odoo"></category><category term="Source Tree"></category><category term="w4"></category></entry><entry><title>協同產品設計實習2a-3</title><link href="./2024-cd-2a-w3.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-03-12T03:16:30+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-cd-2a-w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 
 

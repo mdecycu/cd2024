@@ -13,7 +13,7 @@ Author: kmol
 # 如何統整組員子模組中的協同設計網誌
 當各組員每週的協同設計網誌文章放在個別的 cd2024 倉儲的 markdown 目錄中, 只要修改分組倉儲中的 publishconf.py, 使用 Pelican 設定中的 [PATH](https://docs.getpelican.com/en/stable/settings.html#PATH) 與 OUTPUT_PATH 變數, 指定網誌統整目錄, 就可以在分組倉儲中納入所有組員在子模組中所編寫的協同網誌.
 
-實際的設定操作 [pelicanconf_py.txt](https://mde.tw/cd2024/downloads/pelicanconf_py.txt), 是利用 pelicanconf.py 中的程式設定段, 將子模組中 markdown 目錄的 .md 動態複製到分組倉儲中的 combined_directory 後, 再進行網誌轉檔, 並且所產生的網誌超文件將存入所設定的 blog 目錄.
+實際的設定操作 [pelicanconf_py.txt](https://mde.tw/cd2024/downloads/pelicanconf_py.txt), 是利用 pelicanconf.py 中的程式設定段, 將子模組中 markdown 目錄的 .md 動態複製到分組倉儲中的 combined_directory, 並避開分組倉儲與學員子模組倉儲中的 pages 目錄下的 .md 檔案後, 再進行網誌轉檔, 並且所產生的網誌超文件將存入所設定的 blog 目錄.
 
 完成設定後的網誌轉檔指令為: pelican -s local_publishconf.py 表示要利用 local_publishconf.py 的設定進行轉檔, 且先前有關 pelicanconf.py 的設定也將導入執行.
 

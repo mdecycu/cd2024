@@ -133,38 +133,39 @@ Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E
 start ugraf -nx
 </pre>
 
-start_cadlab_nx2206.bat 可以利用 D: 安裝的 NX2206 啟動.
+目前若只需要利用 NX1872 繪製零組件, 則需要下列目錄:
 
 <pre class="brush:jscript">
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii=D:\Program Files\Siemens\2206\ugii
-path = %ugii%;%path%
-REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
-Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
-start ugraf -nx
-</pre>
-
-start_cadlab_nx12.bat 可以利用 D: 安裝的 NX12 啟動.
-
-<pre class="brush:jscript">
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
-path = %ugii%;%path%
-REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
-Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
-start ugraf -nx
+AUTOMATION_DESIGNER : 33.09 MB
+DESIGN_TOOLS : 102.52 MB
+DIAGRAMCORE : 5.7 MB
+DIAGRAMMING : 131.4 MB
+DRAFTING : 70.16 MB
+DXFDWG : 57.4 MB
+IGES : 5.8 MB
+INSTALL : 48.9 KB
+LOCALIZATION : 1020.06 MB
+NX1872_AppData : 8.52 MB
+NXASSEMBLY : 71.65 MB
+NXBIN : 3.95 GB
+NXPARTS : 150.33 MB
+NXPLOT : 155.86 MB
+PSTUDIO : 33.64 MB
+PVTRANS : 79.39 KB
+REL_INFO : 36.92 KB
+STEP203UG : 1.27 MB
+STEP214UG : 1.26 MB
+TRANSLATORS : 512.79 KB
+UGFLEXLM : 38.82 MB
+UGII : 537.42 MB
+UGMANAGER : 73.5 MB
+UGOPEN : 179.85 MB
+UGOPENPP : 567.28 KB
+UGSTUDIO : 14.03 MB
+UGTIPS : 6.76 MB
+UGTO2D : 1.02 MB
+UGWEB : 9.08 MB
+total: 6.59 GB
 </pre>
 
 針對以上課程內容, 請利用以下留言系統進行討論:

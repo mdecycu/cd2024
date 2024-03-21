@@ -102,7 +102,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;h1&gt;Odoo PLM&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html"&gt;Odoo PLM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
-&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T07:43:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T08:08:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -201,36 +201,38 @@ Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E
 start ugraf -nx
 &lt;/pre&gt;
 
-&lt;p&gt;start_cadlab_nx2206.bat 可以利用 D: 安裝的 NX2206 啟動.&lt;/p&gt;
+&lt;p&gt;目前若只需要利用 NX1872 繪製零組件, 則需要下列目錄:&lt;/p&gt;
 &lt;pre class="brush:jscript"&gt;
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii=D:\Program Files\Siemens\2206\ugii
-path = %ugii%;%path%
-REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
-Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
-start ugraf -nx
-&lt;/pre&gt;
-
-&lt;p&gt;start_cadlab_nx12.bat 可以利用 D: 安裝的 NX12 啟動.&lt;/p&gt;
-&lt;pre class="brush:jscript"&gt;
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
-path = %ugii%;%path%
-REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
-Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
-start ugraf -nx
+AUTOMATION_DESIGNER : 33.09 MB
+DESIGN_TOOLS : 102.52 MB
+DIAGRAMCORE : 5.7 MB
+DIAGRAMMING : 131.4 MB
+DRAFTING : 70.16 MB
+DXFDWG : 57.4 MB
+IGES : 5.8 MB
+INSTALL : 48.9 KB
+LOCALIZATION : 1020.06 MB
+NX1872_AppData : 8.52 MB
+NXASSEMBLY : 71.65 MB
+NXBIN : 3.95 GB
+NXPARTS : 150.33 MB
+NXPLOT : 155.86 MB
+PSTUDIO : 33.64 MB
+PVTRANS : 79.39 KB
+REL_INFO : 36.92 KB
+STEP203UG : 1.27 MB
+STEP214UG : 1.26 MB
+TRANSLATORS : 512.79 KB
+UGFLEXLM : 38.82 MB
+UGII : 537.42 MB
+UGMANAGER : 73.5 MB
+UGOPEN : 179.85 MB
+UGOPENPP : 567.28 KB
+UGSTUDIO : 14.03 MB
+UGTIPS : 6.76 MB
+UGTO2D : 1.02 MB
+UGWEB : 9.08 MB
+total: 6.59 GB
 &lt;/pre&gt;
 
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;

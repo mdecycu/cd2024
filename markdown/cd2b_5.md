@@ -111,6 +111,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 
@@ -126,6 +128,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=C:\Program Files\Siemens\NX1872\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 
@@ -141,6 +145,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=D:\Program Files\Siemens\2206\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 
@@ -156,6 +162,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 

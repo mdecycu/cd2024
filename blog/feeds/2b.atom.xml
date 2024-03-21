@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-21T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T06:32:19+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習 - 2b</title><link href="./" rel="alternate"></link><link href="./feeds/2b.atom.xml" rel="self"></link><id>./</id><updated>2024-03-21T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T07:10:59+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -77,6 +77,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 &lt;/pre&gt;
 
@@ -91,6 +93,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=C:\Program Files\Siemens\NX1872\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 &lt;/pre&gt;
 
@@ -105,6 +109,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=D:\Program Files\Siemens\2206\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 &lt;/pre&gt;
 
@@ -119,6 +125,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 &lt;/pre&gt;
 

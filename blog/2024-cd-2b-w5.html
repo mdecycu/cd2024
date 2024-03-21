@@ -61,7 +61,7 @@
 <meta property="og:url" content="./2024-cd-2b-w5.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-03-21 11:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-03-21 06:32:19.374957+08:00"/>
+<meta property="article:modified_time" content="2024-03-21 07:10:59.611911+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="2b"/>
 <meta property="article:tag" content="pelican"/>
@@ -78,7 +78,7 @@
   "name": "協同產品設計實習2b-5 (統整網誌)",
   "headline": "協同產品設計實習2b-5 (統整網誌)",
   "datePublished": "2024-03-21 11:00:00+08:00",
-  "dateModified": "2024-03-21 06:32:19.374957+08:00",
+  "dateModified": "2024-03-21 07:10:59.611911+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -312,6 +312,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 
@@ -326,6 +328,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=C:\Program Files\Siemens\NX1872\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 
@@ -340,6 +344,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=D:\Program Files\Siemens\2206\ugii
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 
@@ -354,6 +360,8 @@ set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
 path = %ugii%;%path%
+REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
+Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E /H /C /I /Y
 start ugraf -nx
 </pre>
 

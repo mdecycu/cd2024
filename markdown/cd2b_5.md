@@ -168,6 +168,17 @@ UGWEB : 9.08 MB
 total: 6.59 GB
 </pre>
 
+登入 nfu.edu.tw Teams 之後, 下載 [Siemens_NX1872.7z]
+
+[Siemens_NX1872.7z]: https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=yieQaD
+
+cd2024 2b w5 有關 Nx1872 必要目錄以及利用 cmsimde site 作為廣域伺服器交換檔案 - 從 OneDrive [連結]
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/UOr3DYYFrYY?si=nsFfPurHv-08IkgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[連結]: https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcP5T_fSdGtHlhQ5J_dscOkB9gkUy0MzeO2Rw0q4fxRT2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oi1uyk
+
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>

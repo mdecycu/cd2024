@@ -102,7 +102,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;h1&gt;Odoo PLM&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html"&gt;Odoo PLM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
-&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T08:08:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T08:32:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -234,6 +234,10 @@ UGTO2D : 1.02 MB
 UGWEB : 9.08 MB
 total: 6.59 GB
 &lt;/pre&gt;
+
+&lt;p&gt;登入 nfu.edu.tw Teams 之後, 下載 &lt;a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=yieQaD"&gt;Siemens_NX1872.7z&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;cd2024 2b w5 有關 Nx1872 必要目錄以及利用 cmsimde site 作為廣域伺服器交換檔案 - 從 OneDrive &lt;a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EcP5T_fSdGtHlhQ5J_dscOkB9gkUy0MzeO2Rw0q4fxRT2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;amp;e=oi1uyk"&gt;連結&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="1120" height="630" src="https://www.youtube.com/embed/UOr3DYYFrYY?si=nsFfPurHv-08IkgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;

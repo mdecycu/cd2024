@@ -12,6 +12,62 @@ Author: kmol
 <!-- PELICAN_END_SUMMARY -->
 
 # 教學影片分組整理並自評
+cd2024 2b 1 建立個人課程倉儲與網站 1
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/a1lCzZjuIss?si=TKu_P-HU3fpAZKvd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b 2 如何從 Replit Account 設定 Connect 連結到 Github 2
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/P9ncDFnfRUk?si=hNNu4liE98llV1ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b 3 如何設定 Github 帳號的雙重認證 3
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/w9f16GNRqgI?si=7uTto-y1iF6HRB9u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b 4 說明如何將倉儲 import 至 Replit 改版後推回 github 4
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/XLGMyrx-fgk?si=bRA-xsXuRi9gZxe_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b 5 w2 第一組組長建立 Team 並設定分組倉儲 5
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/awhFeDVQv60?si=JaLIxqlYgxGwL7hZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b 6 w2 從第一組空倉儲建立 cmsimde site 內容 6
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/QoaF-Nuh_Gs?si=LxyJSUiTJwgsNTr5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b 7 w2 利用 codespaces 維護分組網站 7
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/CkQkzc0mtpc?si=_vtsuymLa80rzcTB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b w3 latex 轉期中報告 8
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/LXZD8UYzqRQ?si=o8qz5CmRefEe5gUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b w3 如何利用 Gidpod 維護分組網站 9
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/E2GB0EzxgDg?si=t9cHMyXWPHg16LpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b w3 使用 gitpod 與 localhost 維護個人倉儲 10
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/f2C6MsNc2OY?si=TpSwcqJAXrpcDsny" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b w4 以第六組為例, 利用 Codespaces 改版 11
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/H3S-xMSmSqk?si=nW4pEG3D1GL9lDr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b w4 如何上傳 LaTeX 範例檔案並利用 Actions 在線上編譯出 pdf 12
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/aBXQG-niZlc?si=3zurRNQreQo2ntVH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b w4 利用 Gitpod 與個人 token 取得分組倉儲改版權限 13
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/s4D-zwxsFlc?si=IaMo6Xxbi9MpJ4Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+cd2024 2b w5 指定影片加註任務 統整網誌以及配置 NX 可攜與 PC 執行規劃
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/dP9cYSOed_g?si=vXGACG0mihxSbS-X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 假如你好奇這個概念哪裡來的: 請參考[反思一](https://github.com/mdecycu/cd2024/discussions/2) and [反思二](https://github.com/mdecycu/mdecycu.github.io/discussions/3).
 
 對於事不關己或者不明白為何團隊中的成員 (這裡指教與學的相關人、事與物), 總讓人提不起興趣, 但若能在過程中找到主要在乎的角色、任務或者緣由, 或許就能從應付著手, 一直到終於了解天下沒有白吃的午餐, 所有的努力付出, 終究不會白費. 
@@ -253,4 +309,3 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-

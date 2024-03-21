@@ -1,5 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-22T11:00:00+08:00</updated><entry><title>協同產品設計實習2a-5 (統整網誌)</title><link href="./2024-cd-2a-w5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-03-21T06:14:02+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-22:./2024-cd-2a-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2024 Spring 協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-28T11:00:00+08:00</updated><entry><title>協同產品設計實習2b-6</title><link href="./2024-cd-2b-w6.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-03-21T07:45:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-28:./2024-cd-2b-w6.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式.&lt;/p&gt;
+
+
+&lt;h1&gt;Collaborative Development&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf"&gt;Methods, Tools and Environments for Collaborative Development&lt;/a&gt; &lt;a href="http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf"&gt;local download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;協同開發的方法、工具與環境 - by Alexander Filitz 瑞士蘇黎世大學資訊學系&lt;/p&gt;
+&lt;p&gt;摘要:
+1. 軟體工程中的協同開發挑戰
+2. 概述全球軟體開發（GSD）中常用的方法、工具和環境
+3. 描述的工具主要在強化分散開發者之間的協同合作
+4. 說明 GSD 中已知的工具分類方案
+5. 其次, 採用一個方案並提供與該類別相關的工具概述
+6. 最後，著重於支援軟體工程特定流程的工具&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/beatriz5/requirements-engineering-analysis"&gt;https://github.com/beatriz5/requirements-engineering-analysis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.simplilearn.com/what-is-requirement-analysis-article"&gt;https://www.simplilearn.com/what-is-requirement-analysis-article&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lambdatest.com/learning-hub/requirement-analysis"&gt;https://www.lambdatest.com/learning-hub/requirement-analysis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.guru99.com/requirements-analysis-and-transformation-techniques.html"&gt;https://www.guru99.com/requirements-analysis-and-transformation-techniques.html&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href="https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html"&gt;https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo-"&gt;https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo-&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66"&gt;https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/"&gt;https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Replit 檢視靜態網站&lt;/h1&gt;
+&lt;p&gt;從 w3 開始, 原先可以讓倉儲的動態網站與靜態網站共用 443 https 的方式, 也就是利用 SStatic 後查驗靜態網站的功能已經失效, 必須將靜態網站的檢視與動態編輯網站的啟動分開, 才能在將 Replit 網站與網誌改版的內容, 在推向 Github 倉儲之前進行查驗.&lt;/p&gt;
+&lt;h2&gt;執行動態網站伺服器&lt;/h2&gt;
+&lt;p&gt;cd2024 的動態網站, 主要用來編輯 config/content.htm 檔案內容, 並可透過 Convert 功能將所編輯的網頁內容, 透過 h1, h2 與 h3 標題分頁後, 會轉為 content 目錄中的頁面超文件檔案.&lt;/p&gt;
+&lt;p&gt;先前執行動態網站編輯的程式為 main.py:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+from cmsimde import flaskapp
+from gevent.pywsgi import WSGIServer
+
+#flaskapp.app.run(host="0.0.0.0", debug=True)
+# Start dynamic server
+http_server = WSGIServer(('0.0.0.0', 8080), flaskapp.app)
+http_server.serve_forever()
+&lt;/pre&gt;
+
+&lt;p&gt;執行 main.py 的方式, 可以依照 .replit 的設定, 直接利用 Run 按鍵執行. 也可以在 Shell 頁面中, 利用 python3 main.py 執行, 只是透過 Run 按鍵執行, 伺服器啟動之後會顯示在 Webview 頁面, 但是在 Shell 執行 python3 main.py 則必須自行以手動方式帶出伺服器連結.&lt;/p&gt;
+&lt;h2&gt;執行靜態網站伺服器&lt;/h2&gt;
+&lt;p&gt;如前所述, 靜態網站其實就是位於 content 目錄中的各個 html 檔案, 且圖片可引自 images 目錄, 而近端檔案連結則可引自 downloads 目錄. 當使用者將 config/content.htm 轉為 content 目錄中的靜態網站後, 若能在推向 Github 之前, 確認各頁面或網誌的內容無誤後, 再推向遠端.&lt;/p&gt;
+&lt;p&gt;而執行靜態網站伺服器的方法, 則是在 Shell 執行 python main2.py, 也就是在導入 static.py 之後啟動靜態網站.&lt;/p&gt;
+&lt;p&gt;main2.py 程式內容:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+# Run static server
+import static
+from gevent.pywsgi import WSGIServer
+
+http_server = WSGIServer(('0.0.0.0', 8080), static.app)
+http_server.serve_forever()
+&lt;/pre&gt;
+
+&lt;p&gt;其中的 static.py 為:&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+from flask import Flask, send_from_directory
+
+app = Flask(__name__)
+
+# Route to serve the index.html file
+@app.route('/')
+def index():
+    return send_from_directory('.', 'index.html')
+
+# Route to serve static files from the ./cmsimde/static directory
+@app.route('/cmsimde/static/&amp;lt;path:filename&amp;gt;')
+def serve_static(filename):
+    return send_from_directory('cmsimde/static', filename)
+
+# Route to serve other HTML files from the root directory
+@app.route('&amp;lt;path:filename&amp;gt;')
+def serve_html(filename):
+    return send_from_directory('.', filename)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+&lt;/pre&gt;
+
+&lt;p&gt;註: 利用 pre 標註引用資料時, 若內容帶有 &amp;lt; 與 &amp;gt; 時必須避免執行使用小於與大於符號, 而必須使用 &lt;a href="https://html.com/character-codes/"&gt;HTML Character Codes&lt;/a&gt;, 以免額外產生不必要的標註符號.&lt;/p&gt;
+&lt;p&gt;當使用者希望執行靜態網頁伺服器時, 在 Shell 中執行 python3 main2.py, 經過上述設定, 在 Replit 的免費帳號環境中, 一個帳號只能啟用動態伺服器或靜態伺服器. 也就是動態伺服器或靜態伺服器在特定時刻中, 僅能擇一啟動.&lt;/p&gt;
+&lt;h1&gt;CoppeliaSim 檔案格式&lt;/h1&gt;
+&lt;p&gt;下載 &lt;a href="https://mde.tw/cd2024/downloads/copsim_midterm_cube2_xml.7z"&gt;copsim_midterm_cube2_xml.7z&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;CoppeliaSim 目前提供二位元與 XML 場景格式&lt;/li&gt;
+&lt;li&gt;XML 場景支援儲存為單一檔案或多個模型與影像檔案&lt;/li&gt;
+&lt;li&gt;4.5.1 之後的版本, 其設定資料並非在套件目錄, 而是儲存在操作系統的 AppData/Roaming 目錄中&lt;/li&gt;
+&lt;li&gt;4.5.1 版儲存為多 XML 檔案格式時, 無法帶出場景中的 png 圖檔, 4.6.0 版之後才修正此一錯誤&lt;/li&gt;
+&lt;li&gt;目前能夠支援 IPv4 與 IPv6 網際場景模擬的版本僅修改至 4.5.1 版&lt;/li&gt;
+&lt;li&gt;XML 檔案應用廣泛, 協同產品設計過程可能需要利用程式方法處理零組件與模擬場景互相轉換取得的 XML 格式檔案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Sourcetree&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.sourcetreeapp.com/"&gt;https://www.sourcetreeapp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://229.cycu.org/SourceTree_portable.7z"&gt;SourceTree_portable.7z&lt;/a&gt; (需要下載密碼)&lt;/p&gt;
+&lt;p&gt;其中必須要在啟動可攜程式時, 利用下列指令將 Sourcetree 先前設定存入操作系統:&lt;/p&gt;
+&lt;pre class="brush: jscript"&gt;
+Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Local\Atlassian /E /H /C /I /Y
+&lt;/pre&gt;
+
+&lt;h1&gt;Git branch&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/book/zh-tw/v2/%E4%BD%BF%E7%94%A8-Git-%E5%88%86%E6%94%AF-%E7%B0%A1%E8%BF%B0%E5%88%86%E6%94%AF"&gt;Git 分支&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Odoo PLM&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html"&gt;Odoo PLM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
+&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2a-5 (統整網誌)</title><link href="./2024-cd-2a-w5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-03-21T06:14:02+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-22:./2024-cd-2a-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -110,7 +213,7 @@ start ugraf -nx
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2a"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T07:10:59+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2a"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T07:43:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -241,106 +344,6 @@ Xcopy %Disk%:\NX1872_AppData C:\users\%USERNAME%\AppData\Local\Siemens\NX1872 /E
 start ugraf -nx
 &lt;/pre&gt;
 
-&lt;h1&gt;Collaborative Development&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf"&gt;Methods, Tools and Environments for Collaborative Development&lt;/a&gt; &lt;a href="http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf"&gt;local download&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;協同開發的方法、工具與環境 - by Alexander Filitz 瑞士蘇黎世大學資訊學系&lt;/p&gt;
-&lt;p&gt;摘要:
-1. 軟體工程中的協同開發挑戰
-2. 概述全球軟體開發（GSD）中常用的方法、工具和環境
-3. 描述的工具主要在強化分散開發者之間的協同合作
-4. 說明 GSD 中已知的工具分類方案
-5. 其次, 採用一個方案並提供與該類別相關的工具概述
-6. 最後，著重於支援軟體工程特定流程的工具&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/beatriz5/requirements-engineering-analysis"&gt;https://github.com/beatriz5/requirements-engineering-analysis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.simplilearn.com/what-is-requirement-analysis-article"&gt;https://www.simplilearn.com/what-is-requirement-analysis-article&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.lambdatest.com/learning-hub/requirement-analysis"&gt;https://www.lambdatest.com/learning-hub/requirement-analysis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.guru99.com/requirements-analysis-and-transformation-techniques.html"&gt;https://www.guru99.com/requirements-analysis-and-transformation-techniques.html&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href="https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html"&gt;https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo-"&gt;https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo-&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66"&gt;https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/"&gt;https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;Replit 檢視靜態網站&lt;/h1&gt;
-&lt;p&gt;從 w3 開始, 原先可以讓倉儲的動態網站與靜態網站共用 443 https 的方式, 也就是利用 SStatic 後查驗靜態網站的功能已經失效, 必須將靜態網站的檢視與動態編輯網站的啟動分開, 才能在將 Replit 網站與網誌改版的內容, 在推向 Github 倉儲之前進行查驗.&lt;/p&gt;
-&lt;h2&gt;執行動態網站伺服器&lt;/h2&gt;
-&lt;p&gt;cd2024 的動態網站, 主要用來編輯 config/content.htm 檔案內容, 並可透過 Convert 功能將所編輯的網頁內容, 透過 h1, h2 與 h3 標題分頁後, 會轉為 content 目錄中的頁面超文件檔案.&lt;/p&gt;
-&lt;p&gt;先前執行動態網站編輯的程式為 main.py:&lt;/p&gt;
-&lt;pre class="brush: python"&gt;
-from cmsimde import flaskapp
-from gevent.pywsgi import WSGIServer
-
-#flaskapp.app.run(host="0.0.0.0", debug=True)
-# Start dynamic server
-http_server = WSGIServer(('0.0.0.0', 8080), flaskapp.app)
-http_server.serve_forever()
-&lt;/pre&gt;
-
-&lt;p&gt;執行 main.py 的方式, 可以依照 .replit 的設定, 直接利用 Run 按鍵執行. 也可以在 Shell 頁面中, 利用 python3 main.py 執行, 只是透過 Run 按鍵執行, 伺服器啟動之後會顯示在 Webview 頁面, 但是在 Shell 執行 python3 main.py 則必須自行以手動方式帶出伺服器連結.&lt;/p&gt;
-&lt;h2&gt;執行靜態網站伺服器&lt;/h2&gt;
-&lt;p&gt;如前所述, 靜態網站其實就是位於 content 目錄中的各個 html 檔案, 且圖片可引自 images 目錄, 而近端檔案連結則可引自 downloads 目錄. 當使用者將 config/content.htm 轉為 content 目錄中的靜態網站後, 若能在推向 Github 之前, 確認各頁面或網誌的內容無誤後, 再推向遠端.&lt;/p&gt;
-&lt;p&gt;而執行靜態網站伺服器的方法, 則是在 Shell 執行 python main2.py, 也就是在導入 static.py 之後啟動靜態網站.&lt;/p&gt;
-&lt;p&gt;main2.py 程式內容:&lt;/p&gt;
-&lt;pre class="brush: python"&gt;
-# Run static server
-import static
-from gevent.pywsgi import WSGIServer
-
-http_server = WSGIServer(('0.0.0.0', 8080), static.app)
-http_server.serve_forever()
-&lt;/pre&gt;
-
-&lt;p&gt;其中的 static.py 為:&lt;/p&gt;
-&lt;pre class="brush: python"&gt;
-from flask import Flask, send_from_directory
-
-app = Flask(__name__)
-
-# Route to serve the index.html file
-@app.route('/')
-def index():
-    return send_from_directory('.', 'index.html')
-
-# Route to serve static files from the ./cmsimde/static directory
-@app.route('/cmsimde/static/&amp;lt;path:filename&amp;gt;')
-def serve_static(filename):
-    return send_from_directory('cmsimde/static', filename)
-
-# Route to serve other HTML files from the root directory
-@app.route('&amp;lt;path:filename&amp;gt;')
-def serve_html(filename):
-    return send_from_directory('.', filename)
-
-if __name__ == '__main__':
-    app.run(debug=True)
-&lt;/pre&gt;
-
-&lt;p&gt;註: 利用 pre 標註引用資料時, 若內容帶有 &amp;lt; 與 &amp;gt; 時必須避免執行使用小於與大於符號, 而必須使用 &lt;a href="https://html.com/character-codes/"&gt;HTML Character Codes&lt;/a&gt;, 以免額外產生不必要的標註符號.&lt;/p&gt;
-&lt;p&gt;當使用者希望執行靜態網頁伺服器時, 在 Shell 中執行 python3 main2.py, 經過上述設定, 在 Replit 的免費帳號環境中, 一個帳號只能啟用動態伺服器或靜態伺服器. 也就是動態伺服器或靜態伺服器在特定時刻中, 僅能擇一啟動.&lt;/p&gt;
-&lt;h1&gt;CoppeliaSim 檔案格式&lt;/h1&gt;
-&lt;p&gt;下載 &lt;a href="https://mde.tw/cd2024/downloads/copsim_midterm_cube2_xml.7z"&gt;copsim_midterm_cube2_xml.7z&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;CoppeliaSim 目前提供二位元與 XML 場景格式&lt;/li&gt;
-&lt;li&gt;XML 場景支援儲存為單一檔案或多個模型與影像檔案&lt;/li&gt;
-&lt;li&gt;4.5.1 之後的版本, 其設定資料並非在套件目錄, 而是儲存在操作系統的 AppData/Roaming 目錄中&lt;/li&gt;
-&lt;li&gt;4.5.1 版儲存為多 XML 檔案格式時, 無法帶出場景中的 png 圖檔, 4.6.0 版之後才修正此一錯誤&lt;/li&gt;
-&lt;li&gt;目前能夠支援 IPv4 與 IPv6 網際場景模擬的版本僅修改至 4.5.1 版&lt;/li&gt;
-&lt;li&gt;XML 檔案應用廣泛, 協同產品設計過程可能需要利用程式方法處理零組件與模擬場景互相轉換取得的 XML 格式檔案&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1&gt;Sourcetree&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.sourcetreeapp.com/"&gt;https://www.sourcetreeapp.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://229.cycu.org/SourceTree_portable.7z"&gt;SourceTree_portable.7z&lt;/a&gt; (需要下載密碼)&lt;/p&gt;
-&lt;p&gt;其中必須要在啟動可攜程式時, 利用下列指令將 Sourcetree 先前設定存入操作系統:&lt;/p&gt;
-&lt;pre class="brush: jscript"&gt;
-Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Local\Atlassian /E /H /C /I /Y
-&lt;/pre&gt;
-
-&lt;h1&gt;Git branch&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://git-scm.com/book/zh-tw/v2/%E4%BD%BF%E7%94%A8-Git-%E5%88%86%E6%94%AF-%E7%B0%A1%E8%BF%B0%E5%88%86%E6%94%AF"&gt;Git 分支&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;Odoo PLM&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html"&gt;Odoo PLM&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
-&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;針對以上課程內容, 請利用以下留言系統進行討論:&lt;/p&gt;
 &lt;div id="disqus_thread"&gt;&lt;/div&gt;
 &lt;script&gt;

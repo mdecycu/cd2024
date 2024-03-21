@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-03-21T07:11:05-00:00</lastmod>
+<lastmod>2024-03-21T07:45:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-03-21T07:11:05-00:00</lastmod>
+<lastmod>2024-03-21T07:45:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-03-21T07:11:05-00:00</lastmod>
+<lastmod>2024-03-21T07:45:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-03-21T07:11:05-00:00</lastmod>
+<lastmod>2024-03-21T07:45:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2024-02-16T15:29:26+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./2024-cd-2b-w6.html</loc>
+<lastmod>2024-03-21T07:45:17+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -47,7 +54,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./2024-cd-2b-w5.html</loc>
-<lastmod>2024-03-21T07:10:59+08:00</lastmod>
+<lastmod>2024-03-21T07:43:15+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -124,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/2b.html</loc>
-<lastmod>2024-03-21T11:00:00+08:06</lastmod>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,14 +144,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/pelican.html</loc>
-<lastmod>2024-03-22T11:00:00+08:06</lastmod>
+<loc>./tag/coppeliasim.html</loc>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/nx.html</loc>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/w6.html</loc>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/pelican.html</loc>
 <lastmod>2024-03-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -221,13 +242,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/coppeliasim.html</loc>
-<lastmod>2024-02-29T06:34:51+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/w1.html</loc>
 <lastmod>2024-02-29T06:34:51+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -243,7 +257,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-03-22T11:00:00+08:06</lastmod>
+<lastmod>2024-03-28T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

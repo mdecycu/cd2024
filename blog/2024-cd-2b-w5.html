@@ -42,7 +42,7 @@
 
     <link href="./2024-cd-2b-w5.html" rel="canonical" />
 
-        <meta name="description" content="協同產品設計實習的第五週, 教學內容為分組網誌的統整與 NX 零組件繪圖.">
+        <meta name="description" content="協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.">
 
         <meta name="author" content="kmol">
 
@@ -56,12 +56,12 @@
 <!-- Open Graph -->
 <meta property="og:site_name" content="2024 Spring 協同產品設計實習"/>
 <meta property="og:title" content="協同產品設計實習2b-5 (統整網誌)"/>
-<meta property="og:description" content="協同產品設計實習的第五週, 教學內容為分組網誌的統整與 NX 零組件繪圖."/>
+<meta property="og:description" content="協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="./2024-cd-2b-w5.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-03-21 11:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-03-17 12:17:35.154272+08:00"/>
+<meta property="article:modified_time" content="2024-03-21 05:05:27.429410+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="2b"/>
 <meta property="article:tag" content="pelican"/>
@@ -78,7 +78,7 @@
   "name": "協同產品設計實習2b-5 (統整網誌)",
   "headline": "協同產品設計實習2b-5 (統整網誌)",
   "datePublished": "2024-03-21 11:00:00+08:00",
-  "dateModified": "2024-03-17 12:17:35.154272+08:00",
+  "dateModified": "2024-03-21 05:05:27.429410+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -86,7 +86,7 @@
   },
   "image": "./theme/images/post-bg.jpg",
   "url": "./2024-cd-2b-w5.html",
-  "description": "協同產品設計實習的第五週, 教學內容為分組網誌的統整與 NX 零組件繪圖."
+  "description": "協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖."
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -215,7 +215,7 @@ init_mathjax();
             | <time datetime="Thu 21 March 2024">Thu 21 March 2024</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on Sun 17 March 2024</span>
+            <span class="post-meta"> | Updated on Thu 21 March 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -235,8 +235,20 @@ init_mathjax();
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>協同產品設計實習的第五週, 教學內容為分組網誌的統整與 NX 零組件繪圖.</p>
+                <p>協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.</p>
 
+
+<h1>教學影片分組整理並自評</h1>
+<p>假如你好奇這個概念哪裡來的: 請參考<a href="https://github.com/mdecycu/cd2024/discussions/2">反思一</a> and <a href="https://github.com/mdecycu/mdecycu.github.io/discussions/3">反思二</a>.</p>
+<p>對於事不關己或者不明白為何團隊中的成員 (這裡指教與學的相關人、事與物), 總讓人提不起興趣, 但若能在過程中找到主要在乎的角色、任務或者緣由, 或許就能從應付著手, 一直到終於了解天下沒有白吃的午餐, 所有的努力付出, 終究不會白費. </p>
+<p>此外, 假如想參考先前學長推甄研究所的相關資訊, 請利用 Team code: n9k585c 進入自行查看.</p>
+<h2>w5 2b 分組任務</h2>
+<p>請各組自行搜尋前面已經發布的教學影片, 分別</p>
+<ul>
+<li>在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上</li>
+<li>從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排</li>
+<li>並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點</li>
+</ul>
 <h1>如何統整組員子模組中的協同設計網誌</h1>
 <p>當各組員每週的協同設計網誌文章放在個別的 cd2024 倉儲的 markdown 目錄中, 只要修改分組倉儲中的 pelicalconf.py, 使用 Pelican 設定中的 <a href="https://docs.getpelican.com/en/stable/settings.html#PATH">PATH</a> 與 OUTPUT_PATH 變數, 指定網誌統整目錄, 就可以在分組倉儲中納入所有組員在子模組中所編寫的協同網誌.</p>
 <p>實際的設定操作 <a href="https://mde.tw/cd2024/downloads/pelicanconf_py.txt">pelicanconf_py.txt</a>, 是利用 pelicanconf.py 中的程式設定段, 將子模組中 markdown 目錄的 .md 動態複製到分組倉儲中的 combined_directory, 並避開分組倉儲與學員子模組倉儲中的 pages 目錄下的 .md 檔案後, 再進行網誌轉檔, 並且所產生的網誌超文件將存入所設定的 blog 目錄.</p>

@@ -112,6 +112,11 @@ path = %ugii%;%path%
 start ugraf -nx
 </pre>
 
+# Sourcetree
+利用 [Sourcetree](https://www.sourcetreeapp.com/) 可以在近端清楚看到倉儲的歷次提交內容, 也可以回復到先前的任一版本內容.
+
+<img src="./../images/cd2024_on_sourcetree.png" width="601" height="400"></img>
+
 針對以上課程內容, 請利用以下留言系統進行討論:
 
 <div id="disqus_thread"></div>

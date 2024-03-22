@@ -1,0 +1,241 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>協同產品設計實習</title>
+        <meta charset="utf-8">
+<meta property="head" content="H2">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <!-- for Wink3 客製化關閉 -->
+        <!--
+        <link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" />
+        <script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"></script>
+        -->
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushMojo.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushRust.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container">
+                <div class="row align-items-center">
+                <h1>cd2024 協同產品設計實習</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">cd2024 協同產品設計實習</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">SMap</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li class='has-children'><a href='odoo.html'>odoo</a><ul class='dropdown'><li><a href='reading.html'>reading</a><li><a href='odoo17.html'>odoo17</a></li></ul><li><a href='LaTeX.html'>LaTeX</a><li><a href='postgresql.html'>postgresql</a></li></ul><li><a href='Q&A.html'>Q&A</a><li class='has-children'><a href='Topics.html'>Topics</a><ul class='dropdown'><li><a href='Video.html'>Video</a><li><a href='Disqus.html'>Disqus</a><li><a href='Classroom.html'>Classroom</a><li><a href='Onshape.html'>Onshape</a><li><a href='Practice.html'>Practice</a><li><a href='CoppeliaSim.html'>CoppeliaSim</a></li></ul><li class='has-children'><a href='Tools.html'>Tools</a><ul class='dropdown'><li class='has-children'><a href='WCMS.html'>WCMS</a><ul class='dropdown'><li><a href='Portable.html'>Portable</a><li><a href='Putty.html'>Putty</a><li><a href='Github.html'>Github</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a></li></ul><li><a href='my-mind.html'>my-mind</a></li></ul><li class='has-children'><a href='Projects.html'>Projects</a><ul class='dropdown'><li><a href='Football.html'>Football</a><li><a href='Basketball.html'>Basketball</a><li><a href='Golf.html'>Golf</a></li></ul><li><a href='Brython.html'>Brython</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">Topics << <a href='Topics.html'>Previous</a> <a href='Disqus.html'>Next</a> >> Disqus<br /><h1>Video</h1>
+<p>教學影片:</p>
+<p>2a 教學影片:</p>
+<p>cd2024 2a 1 blog setup 1</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/boTF4TcdFLg?si=IQShBJntywf6t0Y6" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2a 2 odoo plm簡介 2</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/uaiWkj7uqyY?si=9GEA8e3s5sfnoIvE" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2a w2 3 如何建立各組的 Team midag1 並利用 Codespaces 維護內容 3</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mx8A_qwlTik?si=ce4S1xw8vGy1NpX6" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2a w2 4 利用 Replit 管理 Github Classroom 分組倉儲 4</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rLGfbspp2r4?si=0kepthKS1hd9t0zo" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2a w2 5 如何利用近端可攜環境與外部 IPv4 開啟動態網站 5</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vY2wRD4qwUk?si=vOlv0JHgdtiX4MwJ" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2a w3 如何將學員倉儲設為分組倉儲的子模組 6</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/n9uB9-WSd6w?si=wpLm9vYlVtNa72rY" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2a w3 利用分組協同建立 LaTeX 報告 7</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-tSx_Vg6kfk?si=4UL2fLBHAyaN7opl" title="YouTube video player" width="1120"></iframe></p>
+<p>2b 教學影片:</p>
+<p>cd2024 2b 1 建立個人課程倉儲與網站 1</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/a1lCzZjuIss?si=TKu_P-HU3fpAZKvd" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b 2 如何從 Replit Account 設定 Connect 連結到 Github 2</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/P9ncDFnfRUk?si=hNNu4liE98llV1ss" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b 3 如何設定 Github 帳號的雙重認證 3</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/w9f16GNRqgI?si=7uTto-y1iF6HRB9u" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b 4 說明如何將倉儲 import 至 Replit 改版後推回 github 4</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/XLGMyrx-fgk?si=bRA-xsXuRi9gZxe_" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b 5 w2 第一組組長建立 Team 並設定分組倉儲 5</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/awhFeDVQv60?si=JaLIxqlYgxGwL7hZ" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b 6 w2 從第一組空倉儲建立 cmsimde site 內容 6</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QoaF-Nuh_Gs?si=LxyJSUiTJwgsNTr5" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b 7 w2 利用 codespaces 維護分組網站 7</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CkQkzc0mtpc?si=_vtsuymLa80rzcTB" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b w3 latex 轉期中報告 8</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/LXZD8UYzqRQ?si=o8qz5CmRefEe5gUU" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b w3 如何利用 Gidpod 維護分組網站 9</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/E2GB0EzxgDg?si=t9cHMyXWPHg16LpY" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b w3 使用 gitpod 與 localhost 維護個人倉儲 10</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/f2C6MsNc2OY?si=TpSwcqJAXrpcDsny" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b w4 以第六組為例, 利用 Codespaces 改版 11</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/H3S-xMSmSqk?si=nW4pEG3D1GL9lDr8" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b w4 如何上傳 LaTeX 範例檔案並利用 Actions 在線上編譯出 pdf 12</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/aBXQG-niZlc?si=3zurRNQreQo2ntVH" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b w4 利用 Gitpod 與個人 token 取得分組倉儲改版權限 13</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/s4D-zwxsFlc?si=IaMo6Xxbi9MpJ4Lw" title="YouTube video player" width="1120"></iframe></p>
+<p>cd2024 2b w5 指定影片加註任務 統整網誌以及配置 NX 可攜與 PC 執行規劃</p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dP9cYSOed_g?si=vXGACG0mihxSbS-X" title="YouTube video player" width="1120"></iframe></p>
+<br />Topics << <a href='Topics.html'>Previous</a> <a href='Disqus.html'>Next</a> >> Disqus</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        

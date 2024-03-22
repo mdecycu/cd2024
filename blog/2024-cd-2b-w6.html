@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>協同產品設計實習2b-6</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="./" rel="canonical" />
+
+  <!-- Feed -->
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="2024 Spring 協同產品設計實習 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="2024 Spring 協同產品設計實習 Categories Atom Feed" />
+
+  <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="./theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
+
+  
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <link href="./2024-cd-2b-w6.html" rel="canonical" />
+
+        <meta name="description" content="協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式.">
+
+        <meta name="author" content="kmol">
+
+        <meta name="tags" content="coppeliasim">
+        <meta name="tags" content="nx">
+        <meta name="tags" content="w6">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="2024 Spring 協同產品設計實習"/>
+<meta property="og:title" content="協同產品設計實習2b-6"/>
+<meta property="og:description" content="協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./2024-cd-2b-w6.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2024-03-28 11:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-03-22 04:11:42.181387+08:00"/>
+<meta property="article:author" content="./author/kmol.html">
+<meta property="article:section" content="2b"/>
+<meta property="article:tag" content="coppeliasim"/>
+<meta property="article:tag" content="nx"/>
+<meta property="article:tag" content="w6"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "協同產品設計實習2b-6",
+  "headline": "協同產品設計實習2b-6",
+  "datePublished": "2024-03-28 11:00:00+08:00",
+  "dateModified": "2024-03-22 04:11:42.181387+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "kmol",
+    "url": "./author/kmol.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./2024-cd-2b-w6.html",
+  "description": "協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式."
+}
+</script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushMojo.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushRust.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "./../cmsimde/static/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "./../cmsimde/static/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+<!-- for LaTeX equations -->
+<!-- <script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+    <!--
+
+              <li role="presentation"><a href="./pages/about/">About</a></li>
+      -->
+
+            <li><a href="./pages/about/index.html">About</span></a></li>
+            
+            <li><a href="./archives.html">Archives</span></a></li>
+            
+            <li><a href="./categories.html">Categories</span></a></li>
+            
+            <li><a href="./tags.html">Tags</span></a></li>
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">協同產品設計實習2b-6</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/kmol.html">Kmol</a>
+            | <time datetime="Thu 28 March 2024">Thu 28 March 2024</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Fri 22 March 2024</span>
+            <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+<section class="search">
+      <form class="navbar-search" action="./search.html">
+      <input type="text"  placeholder="Search" name="q" id="tipue_search_input" required>
+    </form>
+</section>
+
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>協同產品設計實習的第六週, 說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式.</p>
+
+
+<h1>ODOO PLM 論文中英並列任務</h1>
+<p>由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2b-midbgx_report.pdf 的製作. </p>
+<p>若要在近端使用可攜程式環境編譯分組 LaTeX 報告, 請下載 <a href="http://229.cycu.org/miktex-portable.7z">miktex-portable.7z</a> (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB) 以及參考資料: <a href="http://229.cycu.org/latex_images_github.7z">latex_images_github.7z</a> (需要密碼)</p>
+<p><a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf">2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf</a> or <a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf">local</a> download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)</p>
+<p>英文單字查詢: <a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html">2021_odoo_reading.html</a></p>
+<h1>教學影片分組整理並自評</h1>
+<p>請各組自行搜尋前面已經發布的教學影片, 分別</p>
+<ul>
+<li>在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上</li>
+<li>從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排</li>
+<li>並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點</li>
+</ul>
+<h1>Collaborative Development</h1>
+<p><a href="https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf">Methods, Tools and Environments for Collaborative Development</a> <a href="http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf">local download</a></p>
+<p>協同開發的方法、工具與環境 - by Alexander Filitz 瑞士蘇黎世大學資訊學系</p>
+<p>摘要:
+1. 軟體工程中的協同開發挑戰
+2. 概述全球軟體開發（GSD）中常用的方法、工具和環境
+3. 描述的工具主要在強化分散開發者之間的協同合作
+4. 說明 GSD 中已知的工具分類方案
+5. 其次, 採用一個方案並提供與該類別相關的工具概述
+6. 最後，著重於支援軟體工程特定流程的工具</p>
+<p><a href="https://github.com/beatriz5/requirements-engineering-analysis">https://github.com/beatriz5/requirements-engineering-analysis</a></p>
+<p><a href="https://www.simplilearn.com/what-is-requirement-analysis-article">https://www.simplilearn.com/what-is-requirement-analysis-article</a></p>
+<p><a href="https://www.lambdatest.com/learning-hub/requirement-analysis">https://www.lambdatest.com/learning-hub/requirement-analysis</a></p>
+<p><a href="https://www.guru99.com/requirements-analysis-and-transformation-techniques.html">https://www.guru99.com/requirements-analysis-and-transformation-techniques.html</a></p>
+<hr>
+
+<p><a href="https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html">https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html</a></p>
+<p><a href="https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo-">https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo-</a></p>
+<p><a href="https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66">https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66</a></p>
+<p><a href="https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/">https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/</a></p>
+<h1>Replit 檢視靜態網站</h1>
+<p>從 w3 開始, 原先可以讓倉儲的動態網站與靜態網站共用 443 https 的方式, 也就是利用 SStatic 後查驗靜態網站的功能已經失效, 必須將靜態網站的檢視與動態編輯網站的啟動分開, 才能在將 Replit 網站與網誌改版的內容, 在推向 Github 倉儲之前進行查驗.</p>
+<h2>執行動態網站伺服器</h2>
+<p>cd2024 的動態網站, 主要用來編輯 config/content.htm 檔案內容, 並可透過 Convert 功能將所編輯的網頁內容, 透過 h1, h2 與 h3 標題分頁後, 會轉為 content 目錄中的頁面超文件檔案.</p>
+<p>先前執行動態網站編輯的程式為 main.py:</p>
+<pre class="brush: python">
+from cmsimde import flaskapp
+from gevent.pywsgi import WSGIServer
+
+#flaskapp.app.run(host="0.0.0.0", debug=True)
+# Start dynamic server
+http_server = WSGIServer(('0.0.0.0', 8080), flaskapp.app)
+http_server.serve_forever()
+</pre>
+
+<p>執行 main.py 的方式, 可以依照 .replit 的設定, 直接利用 Run 按鍵執行. 也可以在 Shell 頁面中, 利用 python3 main.py 執行, 只是透過 Run 按鍵執行, 伺服器啟動之後會顯示在 Webview 頁面, 但是在 Shell 執行 python3 main.py 則必須自行以手動方式帶出伺服器連結.</p>
+<h2>執行靜態網站伺服器</h2>
+<p>如前所述, 靜態網站其實就是位於 content 目錄中的各個 html 檔案, 且圖片可引自 images 目錄, 而近端檔案連結則可引自 downloads 目錄. 當使用者將 config/content.htm 轉為 content 目錄中的靜態網站後, 若能在推向 Github 之前, 確認各頁面或網誌的內容無誤後, 再推向遠端.</p>
+<p>而執行靜態網站伺服器的方法, 則是在 Shell 執行 python main2.py, 也就是在導入 static.py 之後啟動靜態網站.</p>
+<p>main2.py 程式內容:</p>
+<pre class="brush: python">
+# Run static server
+import static
+from gevent.pywsgi import WSGIServer
+
+http_server = WSGIServer(('0.0.0.0', 8080), static.app)
+http_server.serve_forever()
+</pre>
+
+<p>其中的 static.py 為:</p>
+<pre class="brush: python">
+from flask import Flask, send_from_directory
+
+app = Flask(__name__)
+
+# Route to serve the index.html file
+@app.route('/')
+def index():
+    return send_from_directory('.', 'index.html')
+
+# Route to serve static files from the ./cmsimde/static directory
+@app.route('/cmsimde/static/&lt;path:filename&gt;')
+def serve_static(filename):
+    return send_from_directory('cmsimde/static', filename)
+
+# Route to serve other HTML files from the root directory
+@app.route('&lt;path:filename&gt;')
+def serve_html(filename):
+    return send_from_directory('.', filename)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+</pre>
+
+<p>註: 利用 pre 標註引用資料時, 若內容帶有 &lt; 與 &gt; 時必須避免執行使用小於與大於符號, 而必須使用 <a href="https://html.com/character-codes/">HTML Character Codes</a>, 以免額外產生不必要的標註符號.</p>
+<p>當使用者希望執行靜態網頁伺服器時, 在 Shell 中執行 python3 main2.py, 經過上述設定, 在 Replit 的免費帳號環境中, 一個帳號只能啟用動態伺服器或靜態伺服器. 也就是動態伺服器或靜態伺服器在特定時刻中, 僅能擇一啟動.</p>
+<h1>CoppeliaSim 檔案格式</h1>
+<p>下載 <a href="https://mde.tw/cd2024/downloads/copsim_midterm_cube2_xml.7z">copsim_midterm_cube2_xml.7z</a></p>
+<ol>
+<li>CoppeliaSim 目前提供二位元與 XML 場景格式</li>
+<li>XML 場景支援儲存為單一檔案或多個模型與影像檔案</li>
+<li>4.5.1 之後的版本, 其設定資料並非在套件目錄, 而是儲存在操作系統的 AppData/Roaming 目錄中</li>
+<li>4.5.1 版儲存為多 XML 檔案格式時, 無法帶出場景中的 png 圖檔, 4.6.0 版之後才修正此一錯誤</li>
+<li>目前能夠支援 IPv4 與 IPv6 網際場景模擬的版本僅修改至 4.5.1 版</li>
+<li>XML 檔案應用廣泛, 協同產品設計過程可能需要利用程式方法處理零組件與模擬場景互相轉換取得的 XML 格式檔案</li>
+</ol>
+<h1>Sourcetree</h1>
+<p><a href="https://www.sourcetreeapp.com/">https://www.sourcetreeapp.com/</a></p>
+<p><a href="https://229.cycu.org/SourceTree_portable.7z">SourceTree_portable.7z</a> (需要下載密碼)</p>
+<p>其中必須要在啟動可攜程式時, 利用下列指令將 Sourcetree 先前設定存入操作系統:</p>
+<pre class="brush: jscript">
+Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Local\Atlassian /E /H /C /I /Y
+</pre>
+
+<h1>Git branch</h1>
+<p><a href="https://git-scm.com/book/zh-tw/v2/%E4%BD%BF%E7%94%A8-Git-%E5%88%86%E6%94%AF-%E7%B0%A1%E8%BF%B0%E5%88%86%E6%94%AF">Git 分支</a></p>
+<h1>Odoo PLM</h1>
+<p><a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html">Odoo PLM</a></p>
+<p><a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf">2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf</a> or <a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf">local</a> download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)</p>
+<p>英文單字查詢: <a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html">2021_odoo_reading.html</a></p>
+            </section>
+
+            <section class="post-info">
+                <aside class="post-tags">
+<a href="./tag/coppeliasim.html">coppeliasim</a><a href="./tag/nx.html">nx</a><a href="./tag/w6.html">w6</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="./2024-cd-2a-w5.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">協同產品設計實習2a-5 (統整網誌)</h2>
+                            <p class="post-nav-excerpt">協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+  
+  <script type="text/javascript" src="./theme/js/script.js"></script>
+
+ 
+
+
+</body>
+</html>

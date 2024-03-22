@@ -2,7 +2,7 @@
         <head>
         <title>協同產品設計實習</title>
         <meta charset="utf-8">
-<meta property="head" content="H3">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li class='has-children'><a href='odoo.html'>odoo</a><ul class='dropdown'><li><a href='odoo17.html'>odoo17</a></li></ul><li><a href='postgresql.html'>postgresql</a></li></ul><li class='has-children'><a href='Topics.html'>Topics</a><ul class='dropdown'><li><a href='Homeworks.html'>Homeworks</a><li><a href='CoppeliaSim.html'>CoppeliaSim</a></li></ul><li class='has-children'><a href='Tools.html'>Tools</a><ul class='dropdown'><li><a href='English.html'>English</a><li><a href='MCAD.html'>MCAD</a><li><a href='Linkage.html'>Linkage</a><li class='has-children'><a href='Modeling.html'>Modeling</a><ul class='dropdown'><li><a href='Mujoco.html'>Mujoco</a></li></ul><li><a href='Control.html'>Control</a><li class='has-children'><a href='WCMS.html'>WCMS</a><ul class='dropdown'><li><a href='Portable.html'>Portable</a><li><a href='Putty.html'>Putty</a><li><a href='Github.html'>Github</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a></li></li></ul></ul><li class='has-children'><a href='Projects.html'>Projects</a><ul class='dropdown'><li><a href='Football.html'>Football</a><li><a href='Basketball.html'>Basketball</a><li><a href='Golf.html'>Golf</a></li></ul><li><a href='Brython.html'>Brython</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li class='has-children'><a href='odoo.html'>odoo</a><ul class='dropdown'><li><a href='reading.html'>reading</a><li><a href='odoo17.html'>odoo17</a></li></ul><li><a href='LaTeX.html'>LaTeX</a><li><a href='postgresql.html'>postgresql</a></li></ul><li><a href='Q&A.html'>Q&A</a><li class='has-children'><a href='Topics.html'>Topics</a><ul class='dropdown'><li><a href='Video.html'>Video</a><li><a href='Disqus.html'>Disqus</a><li><a href='Classroom.html'>Classroom</a><li><a href='Onshape.html'>Onshape</a><li><a href='Practice.html'>Practice</a><li><a href='CoppeliaSim.html'>CoppeliaSim</a></li></ul><li class='has-children'><a href='Tools.html'>Tools</a><ul class='dropdown'><li class='has-children'><a href='WCMS.html'>WCMS</a><ul class='dropdown'><li><a href='Portable.html'>Portable</a><li><a href='Putty.html'>Putty</a><li><a href='Github.html'>Github</a><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a></li></ul><li><a href='my-mind.html'>my-mind</a></li></ul><li class='has-children'><a href='Projects.html'>Projects</a><ul class='dropdown'><li><a href='Football.html'>Football</a><li><a href='Basketball.html'>Basketball</a><li><a href='Golf.html'>Golf</a></li></ul><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -142,87 +142,18 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Modeling << <a href='Modeling.html'>Previous</a> <a href='Control.html'>Next</a> >> Control<br /><h1>Mujoco</h1>
-<p>For Python:</p>
-<p><a href="https://mujoco.readthedocs.io/en/stable/python.html">https://mujoco.readthedocs.io/en/stable/python.html</a></p>
-<p>pip install mujoco</p>
-<p>hello.xml</p>
-<pre class="brush:xml;auto-links:false;toolbar:false" contenteditable="false">&lt;mujoco&gt;
-  &lt;worldbody&gt;
-        &lt;light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/&gt;
-    &lt;geom type="plane" size="1 1 0.1" rgba=".9 0 0 1"/&gt;
-    &lt;body pos="0 0 1"&gt;
-      &lt;joint type="free"/&gt;
-      &lt;geom type="box" size=".1 .2 .3" rgba="0 .9 0 1"/&gt;
-    &lt;/body&gt;
-  &lt;/worldbody&gt;
-&lt;/mujoco&gt;
-</pre>
-<p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">mujoco.viewer</span> <span class="pre">--mjcf=</span></code>hello.xml</p>
-<p>mujoco_ex1.py</p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import time
-
-import mujoco
-import mujoco.viewer
-
-m = mujoco.MjModel.from_xml_path('hello.xml')
-d = mujoco.MjData(m)
-
-with mujoco.viewer.launch_passive(m, d) as viewer:
-  # Close the viewer automatically after 30 wall-seconds.
-  start = time.time()
-  while viewer.is_running() and time.time() - start &lt; 30:
-    step_start = time.time()
-
-    # mj_step can be replaced with code that also evaluates
-    # a policy and applies a control signal before stepping the physics.
-    mujoco.mj_step(m, d)
-
-    # Example modification of a viewer option: toggle contact points every two seconds.
-    with viewer.lock():
-      viewer.opt.flags[mujoco.mjtVisFlag.mjVIS_CONTACTPOINT] = int(d.time % 2)
-
-    # Pick up changes to the physics state, apply perturbations, update options from GUI.
-    viewer.sync()
-
-    # Rudimentary time keeping, will drift relative to wall clock.
-    time_until_next_step = m.opt.timestep - (time.time() - step_start)
-    if time_until_next_step &gt; 0:
-      time.sleep(time_until_next_step)</pre>
-<p>For C:</p>
-<p><a href="https://mujoco.readthedocs.io/en/stable/overview.html">https://mujoco.readthedocs.io/en/stable/overview.html</a></p>
-<p>mujoco_ex1.c</p>
-<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include "mujoco.h"
-#include "stdio.h"
-
-char error[1000];
-mjModel* m;
-mjData* d;
-
-int main(void)
-{
-   // load model from file and check for errors
-   m = mj_loadXML("hello.xml", NULL, error, 1000);
-   if( !m )
-   {
-      printf("%s\n", error);
-      return 1;
-   }
-
-   // make data corresponding to model
-   d = mj_makeData(m);
-
-   // run simulation for 10 seconds
-   while( d-&gt;time&lt;10 )
-      mj_step(m, d);
-
-   // free model and data
-   mj_deleteData(d);
-   mj_deleteModel(m);
-
-   return 0;
-}</pre>
-<br />Modeling << <a href='Modeling.html'>Previous</a> <a href='Control.html'>Next</a> >> Control</div>
+    <div id="tipue_search_content">Disqus << <a href='Disqus.html'>Previous</a> <a href='Onshape.html'>Next</a> >> Onshape<br /><h1>Classroom</h1>
+<p>Github Classroom create from template 改為 Fork:</p>
+<p><a href="https://github.blog/changelog/2024-01-22-migrating-github-classroom-assignment-repository-creation-from-create-from-template-to-forks-public-beta/">https://github.blog/changelog/2024-01-22-migrating-github-classroom-assignment-repository-creation-from-create-from-template-to-forks-public-beta/</a></p>
+<p>分組示範倉儲:</p>
+<p style="padding-left: 30px;"><a href="https://github.com/mdecd2024/test-ag1">https://github.com/mdecd2024/test-ag1</a></p>
+<p style="padding-left: 30px;">網站: <a href="https://mdecd2024.github.io/test-ag1">https://mdecd2024.github.io/test-ag1</a></p>
+<p>分組組員倉儲:</p>
+<p style="padding-left: 30px;"><a href="https://github.com/scrum-2/cd2024">https://github.com/scrum-2/cd2024</a></p>
+<p style="padding-left: 30px;">網站: <a href="https://scrum-2.github.io/cd2024">https://scrum-2.github.io/cd2024</a></p>
+<p style="padding-left: 30px;">將 github 帳號為 scrum-2 的個人課程倉儲 cd2024 納入分組倉儲作為子模組, 且以其學號作為子模組的目錄後, 就可以選擇要連結組員的那一個個人課程網站版本.</p>
+<p style="padding-left: 30px;"><a href="https://mdecd2024.github.io/test-ag1/41123199/">https://mdecd2024.github.io/test-ag1/41123199/</a></p>
+<br />Disqus << <a href='Disqus.html'>Previous</a> <a href='Onshape.html'>Next</a> >> Onshape</div>
         
     <!-- footer -->
       <div class="container">

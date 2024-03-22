@@ -13,7 +13,7 @@ class Init(object):
     site_title = "協同產品設計實習"
     ip = "127.0.0.1"
     dynamic_port = 9445
-    static_port = 80
+    static_port = 8445
     def __init__(self):
         # hope to create downloads and images directories　
         if not os.path.isdir(_curdir + "/downloads"):

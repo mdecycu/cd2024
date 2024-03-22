@@ -11,6 +11,23 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+# ODOO PLM 論文中英並列任務
+由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2b-midbgx_report.pdf 的製作. 
+
+若要在近端使用可攜程式環境編譯分組 LaTeX 報告, 請下載 [miktex-portable.7z](http://229.cycu.org/miktex-portable.7z) (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB) 以及參考資料: [latex_images_github.7z](http://229.cycu.org/latex_images_github.7z) (需要密碼)
+
+
+[2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf](https://webthesis.biblio.polito.it/16429/1/tesi.pdf) or [local](http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf) download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)
+
+英文單字查詢: [2021_odoo_reading.html](https://mde.tw/cd2024/downloads/2021_odoo_reading.html)
+
+# 教學影片分組整理並自評
+請各組自行搜尋前面已經發布的教學影片, 分別
+
+- 在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上
+- 從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排
+- 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點
+
 # Collaborative Development
 [Methods, Tools and Environments for Collaborative Development](https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf) [local download](http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf)
 

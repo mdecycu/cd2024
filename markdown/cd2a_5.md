@@ -11,9 +11,13 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+cd2024 2a w5 1 組員在 Replit 以 SSH 設定管理分組倉儲的權限
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/OghJF5zYPXw?si=kNrqWaZGe0Ss7Fg2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # ODOO PLM 論文中英並列任務
 
-由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2b-midbgx_report.pdf 的製作. 
+由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2a-midagx_report.pdf 的製作. 
 
 若要在近端使用可攜程式環境編譯分組 LaTeX 報告, 請下載 [miktex-portable.7z](http://229.cycu.org/miktex-portable.7z) (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB) 以及參考資料: [latex_images_github.7z](http://229.cycu.org/latex_images_github.7z) (需要密碼)
 

@@ -99,7 +99,7 @@ cd2024 2b w5 指定影片加註任務 統整網誌以及配置 NX 可攜與 PC �
 
 使用不同版本 NX 執行繪圖, 該如何協同設計?
 
-start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.
+start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872, 但必須自行在 NX1872 目錄中新增 temp 目錄用來儲存 NX 的 Syslog 系統狀態檔案.
 
 <pre class="brush:jscript">
 @echo off
@@ -109,6 +109,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
 REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
@@ -126,6 +127,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=C:\Program Files\Siemens\NX1872\ugii
 path = %ugii%;%path%
 REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容

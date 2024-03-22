@@ -81,7 +81,7 @@ cd2024 2a w3 利用分組協同建立 LaTeX 報告 7
 
 使用不同版本 NX 執行繪圖, 該如何協同設計?
 
-start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.
+start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872, 但必須自行在 NX1872 目錄中新增 temp 目錄用來儲存 NX 的 Syslog 系統狀態檔案.
 
 <pre class="brush:jscript">
 @echo off
@@ -91,6 +91,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
 start ugraf -nx
@@ -107,36 +108,6 @@ set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=C:\Program Files\Siemens\NX1872\ugii
-path = %ugii%;%path%
-start ugraf -nx
-</pre>
-
-start_cadlab_nx2206.bat 可以利用 D: 安裝的 NX2206 啟動.
-
-<pre class="brush:jscript">
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii=D:\Program Files\Siemens\2206\ugii
-path = %ugii%;%path%
-start ugraf -nx
-</pre>
-
-start_cadlab_nx12.bat 可以利用 D: 安裝的 NX12 啟動.
-
-<pre class="brush:jscript">
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
 path = %ugii%;%path%
 start ugraf -nx
 </pre>

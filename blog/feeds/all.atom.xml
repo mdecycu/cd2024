@@ -114,7 +114,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;h1&gt;Odoo PLM&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html"&gt;Odoo PLM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
-&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2a-5 (統整網誌)</title><link href="./2024-cd-2a-w5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-03-22T05:52:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-22:./2024-cd-2a-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2a-5 (統整網誌)</title><link href="./2024-cd-2a-w5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-03-22T08:08:08+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-22:./2024-cd-2a-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -165,7 +165,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;p&gt;電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.&lt;/p&gt;
 &lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G)&lt;/p&gt;
 &lt;p&gt;使用不同版本 NX 執行繪圖, 該如何協同設計?&lt;/p&gt;
-&lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.&lt;/p&gt;
+&lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872, 但必須自行在 NX1872 目錄中新增 temp 目錄用來儲存 NX 的 Syslog 系統狀態檔案.&lt;/p&gt;
 &lt;pre class="brush:jscript"&gt;
 @echo off
 set Disk=z
@@ -174,6 +174,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
 start ugraf -nx
@@ -189,34 +190,6 @@ set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
 set ugii=C:\Program Files\Siemens\NX1872\ugii
-path = %ugii%;%path%
-start ugraf -nx
-&lt;/pre&gt;
-
-&lt;p&gt;start_cadlab_nx2206.bat 可以利用 D: 安裝的 NX2206 啟動.&lt;/p&gt;
-&lt;pre class="brush:jscript"&gt;
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii=D:\Program Files\Siemens\2206\ugii
-path = %ugii%;%path%
-start ugraf -nx
-&lt;/pre&gt;
-
-&lt;p&gt;start_cadlab_nx12.bat 可以利用 D: 安裝的 NX12 啟動.&lt;/p&gt;
-&lt;pre class="brush:jscript"&gt;
-@echo off
-set Disk=z
-subst %Disk%: "NX1872"
-%Disk%:
-set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
-set UGII_LANG=english
-set UGS_LICENSE_BUNDLE=ACD11,ACD10
-set ugii="D:\Program Files\Siemens\NX 12.0\ugii"
 path = %ugii%;%path%
 start ugraf -nx
 &lt;/pre&gt;
@@ -240,7 +213,7 @@ start ugraf -nx
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2a"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-21T08:32:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2a"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-22T08:06:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -307,7 +280,7 @@ start ugraf -nx
 &lt;p&gt;電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.&lt;/p&gt;
 &lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G)&lt;/p&gt;
 &lt;p&gt;使用不同版本 NX 執行繪圖, 該如何協同設計?&lt;/p&gt;
-&lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.&lt;/p&gt;
+&lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872, 但必須自行在 NX1872 目錄中新增 temp 目錄用來儲存 NX 的 Syslog 系統狀態檔案.&lt;/p&gt;
 &lt;pre class="brush:jscript"&gt;
 @echo off
 set Disk=z
@@ -316,6 +289,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
 REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
@@ -332,6 +306,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=C:\Program Files\Siemens\NX1872\ugii
 path = %ugii%;%path%
 REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容

@@ -61,7 +61,7 @@
 <meta property="og:url" content="./2024-cd-2b-w5.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-03-21 11:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-03-21 08:32:37.371680+08:00"/>
+<meta property="article:modified_time" content="2024-03-22 08:06:52.456746+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="2b"/>
 <meta property="article:tag" content="pelican"/>
@@ -78,7 +78,7 @@
   "name": "協同產品設計實習2b-5 (統整網誌)",
   "headline": "協同產品設計實習2b-5 (統整網誌)",
   "datePublished": "2024-03-21 11:00:00+08:00",
-  "dateModified": "2024-03-21 08:32:37.371680+08:00",
+  "dateModified": "2024-03-22 08:06:52.456746+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -215,7 +215,7 @@ init_mathjax();
             | <time datetime="Thu 21 March 2024">Thu 21 March 2024</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on Thu 21 March 2024</span>
+            <span class="post-meta"> | Updated on Fri 22 March 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -301,7 +301,7 @@ init_mathjax();
 <p>電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.</p>
 <p>下載<a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z">NX2027_lite</a> (需要密碼, 解開後約 8G)</p>
 <p>使用不同版本 NX 執行繪圖, 該如何協同設計?</p>
-<p>start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.</p>
+<p>start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872, 但必須自行在 NX1872 目錄中新增 temp 目錄用來儲存 NX 的 Syslog 系統狀態檔案.</p>
 <pre class="brush:jscript">
 @echo off
 set Disk=z
@@ -310,6 +310,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=%Disk%:\ugii
 path = %ugii%;%path%
 REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容
@@ -326,6 +327,7 @@ subst %Disk%: "NX1872"
 set SPLM_LICENSE_SERVER=28000@NX_license_server_IP
 set UGII_LANG=english
 set UGS_LICENSE_BUNDLE=ACD11,ACD10
+set UGII_TMP_DIR=%Disk%:\temp
 set ugii=C:\Program Files\Siemens\NX1872\ugii
 path = %ugii%;%path%
 REM NX1872_AppData 為存於 NX1872 目錄下, 先前設定 NX1872 時的內容

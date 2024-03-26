@@ -114,7 +114,7 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;h1&gt;Odoo PLM&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/plm.html"&gt;Odoo PLM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf"&gt;2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf&lt;/a&gt; or &lt;a href="http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf"&gt;local&lt;/a&gt; download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)&lt;/p&gt;
-&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2a-5 (統整網誌)</title><link href="./2024-cd-2a-w5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-03-22T09:22:23+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-22:./2024-cd-2a-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+&lt;p&gt;英文單字查詢: &lt;a href="https://mde.tw/cd2024/downloads/2021_odoo_reading.html"&gt;2021_odoo_reading.html&lt;/a&gt;&lt;/p&gt;</content><category term="2b"></category><category term="coppeliasim"></category><category term="nx"></category><category term="w6"></category></entry><entry><title>協同產品設計實習2a-5 (統整網誌)</title><link href="./2024-cd-2a-w5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-03-26T01:58:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-22:./2024-cd-2a-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -163,7 +163,8 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 &lt;h1&gt;利用 NX1872 協同繪製零組件&lt;/h1&gt;
 &lt;p&gt;從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.&lt;/p&gt;
 &lt;p&gt;電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.&lt;/p&gt;
-&lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G)&lt;/p&gt;
+&lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G, 這個版本僅供參考)&lt;/p&gt;
+&lt;p&gt;下載 &lt;a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH"&gt;Siemens NX1872.7z&lt;/a&gt; (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)&lt;/p&gt;
 &lt;p&gt;使用不同版本 NX 執行繪圖, 該如何協同設計?&lt;/p&gt;
 &lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872, 但必須自行在 NX1872 目錄中新增 temp 目錄用來儲存 NX 的 Syslog 系統狀態檔案.&lt;/p&gt;
 &lt;pre class="brush:jscript"&gt;
@@ -216,7 +217,7 @@ start ugraf -nx
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2a"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-22T08:06:52+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2a"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2b-5 (統整網誌)</title><link href="./2024-cd-2b-w5.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-03-26T01:59:15+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-21:./2024-cd-2b-w5.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第五週, 教學內容為先前影片整理、分組網誌的統整與 NX 零組件繪圖.&lt;/p&gt;
 
 
@@ -281,7 +282,8 @@ start ugraf -nx
 &lt;h1&gt;利用 NX1872 協同繪製零組件&lt;/h1&gt;
 &lt;p&gt;從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.&lt;/p&gt;
 &lt;p&gt;電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.&lt;/p&gt;
-&lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G)&lt;/p&gt;
+&lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G, 這個版本僅供參考)&lt;/p&gt;
+&lt;p&gt;下載 &lt;a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH"&gt;Siemens NX1872.7z&lt;/a&gt; (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)&lt;/p&gt;
 &lt;p&gt;使用不同版本 NX 執行繪圖, 該如何協同設計?&lt;/p&gt;
 &lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872, 但必須自行在 NX1872 目錄中新增 temp 目錄用來儲存 NX 的 Syslog 系統狀態檔案.&lt;/p&gt;
 &lt;pre class="brush:jscript"&gt;
@@ -374,7 +376,7 @@ total: 6.59 GB
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2b"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2a-4</title><link href="./2024-cd-2a-w4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-03-16T15:25:13+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-15:./2024-cd-2a-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 另外 Git Branch 的應用, 也可減少各學員階段性改版內容完成之前, 推向 Github 分組倉儲過程的合併次數.&lt;/p&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><category term="2b"></category><category term="pelican"></category><category term="nx"></category><category term="w5"></category></entry><entry><title>協同產品設計實習2a-4</title><link href="./2024-cd-2a-w4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-03-26T01:57:53+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-15:./2024-cd-2a-w4.html</id><summary type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 另外 Git Branch 的應用, 也可減少各學員階段性改版內容完成之前, 推向 Github 分組倉儲過程的合併次數.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;協同產品設計實習的第四週, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 另外 Git Branch 的應用, 也可減少各學員階段性改版內容完成之前, 推向 Github 分組倉儲過程的合併次數.&lt;/p&gt;
 
 
@@ -454,7 +456,8 @@ os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
 &lt;p&gt;註: 目前可下載最新的 &lt;a href="https://en.wikipedia.org/wiki/Siemens_NX"&gt;NX 版本&lt;/a&gt;為 2312.4001, 惟系上授權伺服器僅配置到 2206, 必須更新授權後才可以支援 2212、2306 與 2312 版本 (Siemens 每半年發布一個 NX 新版本).&lt;/p&gt;
 &lt;p&gt;從電腦輔助設計室中的電腦 C:\Program Files\Siemens\NX1872 取得所需的 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.&lt;/p&gt;
 &lt;p&gt;電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.&lt;/p&gt;
-&lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G)&lt;/p&gt;
+&lt;p&gt;下載&lt;a href="http://229.cycu.org/NX2027.3401_lite_cad2022.7z"&gt;NX2027_lite&lt;/a&gt; (需要密碼, 解開後約 8G, 這個版本僅供參考)&lt;/p&gt;
+&lt;p&gt;下載 &lt;a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH"&gt;Siemens NX1872.7z&lt;/a&gt; (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)&lt;/p&gt;
 &lt;p&gt;使用不同版本 NX 執行繪圖, 該如何協同設計?&lt;/p&gt;
 &lt;p&gt;start_USB_nx1872.bat 可以啟動 USB 隨身碟中的 NX1872.&lt;/p&gt;
 &lt;pre class="brush:jscript"&gt;

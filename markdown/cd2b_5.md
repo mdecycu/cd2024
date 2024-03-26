@@ -95,7 +95,11 @@ cd2024 2b w5 指定影片加註任務 統整網誌以及配置 NX 可攜與 PC �
 
 電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12, 若在電腦教室則可利用下列批次檔案啟動 NX, 若在各自的電腦或隨身碟帶有各版次的 NX 資料, 只需要透過網路取得授權, 就可直接從 USB 中執行各版次的 NX.
 
-下載[NX2027_lite](http://229.cycu.org/NX2027.3401_lite_cad2022.7z) (需要密碼, 解開後約 8G)
+下載[NX2027_lite](http://229.cycu.org/NX2027.3401_lite_cad2022.7z) (需要密碼, 解開後約 8G, 這個版本僅供參考)
+
+下載 [Siemens NX1872.7z] (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)
+
+[Siemens NX1872.7z]: https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH
 
 使用不同版本 NX 執行繪圖, 該如何協同設計?
 

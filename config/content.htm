@@ -102,7 +102,37 @@
 <p><a href="https://github.com/OmniaGit/odooplm">https://github.com/OmniaGit/odooplm</a></p>
 <p style="padding-left: 30px;"><a href="https://odooplm.omniasolutions.website/">https://odooplm.omniasolutions.website/</a></p>
 <p style="padding-left: 30px;"><a href="https://github.com/CadQuery/cadquery">https://github.com/CadQuery/cadquery</a></p>
-<h3>reading</h3>
+<hr/>
+<p>在 Odoo 的 PLM 模組中, 階段 (Stages), 類型 (Types) 以及標籤 (Tags) 分別代表以下內容:</p>
+<p>階段:</p>
+<p>階段代表產品生命週期中的不同階段或狀態. 每個產品在其生命週期中可能經歷多個階段, 例如設計、原型製作、測試、生產等. 在 ODOO PLM 模組中, 管理者可以定義這些不同的階段, 並為每個階段配置對應的工作流程、權限與其他設置. 將產品分配到不同的階段, 可以追蹤和管理產品在其生命週期中的進展.</p>
+<p>類型:</p>
+<p>類型指產品的類別或類型. 在 ODOO PLM 模組中, 管理者可以為產品定義不同的類型, 以便對產品進行分類和組織. 例如: 可以將產品分為硬體產品、軟體產品、服務產品等不同類型. 定義產品類型有助於管理和檢索產品, 並根據其類型套用特定的工作流程和設置.</p>
+<p>標籤:</p>
+<p>標籤用於標記和分類產品的關鍵詞或簡短字串. 在 ODOO PLM 模組中, 可以為產品添加標籤, 以便對產品進行搜索、過濾和組織. 例如: 可以為產品添加標籤來指示其特定特徵、用途、市場、客戶等方面的信息. 透過使用標籤, 可以快速定位和識別與特定標籤相關聯的產品, 進而提高工作效率.</p>
+<hr/>
+<p>針對專案一的題目: <span style="background-color: #ff99cc;">ODOO PLM 在協同產品設計上的應用 - 以鋼球平衡台機電控制系統設計為例</span></p>
+<p>專案執行過程中, 將使用 Simens NX 進行零組件繪製鋼球平衡台控制系統, 接著將零組件轉為 STL 後進入 CoppeliaSim 進行場景模擬. 並使用 ZMQ Remote API Python 進行 PID 控制系統設計, 最後使用 LaTeX 進行專案文件編寫的流程, 並且各組員每週工作日誌的記錄必須整合到分組倉儲與網誌系統中.</p>
+<p>進入 ODOO PLM 後, 可在 Configuration 處新增以下階段、類型與標籤:</p>
+<p>階段 (Stages):</p>
+<p><span style="background-color: #ccffcc;">網誌整合階段</span>: 將各學員每週在 cd2024 個人倉儲中所編寫的網誌, 整合到分組倉儲與網誌系統中</p>
+<p><span style="background-color: #ccffcc;">設計與繪製階段</span>: 使用 Simens NX 進行零組件的設計與繪製</p>
+<p><span style="background-color: #ccffcc;">模型轉檔階段</span>: 將設計好的零組件轉換為 STL 格式, 並分別匯入 CoppeliaSim 加入必要感測與驅動元件, 以便建立場景</p>
+<p><span style="background-color: #ccffcc;">模擬與控制系統設計階段</span>: 在 CoppeliaSim 中進行零組件的模擬, 並使用 ZMQ Remote API Python 進行 PID 控制系統的設計</p>
+<p><span style="background-color: #ccffcc;">文件編寫與編譯階段</span>: 使用 LaTeX 進行專案報告的編寫, 並透過 xelatex 轉換為 PDF 格式</p>
+<p><span style="background-color: #ccffcc;">分組簡報製作階段</span>: 各組員提供各階段操作過程的檔案、圖片與影片, 協同完成分組簡報的製作<br/><br/></p>
+<p>類型 (Types):</p>
+<p><span style="background-color: #ffff99;">Markdown 網誌類型</span>: 代表各組員所編寫的 Markdown 格式網誌</p>
+<p><span style="background-color: #ffff99;">零組件類型</span>: 代表使用 Simens NX 進行零組件設計所建立的零組件檔案</p>
+<p><span style="background-color: #ffff99;">系統場景類型</span>: 代表在 CoppeliaSim 中進行系統模擬的 .ttt 或 .xml 場景檔案</p>
+<p><span style="background-color: #ffff99;">LaTeX 文件類型</span>: 代表使用 LaTeX 編寫專案文件的 .tex 格式檔案</p>
+<p><span style="background-color: #ffff99;">圖片檔案類型</span>: 代表專案執行過程中各組員所建立的 .png、.jpg 或 .git 圖檔</p>
+<p><span style="background-color: #ffff99;">影片檔案類型</span>: 代表專案執行過程各組員所建立的 .mp4 影片檔案</p>
+<p><span style="background-color: #ffff99;">其他檔案類型</span>: 代表不在上述其他檔案類型的待分類檔案格式</p>
+<p>標籤 (Tags):</p>
+<p><span style="background-color: #ffcc99;">週工作日誌標籤</span>: 用於標記每週工作日誌的任務和文件</p>
+<p><span style="background-color: #ffcc99;">PID 控制系統設計標籤</span>: 用於標記與 PID 控制系統設計相關的任務和文件</p>
+<p><span style="background-color: #ffcc99;">LaTeX 文件標籤</span>: 用於標記與 LaTeX 編寫的文件相關的任務和文件<br/><br/></p><h3>reading</h3>
 <p>閱讀資料:</p>
 <p style="padding-left: 30px;"><a href="https://www.google.com/search?q=sap+vs+odoo">https://www.google.com/search?q=sap+vs+odoo</a> (與 SAP 及 ODOO 有關的搜尋)</p>
 <p style="padding-left: 30px;"><a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf">2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf</a> or <a href="http://229.cycu.org/2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf">local download</a> (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)</p>

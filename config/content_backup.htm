@@ -1,11 +1,6 @@
 <h1>About</h1>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-<p><a href="/downloads/midag1.7z">midag1.7z</a></p>
-<p>This is the webpage of the <span style="background-color: #ffff99;"><span style="background-color: #ff99cc;">C</span>ollaborative Product <span style="background-color: #ff99cc;">D</span>esign and Practice</span> course in the Department of Mechanical Design Engineering, National Formosa University, Taiwan.</p>
-<p>這裡是台灣國立虎尾科技大學, 機械設計工程系<span style="background-color: #ff99cc;">協同</span>產品<span style="background-color: #ff99cc;">設計</span>實習的課程網頁.</p>
-=======
+<p></p>
 <p>這裡是國立虎尾科技大學, 機械設計工程系協同產品設計實習(Collaborative Product Design Practice)的課程網頁.</p>
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 5235e8ea52cd90a2404f784e5347a427eb2c5393
 <p>課程網頁: <a href="https://mde.tw/cd2024">https://mde.tw/cd2024</a></p>
 <p>網誌: <a href="https://mde.tw/cd2024/blog">https://mde.tw/cd2024/blog</a></p>
 <p>簡報: <a href="https://mde.tw/cd2024/reveal">https://mde.tw/cd2024/reveal</a></p>
@@ -72,7 +67,8 @@
 <hr/>
 <p>行事曆</p>
 <p><a href="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei"> 全頁檢視 </a></p>
-<p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p><h2>odoo</h2>
+<p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p>
+<h2>odoo</h2>
 <p>Odoo 是一套開放原始碼的商業管理軟體套件, 協同產品設計實習主要使用其 PLM 產品生命週期管理模組.</p>
 <p>各分組可以至 <a href="https://www.odoo.com/zh_TW">https://www.odoo.com/zh_TW</a> 啟用一個 <a href="https://www.odoo.com/zh_TW/app/plm">PLM 模組</a>, 用來管理期中與期末報告的系統開發流程.</p>
 <p>以下為 PLM 啟用後的表單內容:</p>
@@ -105,7 +101,8 @@
 <p style="padding-left: 30px;"><a href="https://ithelp.ithome.com.tw/m/articles/10263189">https://ithelp.ithome.com.tw/m/articles/10263189</a></p>
 <p><a href="https://github.com/OmniaGit/odooplm">https://github.com/OmniaGit/odooplm</a></p>
 <p style="padding-left: 30px;"><a href="https://odooplm.omniasolutions.website/">https://odooplm.omniasolutions.website/</a></p>
-<p style="padding-left: 30px;"><a href="https://github.com/CadQuery/cadquery">https://github.com/CadQuery/cadquery</a></p><h3>reading</h3>
+<p style="padding-left: 30px;"><a href="https://github.com/CadQuery/cadquery">https://github.com/CadQuery/cadquery</a></p>
+<h3>reading</h3>
 <p>閱讀資料:</p>
 <p style="padding-left: 30px;"><a href="https://www.google.com/search?q=sap+vs+odoo">https://www.google.com/search?q=sap+vs+odoo</a> (與 SAP 及 ODOO 有關的搜尋)</p>
 <p style="padding-left: 30px;"><a href="https://webthesis.biblio.polito.it/16429/1/tesi.pdf">2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf</a> or <a href="http://229.cycu.org/2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf">local download</a> (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)</p>
@@ -134,12 +131,14 @@
 <p>再問: 目前已經取得基本的 zmq Remote API Python PID 控制程式如下"# pip install pyzmq cbor keyboard<br/># zmqRemoteApi_IPv6 為將 zmq 通訊協定修改為 IPv4 與 IPv6 相容<br/>from zmqRemoteApi_IPv6 import RemoteAPIClient<br/>import keyboard<br/><br/># 利用 zmqRemoteAPI 以 23000 對場景伺服器進行連線<br/>client = RemoteAPIClient('localhost', 23000)<br/><br/>print('Program started')<br/>sim = client.getObject('sim')<br/><br/># Get the handles of the ball, motorx, and motory objects<br/>ball_handle = sim.getObject('/ball')<br/>motorx_handle = sim.getObject('/motorx')<br/>motory_handle = sim.getObject('/motory')<br/><br/># PID control constants for x and y coordinates<br/>kp_x = 1.0  # Proportional gain for x<br/>ki_x = 0.1  # Integral gain for x<br/>kd_x = 0.5  # Derivative gain for x</p>
 <p>中間程式碼省略 ....<br/><br/>while True:<br/>    if keyboard.is_pressed('q'):<br/>        # Stop simulation<br/>        sim.stopSimulation()<br/>        break<br/><br/>    # Control the motors to set the ball to the desired coordinates<br/>    controlMotor(0.3, 0.3, 0.05)  # Adjust the time step (dt) and target coordinates as needed<br/><br/># 終止模擬<br/>#sim.stopSimulation()<br/>"請問該如何進一步求 PID 放大參數的最佳化?</p>
 <p>ChatGPT 回答:</p>
-<p style="padding-left: 30px;">對於PID控制器的放大參數最佳化，可以使用許多方法。以下是一些常見的方法：<br/><br/>1. **手動調整法**：通過手動調整kp、ki和kd參數，觀察系統的響應並進行調整。這需要一定的經驗和對系統動態的理解。<br/><br/>2. **Ziegler-Nichols法則**：這是一種經典的PID控制器參數整定方法，通過試驗法來確定kp、ki和kd參數。這個方法基於系統的響應曲線來估計參數。<br/><br/>3. **自動調整法**：使用自動參數調整算法，如模型參數自適應控制（Model Parameter Adaptive Control，MPAC）、模型預測控制（Model Predictive Control，MPC）等。這些算法可以根據系統的實時響應來自動調整參數。<br/><br/>4. **基於優化算法的方法**：使用優化算法，如遺傳算法、粒子群優化算法等，來搜索最優的PID參數組合。這種方法通常需要定義一個性能指標（如積分時間、穩定度、超調量等），並將其作為優化目標。<br/><br/>5. **頻率響應法**：通過分析系統的頻率響應特性來設計PID參數。這可以通過頻率響應測試或頻率域分析來實現。<br/><br/>根據你的需求和系統的具體情況，可以選擇其中一種或多種方法來進行PID參數的最佳化。無論哪種方法，都需要不斷的測試和調整，以確保控制系統能夠達到理想的性能和穩定性。</p><h3>odoo17</h3>
+<p style="padding-left: 30px;">對於PID控制器的放大參數最佳化，可以使用許多方法。以下是一些常見的方法：<br/><br/>1. **手動調整法**：通過手動調整kp、ki和kd參數，觀察系統的響應並進行調整。這需要一定的經驗和對系統動態的理解。<br/><br/>2. **Ziegler-Nichols法則**：這是一種經典的PID控制器參數整定方法，通過試驗法來確定kp、ki和kd參數。這個方法基於系統的響應曲線來估計參數。<br/><br/>3. **自動調整法**：使用自動參數調整算法，如模型參數自適應控制（Model Parameter Adaptive Control，MPAC）、模型預測控制（Model Predictive Control，MPC）等。這些算法可以根據系統的實時響應來自動調整參數。<br/><br/>4. **基於優化算法的方法**：使用優化算法，如遺傳算法、粒子群優化算法等，來搜索最優的PID參數組合。這種方法通常需要定義一個性能指標（如積分時間、穩定度、超調量等），並將其作為優化目標。<br/><br/>5. **頻率響應法**：通過分析系統的頻率響應特性來設計PID參數。這可以通過頻率響應測試或頻率域分析來實現。<br/><br/>根據你的需求和系統的具體情況，可以選擇其中一種或多種方法來進行PID參數的最佳化。無論哪種方法，都需要不斷的測試和調整，以確保控制系統能夠達到理想的性能和穩定性。</p>
+<h3>odoo17</h3>
 <p><a href="http://229.cycu.org/odoo_17.0.latest.exe">odoo17</a> 配合 PostgreSQL 12.4.1</p>
 <p>PostgreSQL 服務:</p>
 <pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">"C:\Program Files\Odoo 17.0.20240129\PostgreSQL\bin\pg_ctl.exe" runservice -N "PostgreSQL_For_Odoo" -D "C:\Program Files\Odoo 17.0.20240129\PostgreSQL\data" -w</pre>
 <p>cd2024 將探討如何在 Ubuntu Server 中安裝配置並使用 Odoo 17</p>
-<p>cad2023 已經利用 Ubuntu Server 建立 <a href="https://s.cycu.org">s.cycu.org</a>, 讓多人能在自架主機上進行協同網站內容管理.</p><h2>LaTeX</h2>
+<p>cad2023 已經利用 Ubuntu Server 建立 <a href="https://s.cycu.org">s.cycu.org</a>, 讓多人能在自架主機上進行協同網站內容管理.</p>
+<h2>LaTeX</h2>
 <p>下載 <a href="http://229.cycu.org/miktex-portable.7z">miktex-portable.7z</a> (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)</p>
 <p>cd2024 期中與期末專案報告範例: <a href="https://github.com/mdecd2024/test-ag1/releases/tag/v0.0.3">https://github.com/mdecd2024/test-ag1/releases/tag/v0.0.3</a> (直接在倉儲中 release pdf 檔案)</p>
 <p>各組必須 git clone <a href="https://github.com/mdecd2024/test-ag1.git">https://github.com/mdecd2024/test-ag1.git</a> 後, 將 .github 目錄內容從近端電腦 upload 到 Replit 上的分組倉儲後, 根據 latex 目錄中的檔案內容, 在 Github 上直接將 LaTeX 檔案轉為 pdf 檔案, 使用的是 cd_report.tex, 若希望在 Windows 操作系統中, 利用 miktex-portable.7z 進行轉檔, 則可使用 cd_report_win.tex 進行轉檔.</p>
@@ -354,7 +353,8 @@ ODOO PLM 在協同產品設計上的應用 \\[0.2cm]
 <p>利用兩次 xelatex report.txt 的執行, 就可以建立 <a href="/downloads/report.pdf">report.pdf</a>.</p>
 <p>必須執行兩次 xelatex 指令轉檔，是因為使用 XeLaTeX 編譯包含目錄、圖表、參考文獻等複雜元素的文檔需要多次編譯才能完整生成PDF。在第一次編譯時，LaTeX 系統會生成一個臨時的 .aux 文件，其中包含了目錄、引用等信息，而這些資料需要第二次編譯時才能正確地反映在最終的 PDF 文件中。</p>
 <p><a href="/downloads/report_latex_ex.7z">report_latex_ex.7z</a></p>
-<p></p><h2>postgresql</h2>
+<p></p>
+<h2>postgresql</h2>
 <p>postgres 是一套開源的分散式資料庫管理系統, exam.cycu.org 線上考試系統伺服器的資料就是存放在 PostgreSQL 資料庫中.</p>
 <p style="padding-left: 30px;"><a href="https://github.com/postgres/postgres">https://github.com/postgres/postgres</a></p>
 <p><a href="https://github.com/coleifer/peewee">https://github.com/coleifer/peewee</a></p>
@@ -387,7 +387,8 @@ ODOO PLM 在協同產品設計上的應用 \\[0.2cm]
     (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><h1>Topics</h1>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<h1>Topics</h1>
 <p><span>教育版帳號 microsoftonline 登入點: </span><a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a><span> </span></p>
 <p>MS Team code: <span style="background-color: #ffff99;">p0961sy</span> (for @nfu users only)</p>
 <p>下載可攜程式環境: <a href="http://229.cycu.org/portable_2024.7z">portable_2024.7z</a> (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)</p>
@@ -457,7 +458,8 @@ ODOO PLM 在協同產品設計上的應用 \\[0.2cm]
 <p>cd2024 2b w4 利用 Gitpod 與個人 token 取得分組倉儲改版權限 13</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/s4D-zwxsFlc?si=IaMo6Xxbi9MpJ4Lw" title="YouTube video player" width="1120"></iframe></p>
 <p>cd2024 2b w5 指定影片加註任務 統整網誌以及配置 NX 可攜與 PC 執行規劃</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dP9cYSOed_g?si=vXGACG0mihxSbS-X" title="YouTube video player" width="1120"></iframe></p><h2>Disqus</h2>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="630" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dP9cYSOed_g?si=vXGACG0mihxSbS-X" title="YouTube video player" width="1120"></iframe></p>
+<h2>Disqus</h2>
 <p>如何在網頁中加入 Disqus 留言系統:</p>
 <p style="padding-left: 30px;">要將 <a href="https://blog.disqus.com/">https://blog.disqus.com/</a> 放入個人課程網頁中的任何一頁, 必須先透過一個 Gmail 郵箱申請 disqus 論壇之後, 再決定要在那一個頁面加入留言系統.</p>
 <p style="padding-left: 30px;">免費帳號只能使用 Basic 方案: <a href="https://blog.disqus.com/">https://blog.disqus.com/</a></p>
@@ -549,7 +551,8 @@ ODOO PLM 在協同產品設計上的應用 \\[0.2cm]
 <p><a href="https://forum.coppeliarobotics.com/">https://forum.coppeliarobotics.com/</a> </p>
 <p><a href="https://manual.coppeliarobotics.com/">https://manual.coppeliarobotics.com/</a></p>
 <p><a href="https://www.coppeliarobotics.com/research">https://www.coppeliarobotics.com/research</a></p>
-<p><a href="https://www.coppeliarobotics.com/previousVersions">https://www.coppeliarobotics.com/previousVersions</a></p><h1>Tools</h1>
+<p><a href="https://www.coppeliarobotics.com/previousVersions">https://www.coppeliarobotics.com/previousVersions</a></p>
+<h1>Tools</h1>
 <h4>English</h4>
 <p>cd2024 將利用下列程式擷取出各相關英文資料的單字, 並製作網際連結頁面, 以協助學員查詢各英文單字的涵義及應用.</p>
 <p><span class="mr-1"> </span> <a class="wb-break-all" href="https://gist.githubusercontent.com/mdecycu/44e92707c50b22d2e676da8262f592be/raw/df7db6ee51906b53e055203efad496f96b6dd3cb/check_dict_from_cdict_net.py"> check_dict_from_cdict_net.py </a>(建立英文單字查詢 html 檔案)</p>
@@ -627,7 +630,7 @@ ODOO PLM 在協同產品設計上的應用 \\[0.2cm]
 <p>當 Edge 瀏覽器中判定 Replit 啟動 cmsite 編輯網站為不安全的釣魚網站時:</p>
 <p style="padding-left: 30px;">Settings - Privacy, search and services - Security - <span>Microsoft Defender SmartScreen 選擇關閉</span></p>
 <hr/>
-<p>使用下列 PyQt5 程式就能自帶瀏覽器開啟 cmsimde 內部啟動的編輯網站 <a href="https://localhost:9445">https://localhost:9445</a></p>
+<p>使用下列 PyQt5 程式就能自帶瀏覽器開啟 cmsimde 內部啟動的編輯網站 <a>https://localhost:9445</a></p>
 <p><a href="/downloads/browser.py">browser.py</a></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import sys
 
@@ -695,7 +698,8 @@ Hostname github.com
 <p><span><a href="http://www.diva-portal.org/smash/get/diva2:1373784/FULLTEXT01.pdf">2019 Construction and theoretical study of a ball balancing platform.pdf</a> (<a href="http://229.cycu.org/2019 Construction and theoretical study of a ball balancing platform.pdf">local download</a>, 需要密碼)</span></p>
 <p><span>其他參考資料查詢: </span></p>
 <p style="padding-left: 30px;"><span><a href="https://www.google.com/search?q=ball+balancing+platform+dynamics+equations+derivation">https://www.google.com/search?q=ball+balancing+platform+dynamics+equations+derivation</a></span></p>
-<p style="padding-left: 30px;"><span><a href='https://www.google.com/search?q=application+of+"ball+balancing+platform+dynamics+system"'>https://www.google.com/search?q=application+of+"ball+balancing+platform+dynamics+system"</a><br/></span></p><h2>Football</h2>
+<p style="padding-left: 30px;"><span><a href='https://www.google.com/search?q=application+of+"ball+balancing+platform+dynamics+system"'>https://www.google.com/search?q=application+of+"ball+balancing+platform+dynamics+system"</a><br/></span></p>
+<h2>Football</h2>
 <p><a href="https://github.com/mdecd2023/2a3-pj3ag4">https://github.com/mdecd2023/2a3-pj3ag4</a></p>
 <p><a href="https://mdecd2023.github.io/2a3-pj3ag4">https://mdecd2023.github.io/2a3-pj3ag4</a></p>
 <p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/ETZgNBeaMAhEqzbQ5F2rNN0BMgERG0raA-ZAr2sFL-jBag?e=PaYOAO">cd2023_pj3ag4_zmq_football4.7z</a> (password required to download)</p>

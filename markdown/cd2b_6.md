@@ -28,6 +28,23 @@ Author: kmol
 - 從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排
 - 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點
 
+# ODOO, NX, Sourcetree, Github and Replit
+利用 ODOO PLM, Siemens NX, Sourcetree, Github 分組倉儲與 Replit 打造協同產品開發環境
+
+下載 [Siemens NX1872.7z] (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)
+
+[Siemens NX1872.7z]: https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH
+
+下載 [Sourcetree_portable.7z] (需要密碼)
+
+其他工具包括 CoppeliaSim, SciTE, Portablegit, Putty, Zoomit, Python, Solvespace 以及 Process Explorer 等.
+
+[Sourcetree_portable.7z]: http://229.cycu.org/SourceTree_portable.7z
+
+配置重點: NX, Sourcetree 與 CoppeliaSim 設定檔案與管理分組倉儲的權限, 必須存至可攜系統, 並分別從可攜系統啟動後的命令列中啟動.
+
+下載 [Solvespace_model _2d_for_cd2024_w6.7z](https://mde.tw/cd2024/downloads/Solvespace_model _2d_for_cd2024_w6.7z)
+
 # Collaborative Development
 [Methods, Tools and Environments for Collaborative Development](https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf) [local download](http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf)
 

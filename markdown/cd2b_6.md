@@ -11,6 +11,8 @@ Author: kmol
 
 <!-- PELICAN_END_SUMMARY -->
 
+
+
 # ODOO PLM 論文中英並列任務
 由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2b-midbgx_report.pdf 的製作. 
 
@@ -44,37 +46,6 @@ Author: kmol
 配置重點: NX, Sourcetree 與 CoppeliaSim 設定檔案與管理分組倉儲的權限, 必須存至可攜系統, 並分別從可攜系統啟動後的命令列中啟動.
 
 下載 [Solvespace_model _2d_for_cd2024_w6.7z](https://mde.tw/cd2024/downloads/Solvespace_model _2d_for_cd2024_w6.7z)
-
-# Collaborative Development
-[Methods, Tools and Environments for Collaborative Development](https://www.ifi.uzh.ch/dam/jcr:00000000-5162-2abd-0000-000034b0326b/report_2.pdf) [local download](http://229.cycu.org/Methods, Tools and Environments for Collaborative Development.pdf)
-
-協同開發的方法、工具與環境 - by Alexander Filitz 瑞士蘇黎世大學資訊學系
-
-摘要:
-1. 軟體工程中的協同開發挑戰
-2. 概述全球軟體開發（GSD）中常用的方法、工具和環境
-3. 描述的工具主要在強化分散開發者之間的協同合作
-4. 說明 GSD 中已知的工具分類方案
-5. 其次, 採用一個方案並提供與該類別相關的工具概述
-6. 最後，著重於支援軟體工程特定流程的工具
-
-<https://github.com/beatriz5/requirements-engineering-analysis>
-
-<https://www.simplilearn.com/what-is-requirement-analysis-article>
-
-<https://www.lambdatest.com/learning-hub/requirement-analysis>
-
-<https://www.guru99.com/requirements-analysis-and-transformation-techniques.html>
-
-<hr>
-
-<https://carpentries-incubator.github.io/python-intermediate-development-earth-sciences/14-collaboration-using-git/index.html>
-
-<https://www.linkedin.com/pulse/power-collaborative-development-git-esteban-bocic-bravo->
-
-<https://medium.com/@syantien/understanding-git-the-core-of-collaborative-software-development-aedd65fac66>
-
-<https://www.ximian.org/2023/10/version-control-with-git-best-practices-for-collaborative-software-development/>
 
 # Replit 檢視靜態網站
 從 w3 開始, 原先可以讓倉儲的動態網站與靜態網站共用 443 https 的方式, 也就是利用 SStatic 後查驗靜態網站的功能已經失效, 必須將靜態網站的檢視與動態編輯網站的啟動分開, 才能在將 Replit 網站與網誌改版的內容, 在推向 Github 倉儲之前進行查驗.
@@ -173,3 +144,25 @@ Xcopy %Disk%:\home_ipv6\AppData\Local\Atlassian C:\users\%USERNAME%\AppData\Loca
 [2021 ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION SYSTEMS AND THEIR INTEGRATION.pdf](https://webthesis.biblio.polito.it/16429/1/tesi.pdf) or [local](http://229.cycu.org/2021%20ANALYSIS%20OF%20THE%20ODOO%20SOFTWARE%20CAPABILITIES%20REGARDING%20PRODUCT%20LIFECYCLE%20MANAGEMENT,%20MANUFACTURING%20EXECUTION%20SYSTEMS%20AND%20THEIR%20INTEGRATION.pdf) download (password required) (Odoo 軟體在產品生命週期管理、製造執行系統及其整合上的功能分析)
 
 英文單字查詢: [2021_odoo_reading.html](https://mde.tw/cd2024/downloads/2021_odoo_reading.html)
+
+針對以上課程內容, 請利用以下留言系統進行討論:
+
+<div id="disqus_thread"></div>
+<script>
+/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-mde-tw-eng.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

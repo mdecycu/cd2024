@@ -2,7 +2,7 @@
         <head>
         <title>協同產品設計實習</title>
         <meta charset="utf-8">
-<meta property="head" content="H3">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,13 +142,45 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">reading << <a href='reading.html'>Previous</a> <a href='LaTeX.html'>Next</a> >> LaTeX<br /><h1>odoo17</h1>
-<p><a href="http://229.cycu.org/odoo_17.0.latest.exe">odoo17</a> 配合 PostgreSQL 12.4.1</p>
-<p>PostgreSQL 服務:</p>
-<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">"C:\Program Files\Odoo 17.0.20240129\PostgreSQL\bin\pg_ctl.exe" runservice -N "PostgreSQL_For_Odoo" -D "C:\Program Files\Odoo 17.0.20240129\PostgreSQL\data" -w</pre>
-<p>cd2024 將探討如何在 Ubuntu Server 中安裝配置並使用 Odoo 17</p>
-<p>cad2023 已經利用 Ubuntu Server 建立 <a href="https://s.cycu.org">s.cycu.org</a>, 讓多人能在自架主機上進行協同網站內容管理.</p>
-<br />reading << <a href='reading.html'>Previous</a> <a href='LaTeX.html'>Next</a> >> LaTeX</div>
+    <div id="tipue_search_content">Tools << <a href='Tools.html'>Previous</a> <a href='WCMS.html'>Next</a> >> WCMS<br /><h1>NX</h1>
+<p>cd2024 專案中的零組件繪圖, 請採用電腦或自行配置在隨身碟中的 NX1872 版. 之所以選擇使用 NX1872 是因為這是唯一安裝在 C:\ 固態硬碟中的 NX 版本, 雖然官方已經不再更新此一版本, 但用來建構 cd2024 課程中的零組件與 NXOpen Python 程式依然合用.</p>
+<p><span>下載 </span><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH">Siemens NX1872.7z</a><span> (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)</span></p>
+<p><span>為了配合 NX1872 使用 NXOpen Python 程式, 以關鍵參數操控零組件幾何外型, 必須使用 Python 3.7</span></p>
+<p>利用以下程式建立 portable python 3.7.9</p>
+<p><a href="https://www.bing.com/ck/a?!&amp;&amp;p=91ef2cbcb9cc640eJmltdHM9MTY5NzY3MzYwMCZpZ3VpZD0zYTQ3ZGJlMS1lOGQ4LTZkNDktMjYyNy1jODk3ZTk0YzZjMDcmaW5zaWQ9NTIyMA&amp;ptn=3&amp;hsh=3&amp;fclid=3a47dbe1-e8d8-6d49-2627-c897e94c6c07&amp;psq=get+pip&amp;u=a1aHR0cHM6Ly9naXRodWIuY29tL3B5cGEvZ2V0LXBpcA&amp;ntb=1">get-pip.py</a></p>
+<p>gen_portable_python379.py</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import urllib.request
+import os
+  
+dir_path = os.path.dirname(os.path.realpath(__file__))
+# basic files for Python installation
+# before 3.12.0
+py_list = ["core", "dev", "exe", "lib", "tcltk", "tools"]
+# 3.12.1 no tools.msi
+#py_list = ["core", "dev", "exe", "lib", "tcltk"]
+# Python version
+version = "3.7.9"
+# Python msi download URL
+ftp = "https://www.python.org/ftp/python/" + version + "/amd64/"
+# location for Portable Python
+path = "y:\\tmp\\Python379"
+# create directory
+try:
+    os.mkdir(path)
+except:
+    # path exists
+    pass
+# get Python installation msi files and extract into target dir
+for i in py_list:
+    filename = i + ".msi"
+    url = ftp + filename
+    # download basic python msi file
+    urllib.request.urlretrieve(url, filename)
+    os.system("msiexec.exe /a " + i + ".msi targetdir=" + path)
+    # delete msi file
+    os.remove(dir_path + "\\" + i + ".msi")
+    os.remove(path + "\\" + i + ".msi")</pre>
+<p><span></span></p><br />Tools << <a href='Tools.html'>Previous</a> <a href='WCMS.html'>Next</a> >> WCMS</div>
         
     <!-- footer -->
       <div class="container">

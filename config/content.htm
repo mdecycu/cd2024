@@ -603,7 +603,45 @@ ODOO PLM 在協同產品設計上的應用 \\[0.2cm]
 <p style="padding-left: 30px;">Based on our experiments and selected metrics, we conclude that <span style="background-color: #ffff00;">CoppeliaSim </span>is currently the best performing simulator, although Gazebo is not far behind and is a good alternative.</p>
 <p>Control System Design and Simulation (Control):</p>
 <p style="padding-left: 30px;"><a href="http://229.cycu.org/CoppeliaSimEdu_4.5.1_rev4_for_cd2023.7z">CoppeliaSim 4.5.1 rev1 for IPv6.7z</a><span> </span>(169MB, password required to download)</p>
-<h2>WCMS</h2>
+<h2>NX</h2>
+<p>cd2024 專案中的零組件繪圖, 請採用電腦或自行配置在隨身碟中的 NX1872 版. 之所以選擇使用 NX1872 是因為這是唯一安裝在 C:\ 固態硬碟中的 NX 版本, 雖然官方已經不再更新此一版本, 但用來建構 cd2024 課程中的零組件與 NXOpen Python 程式依然合用.</p>
+<p><span>下載 </span><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH">Siemens NX1872.7z</a><span> (需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872)</span></p>
+<p><span>為了配合 NX1872 使用 NXOpen Python 程式, 以關鍵參數操控零組件幾何外型, 必須使用 Python 3.7</span></p>
+<p>利用以下程式建立 portable python 3.7.9</p>
+<p><a href="https://www.bing.com/ck/a?!&amp;&amp;p=91ef2cbcb9cc640eJmltdHM9MTY5NzY3MzYwMCZpZ3VpZD0zYTQ3ZGJlMS1lOGQ4LTZkNDktMjYyNy1jODk3ZTk0YzZjMDcmaW5zaWQ9NTIyMA&amp;ptn=3&amp;hsh=3&amp;fclid=3a47dbe1-e8d8-6d49-2627-c897e94c6c07&amp;psq=get+pip&amp;u=a1aHR0cHM6Ly9naXRodWIuY29tL3B5cGEvZ2V0LXBpcA&amp;ntb=1">get-pip.py</a></p>
+<p>gen_portable_python379.py</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import urllib.request
+import os
+  
+dir_path = os.path.dirname(os.path.realpath(__file__))
+# basic files for Python installation
+# before 3.12.0
+py_list = ["core", "dev", "exe", "lib", "tcltk", "tools"]
+# 3.12.1 no tools.msi
+#py_list = ["core", "dev", "exe", "lib", "tcltk"]
+# Python version
+version = "3.7.9"
+# Python msi download URL
+ftp = "https://www.python.org/ftp/python/" + version + "/amd64/"
+# location for Portable Python
+path = "y:\\tmp\\Python379"
+# create directory
+try:
+    os.mkdir(path)
+except:
+    # path exists
+    pass
+# get Python installation msi files and extract into target dir
+for i in py_list:
+    filename = i + ".msi"
+    url = ftp + filename
+    # download basic python msi file
+    urllib.request.urlretrieve(url, filename)
+    os.system("msiexec.exe /a " + i + ".msi targetdir=" + path)
+    # delete msi file
+    os.remove(dir_path + "\\" + i + ".msi")
+    os.remove(path + "\\" + i + ".msi")</pre>
+<p><span></span></p><h2>WCMS</h2>
 <p>Operating Systems:</p>
 <p style="padding-left: 30px;"><a href="http://229.cycu.org/Ubuntu2204_deaktop_vdi.7z">Ubuntu2204_deaktop_vdi.7z</a> (need password to downlaod, size 4.5GB)</p>
 <p style="padding-left: 30px;"><a href="http://229.cycu.org/win10_21h2.vdi">win10_21h2.vdi</a> (need password to download, size 11.4GB)</p>
@@ -615,8 +653,7 @@ ODOO PLM 在協同產品設計上的應用 \\[0.2cm]
 <p style="padding-left: 60px;">pip install leo==6.6.4 (<a href="https://groups.google.com/g/leo-editor/c/kgwfUHJdM1s">for xml import</a>)</p>
 <p style="padding-left: 90px;">@settings</p>
 <p style="padding-left: 120px;">@data import-xml-tags</p>
-<p style="padding-left: 120px;">@data import-html-tags</p>
-<h3>Portable</h3>
+<p style="padding-left: 120px;">@data import-html-tags</p><h3>Portable</h3>
 <p>Portable packages:</p>
 <p style="padding-left: 30px;">Portablegit</p>
 <p style="padding-left: 30px;">SourceTree</p>
